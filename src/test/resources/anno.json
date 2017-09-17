@@ -1,0 +1,29 @@
+{
+  "@id": "90e58c10-6a4f-4c54-bd63-01685885e5ec",
+  "@type": "oa:Annotation",
+  "resource": {
+    "@type": "dctypes:Text",
+    "format": "text/html",
+    "chars": "<p>xfsxh</p>"
+  },
+  "on": {
+    "@type": "oa:SpecificResource",
+    "within": {
+      "@id": "https://labs2.artstor.org/iiif/ssc/collection_id/7730819/manifest.json",
+      "@type": "sc:Manifest"
+    },
+    "selector": {
+      "@type": "oa:Choice",
+      "default": {
+        "@type": "oa:FragmentSelector",
+        "value": "xywh=1557,562,716,444"
+      },
+      "item": {
+        "@type": "oa:SvgSelector",
+        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1556.80959,562.30871h358.11064v0h358.11064v222.19539v222.19539h-358.11064h-358.11064v-222.19539z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_9a5ea851-9588-4c92-9867-fc4416c8fd26\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full": "https://labs2.artstor.org/iiif/ssc/collection_id/7730819/canvas/SS7730819_7730819_10527315"
+  },
+  "motivation": "oa:commenting"
+}

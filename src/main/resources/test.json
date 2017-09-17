@@ -1,0 +1,35 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "oa:Annotation",
+  "motivation": [
+    "oa:commenting"
+  ],
+  "resource": [
+    {
+      "@type": "dctypes:Text",
+      "format": "text/html",
+      "chars": "<p>asasg</p>"
+    }
+  ],
+  "on": [
+    {
+      "@type": "oa:SpecificResource",
+      "full": "https://purl.stanford.edu/sz557xs2372/iiif/canvas/sz557xs2372_1",
+      "selector": {
+        "@type": "oa:Choice",
+        "default": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1523,1408,2075,1357"
+        },
+        "item": {
+          "@type": "oa:SvgSelector",
+          "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1826.54574,1606.88893c191.57705,-113.95608 461.82753,-198.81532 733.38763,-198.71393v0v0c271.5601,0.10138 508.1345,79.48583 733.38763,198.71393c225.25312,119.2281 312.80616,300.90871 303.7791,479.73787c-9.02706,178.82916 -114.63421,354.80687 -303.7791,479.73787c-189.14489,124.93101 -461.82753,198.81532 -733.38763,198.71393c-271.5601,-0.10138 -541.99766,-74.18847 -733.38763,-198.71393c-191.38996,-124.52547 -303.73233,-299.48932 -303.7791,-479.73787c-0.04677,-180.24855 112.20205,-365.78179 303.7791,-479.73787z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_5b9005be-b0ba-48fb-a20d-864321a05285\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "within": {
+        "@id": "https://purl.stanford.edu/sz557xs2372/iiif/manifest",
+        "@type": "sc:Manifest"
+      }
+    }
+  ]
+}
