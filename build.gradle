@@ -3,7 +3,8 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 1.9
+targetCompatibility = 1.9
 
 repositories {
     mavenCentral()
@@ -13,9 +14,19 @@ gradle.projectsEvaluated {
     tasks.withType(JavaCompile) {
         options.compilerArgs.add("-Xlint:unchecked")
         options.compilerArgs.add("-Xlint:deprecation")
-//                options.compilerArgs.addAll(["--add-modules", "java.se.ee"])
+        options.compilerArgs.addAll(["--add-modules", "jdk.incubator.httpclient"])
     }
 }
+
+compileTestJava {
+    doFirst {
+        options.compilerArgs = [
+                '--add-modules', 'jdk.incubator.httpclient',
+                '-Xlint:deprecation'
+        ]
+    }
+}
+
 dependencies {
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.1'
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.1'
@@ -25,5 +36,6 @@ dependencies {
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
     compile group: 'org.apache.jena', name: 'jena-arq', version: '3.4.0'
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

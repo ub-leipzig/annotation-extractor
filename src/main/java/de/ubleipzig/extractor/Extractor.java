@@ -6,6 +6,8 @@ import com.github.jsonldjava.core.JsonLdError;
 import com.github.jsonldjava.utils.JsonUtils;
 
 import java.io.*;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -18,6 +20,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ExecutionException;
 
 import org.apache.commons.text.StringEscapeUtils;
 import org.apache.jena.rdf.model.Model;
@@ -32,10 +35,15 @@ public class Extractor {
     private static final String BASE = "http://ub.uni-leipzig.de";
 
 
-    public static void main(String[] args) throws IOException, JsonLdError {
+    public static void main(String[] args) throws IOException, JsonLdError, InterruptedException, ExecutionException, URISyntaxException {
         Extractor app = new Extractor();
         List<String> graphs = app.selectAnnotations();
-        app.saveFile(graphs);
+        String graph = null;
+        if (graphs != null) {
+            graph = graphs.get(0);
+        }
+        HttpClient9.syncPut(graph);
+        //app.saveFile(graphs);
     }
 
     private Connection connect() {
@@ -50,7 +58,8 @@ public class Extractor {
     }
 
     private List<String> selectAnnotations() throws IOException, JsonLdError {
-        String sql = "SELECT data, id FROM annotations";
+        String sql = "SELECT data FROM annotations WHERE user_id='6'";
+        List<String> rowset = new ArrayList<>();
         List<String> graphs = new ArrayList<>();
         Model m = ModelFactory.createDefaultModel();
         StringWriter writer = new StringWriter();
@@ -60,10 +69,11 @@ public class Extractor {
                 String json = StringEscapeUtils.unescapeJson(rs.getString("data"));
                 log.info("getting JSON-LD annotation from database");
                 json = json.substring(1, json.length() - 1);
-                InputStream is = new ByteArrayInputStream(json.getBytes(StandardCharsets.UTF_8.name()));
-                m.read(is, BASE, "JSON-LD");
+                rowset.add(json);
             }
+            InputStream is = new ByteArrayInputStream(rowset.toString().getBytes(StandardCharsets.UTF_8.name()));
             log.info("reading annotations from model");
+            m.read(is, BASE, "JSON-LD");
             RDFDataMgr.write(writer, m, Lang.NQUADS);
             log.info("writing annotations as N3 from model into output");
             graphs.add(writer.toString());
@@ -75,9 +85,13 @@ public class Extractor {
     }
 
 
-    private void saveFile(List<String> graphs) throws IOException {
-        Path out = Paths.get(RESOURCE_DIR + "/" + "annotations.n3");
-        Files.write(out,graphs, Charset.defaultCharset());
+    public static void saveFile(String graphs) throws IOException {
+        String p = "annotations.n3";
+        //String p = this.getClass().getResource("annotations.n3").getPath();
+        FileOutputStream fo;
+        fo = new FileOutputStream(p);
+        ObjectOutputStream oos = new ObjectOutputStream(fo);
+        oos.write(graphs.getBytes());
         log.info("saving annotations to file");
     }
 }
