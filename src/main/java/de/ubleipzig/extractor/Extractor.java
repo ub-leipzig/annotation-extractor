@@ -3,16 +3,10 @@ package de.ubleipzig.extractor;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import com.github.jsonldjava.core.JsonLdError;
-import com.github.jsonldjava.utils.JsonUtils;
 
 import java.io.*;
 import java.net.URISyntaxException;
-import java.net.URL;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -31,19 +25,18 @@ import org.slf4j.Logger;
 
 public class Extractor {
     private static final Logger log = getLogger(Extractor.class);
-    private static final String RESOURCE_DIR = "de/ubleipzig/extractor";
     private static final String BASE = "http://ub.uni-leipzig.de";
-
+    private static final String destinationGraph = "http://localhost:3030/fuseki/annotations";
 
     public static void main(String[] args) throws IOException, JsonLdError, InterruptedException, ExecutionException, URISyntaxException {
         Extractor app = new Extractor();
         List<String> graphs = app.selectAnnotations();
-        String graph = null;
+        String data = null;
         if (graphs != null) {
-            graph = graphs.get(0);
+            data = graphs.get(0);
         }
-        HttpClient9.syncPut(graph);
-        //app.saveFile(graphs);
+        HttpClient9.syncPut(data, destinationGraph);
+        //saveFile(data);
     }
 
     private Connection connect() {
@@ -88,10 +81,8 @@ public class Extractor {
     public static void saveFile(String graphs) throws IOException {
         String p = "annotations.n3";
         //String p = this.getClass().getResource("annotations.n3").getPath();
-        FileOutputStream fo;
-        fo = new FileOutputStream(p);
-        ObjectOutputStream oos = new ObjectOutputStream(fo);
-        oos.write(graphs.getBytes());
+        PrintWriter writer = new PrintWriter(p);
+        writer.write(graphs);
         log.info("saving annotations to file");
     }
 }
