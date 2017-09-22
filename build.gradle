@@ -1,13 +1,30 @@
 group 'de.ubleipzig'
 version '1.0-SNAPSHOT'
 
-apply plugin: 'java'
+apply plugin: 'java-library'
 
 sourceCompatibility = 1.9
 targetCompatibility = 1.9
 
 repositories {
     mavenCentral()
+}
+
+ext {
+    moduleName = "de.ubleipzig.extractor"
+    vendor = 'UB Leipzig'
+    license = 'Apache 2'
+
+    trellisSpiVersion = '0.1.0-SNAPSHOT'
+    trellisVocabularyVersion = '0.1.0-SNAPSHOT'
+    commonsRdfVersion = '0.3.0-incubating'
+    slf4jVersion = '1.7.25'
+    jenaVersion = '3.4.0'
+    mustacheVersion = '0.9.5'
+
+    junitVersion = '4.12'
+    mockitoVersion = '2.9.0'
+    logbackVersion = '1.2.3'
 }
 
 gradle.projectsEvaluated {
@@ -36,6 +53,12 @@ dependencies {
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
     compile group: 'org.apache.jena', name: 'jena-arq', version: '3.4.0'
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
+    api group: 'org.apache.commons', name: 'commons-rdf-api', version: commonsRdfVersion
+
+    implementation group: 'com.github.spullara.mustache.java', name: 'compiler', version: mustacheVersion
+    implementation group: 'org.apache.commons', name: 'commons-rdf-jena', version: commonsRdfVersion
+    implementation group: 'org.apache.jena', name: 'jena-osgi', version: jenaVersion
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: slf4jVersion
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

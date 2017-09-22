@@ -1,0 +1,9 @@
+CONSTRUCT {
+?s <http://purl.org/dc/terms/isPartOf> ?manifest .
+?s <http://rdfs.org/sioc/services#has_fragment_service> ?service .
+?s <http://www.w3.org/2011/content#chars> ?chars .
+} WHERE {
+?s <http://purl.org/dc/terms/isPartOf> ?manifest .
+?s <http://rdfs.org/sioc/services#has_fragment_service> ?service .
+?s <http://www.w3.org/2011/content#chars> ?chars .
+}

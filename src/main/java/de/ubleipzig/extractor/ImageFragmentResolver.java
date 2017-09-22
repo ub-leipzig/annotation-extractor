@@ -14,46 +14,28 @@ import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.*;
 import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
+import org.slf4j.Logger;
 
 import static org.apache.http.HttpHeaders.USER_AGENT;
+import static org.slf4j.LoggerFactory.getLogger;
 
 public class ImageFragmentResolver {
-    private static final String BASE = "http://ub.uni-leipzig.de";
-    private static final String CONSTRUCT = "CONSTRUCT {?s <http://www.w3.org/ns/oa#hasTarget> ?anno .\n" +
-            "?s <http://www.w3.org/ns/oa#hasBody> ?body .\n" +
-            "?body <http://www.w3.org/2011/content#chars> ?chars .\n" +
-            "?anno <http://purl.org/dc/terms/isPartOf> ?manifest .\n" +
-            "?anno <http://www.w3.org/ns/oa#hasSource> ?source .\n" +
-            "?anno <http://www.w3.org/ns/oa#hasSelector> ?selector .\n" +
-            "?selector <http://www.w3.org/ns/oa#default> ?default .\n" +
-            "  ?default <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?fragment .}\n" +
-            "WHERE {?s <http://www.w3.org/ns/oa#hasTarget> ?anno .\n" +
-            "?s <http://www.w3.org/ns/oa#hasBody> ?body .\n" +
-            "?body <http://www.w3.org/2011/content#chars> ?chars .\n" +
-            "?anno <http://purl.org/dc/terms/isPartOf> ?manifest .\n" +
-            "?anno <http://www.w3.org/ns/oa#hasSource> ?source .\n" +
-            "FILTER(regex(str(?source), \"iiif.ub.uni-leipzig.de\" )) .\n" +
-            "?anno <http://www.w3.org/ns/oa#hasSelector> ?selector .\n" +
-            "?selector <http://www.w3.org/ns/oa#default> ?default .\n" +
-            "?default <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?fragment .\n" +
-            "}";
-    private static final String SELECT = "SELECT ?anno ?chars ?source ?fragment\n" +
-            "WHERE {?s <http://www.w3.org/ns/oa#hasTarget> ?anno .\n" +
-            "?s <http://www.w3.org/ns/oa#hasBody> ?body .\n" +
-            "?body <http://www.w3.org/2011/content#chars> ?chars .\n" +
-            "?anno <http://www.w3.org/ns/oa#hasSource> ?source .\n" +
-            "?anno <http://www.w3.org/ns/oa#hasSelector> ?selector .\n" +
-            "?selector <http://www.w3.org/ns/oa#default> ?default .\n" +
-            "?default <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?fragment .\n" +
-            "}";
+    private static final Logger log = getLogger(ImageFragmentResolver.class);
 
+    private static final String BASE = "http://ub.uni-leipzig.de";
+    private static final String FILTER = "iiif.ub.uni-leipzig.de";
+    private static final String REQUEST_URI = "http://localhost:3030/fuseki/annotations";
+    private static final String CONSTRUCT = "de/ubleipzig/extractor/annotation.g.construct.rq";
+    private static final String SELECT = "de/ubleipzig/extractor/annotation.select.rq";
     private static final String SERVICE = "http://localhost:3000/resolve?id=";
     private static final String CANVAS_FRAGMENT = "http://www.w3.org/ns/oa#hasBody";
     private static final String FRAGMENT_SVC = "http://rdfs.org/sioc/services#has_fragment_service";
     private static final String IMPLEMENTS = "http://usefulinc.com/ns/doap#implements";
     private static final String PROFILE = "http://iiif.io/api/image/2/level1.json";
     private static final String CHARS = "http://www.w3.org/2011/content#chars";
-    private static final String destinationGraph = "http://localhost:3030/fuseki/fragments";
+    private static final String WITHIN = "http://purl.org/dc/terms/isPartOf";
+    private static final String TO_URI = "http://localhost:3030/fuseki/fragments";
+    private static final String N3 = "application/n-triples";
 
     public static void main(String[] args) throws Exception {
         ImageFragmentResolver app = new ImageFragmentResolver();
@@ -63,35 +45,48 @@ public class ImageFragmentResolver {
 
     private void buildImageFragmentModel() throws IOException, ClassNotFoundException, InterruptedException,
             ExecutionException,URISyntaxException {
-        String graph = HttpClient9.syncPostQuery(CONSTRUCT);
+        String constructQuery = QueryUtil.getQuery(CONSTRUCT, FILTER);
+        String selectQuery = QueryUtil.getQuery(SELECT, FILTER);
+
         Property p1 = ResourceFactory.createProperty(FRAGMENT_SVC);
         Property p2 = ResourceFactory.createProperty(IMPLEMENTS);
         Property p3 = ResourceFactory.createProperty(CHARS);
         Property p4 = ResourceFactory.createProperty(CANVAS_FRAGMENT);
+        Property p5 = ResourceFactory.createProperty(WITHIN);
         Resource o2 = ResourceFactory.createResource(PROFILE);
         Model m = ModelFactory.createDefaultModel();
         Model m2 = ModelFactory.createDefaultModel();
+
+        String graph = HttpClient9.syncPostQuery(constructQuery, REQUEST_URI, N3);
+        log.info("constructing graph from triplestore as N3");
+
         m.read(new ByteArrayInputStream(graph.getBytes()), BASE, "N3");
-        Query query = QueryFactory.create(SELECT);
+        log.info("reading graph into model");
+        Query query = QueryFactory.create(selectQuery);
         try (QueryExecution qexec = QueryExecutionFactory.create(query, m)) {
             ResultSet results = qexec.execSelect();
             while (results.hasNext()) {
                 QuerySolution qs = results.next();
                 Resource source = qs.getResource("source").asResource();
                 Resource anno = qs.getResource("anno").asResource();
+                Resource manifest = qs.getResource("manifest").asResource();
                 Resource annoid = ResourceFactory.createResource(source.toString() + "#" + anno.toString());
                 Literal fragment = qs.getLiteral("fragment").asLiteral();
                 Literal chars = qs.getLiteral("chars").asLiteral();
-                String fragmentServiceUri = buildServiceUri(source.toString(), fragment.toString());
+                String fragmentServiceUri = getServiceUri(source.toString(), fragment.toString());
+                log.info("getting serviceUri using Canvas identifier from API");
                 Resource o = ResourceFactory.createResource(fragmentServiceUri);
                 Statement s1 = ResourceFactory.createStatement(annoid, p1, o);
                 Statement s2 = ResourceFactory.createStatement(o, p2, o2);
                 Statement s3 = ResourceFactory.createStatement(annoid, p3, chars);
                 Statement s4 = ResourceFactory.createStatement(source, p4,annoid);
+                Statement s5 = ResourceFactory.createStatement(annoid, p5,manifest);
                 m2.add(s1);
                 m2.add(s2);
                 m2.add(s3);
                 m2.add(s4);
+                m2.add(s5);
+                log.info("adding statements to new model");
             }
             writeToDataset(m2);
         } catch (Exception e) {
@@ -99,7 +94,7 @@ public class ImageFragmentResolver {
         }
     }
 
-    private String buildServiceUri(String source, String fragment) throws Exception {
+    private String getServiceUri(String source, String fragment) throws Exception {
         String request;
         if (fragment != null) {
             request = SERVICE + source + "&" + fragment;
@@ -116,7 +111,8 @@ public class ImageFragmentResolver {
         rdfOut = new ByteArrayOutputStream();
         RDFDataMgr.write(rdfOut, m2, Lang.NTRIPLES);
         //String updateQuery = buildUpdateQuery(rdfOut.toString());
-        HttpClient9.syncPut(rdfOut.toString(), destinationGraph);
+        HttpClient9.syncPut(rdfOut.toString(), TO_URI);
+        log.info("writing to triplestore");
     }
 
     private String buildUpdateQuery(String m) {

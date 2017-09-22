@@ -1,0 +1,20 @@
+CONSTRUCT {
+?s <http://www.w3.org/ns/oa#hasTarget> ?anno .
+?s <http://www.w3.org/ns/oa#hasBody> ?body .
+?body <http://www.w3.org/2011/content#chars> ?chars .
+?anno <http://purl.org/dc/terms/isPartOf> ?manifest .
+?anno <http://www.w3.org/ns/oa#hasSource> ?source .
+?anno <http://www.w3.org/ns/oa#hasSelector> ?selector .
+?selector <http://www.w3.org/ns/oa#default> ?default .
+?default <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?fragment .
+} WHERE {
+?s <http://www.w3.org/ns/oa#hasTarget> ?anno .
+?s <http://www.w3.org/ns/oa#hasBody> ?body .
+?body <http://www.w3.org/2011/content#chars> ?chars .
+?anno <http://purl.org/dc/terms/isPartOf> ?manifest .
+?anno <http://www.w3.org/ns/oa#hasSource> ?source .
+FILTER(regex(str(?source), "?node" )) .
+?anno <http://www.w3.org/ns/oa#hasSelector> ?selector .
+?selector <http://www.w3.org/ns/oa#default> ?default .
+?default <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?fragment .
+}

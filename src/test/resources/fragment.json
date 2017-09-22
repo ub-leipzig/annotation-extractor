@@ -1,0 +1,737 @@
+{
+  "@graph": [
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/1#0fbdb95b94e78f536a7b2d9a19553978",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000001.jpx/1300,2299,1559,808/full/0/default.jpg",
+      "chars": "<p><a href=\"https://docs.google.com/document/d/1BgrItLWis_Q8kWcwes_gruRLm7r6emeW7vCT2hQhP2c/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Link zur Beschreibung</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/13#d9a7e17f448e6e3418842c67ffcf2a10",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000013.jpx/268,697,1355,194/full/0/default.jpg",
+      "chars": "<p>aerads</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/149#c4a89f86d591d895647a29a22dc7600d",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000149.jpx/220,340,67,100/full/0/default.jpg",
+      "chars": "<p>NEUE HAND!!</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/274#1e91b09871a4f19213c46bd369494b5f",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000274.jpx/731,4665,2860,297/full/0/default.jpg",
+      "chars": "<p>Ex-libris: \"Liber veteris celle sancte marie\" (Altzelle bei Halle)</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/275#ccfc2506f9c1831bcb6c38e48656c7e7",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000275.jpx/463,4708,2667,232/full/0/default.jpg",
+      "chars": "<p>Ex-libris</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/283#36b3d7f9c899c638e82c5ac626bb3832",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000283.jpx/223,836,25,38/full/0/default.jpg",
+      "chars": "<p>De animalibus Theodorici, Walther, Initia S. 94, Nr. 1838</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/286#96394304e5c3d31269b25901c4985f5f",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000286.jpx/419,937,858,188/full/0/default.jpg",
+      "chars": "<p>Vgl. &auml;hnlich Colophons de manuscrits Bd. 6, S. 252, Nr. 21159, 21161, 21163, 21164</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/4#02170783b8829e09756e269e53146dd3",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000004.jpx/1422,1773,72,110/full/0/default.jpg",
+      "chars": "<p>e caudata -&gt; das verschwindet im Laufe des XIII Jh.</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/4#0ca5765a2d31300513cc37a9f95ea735",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000004.jpx/1649,985,72,122/full/0/default.jpg",
+      "chars": "<p>Tendenz des H unter die Linie zu gehen (f&auml;ngt im letzten Viertel des XII Jh. an)</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/4#1d34be7824d3baa94c418dd4563d5608",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000004.jpx/1763,4453,562,407/full/0/default.jpg",
+      "chars": "<p>Bibliotheksstempel</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/4#3d9741f8e373d6c8b48f09a0b707bc88",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000004.jpx/1899,387,25,37/full/0/default.jpg",
+      "chars": "<p>Schriftspiegel in Farbe: laut Bischoff ab XIII Jh.</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/4#818d71b9b54865a745ba6fa064c88c33",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000004.jpx/1754,1440,87,95/full/0/default.jpg",
+      "chars": "<p>ET-Ligatur = &amp; -&gt; bei diesem Schreiber noch kein tironisches ET</p>\n<p>=&gt; fr&uuml;hes XIII</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/4#e26038530789bcc3f40abe3d9ce74bc8",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000004.jpx/2189,658,1202,122/full/0/default.jpg",
+      "chars": "<p>Text beginnt &uuml;ber dem Schriftspiegel -&gt; verschwindet im Laufe des XIII</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/5#4dd3c4fe805391b57c942f205264c909",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000005.jpx/1843,3985,85,130/full/0/default.jpg",
+      "chars": "<p>g: unterer Bogen wird mit einem Haarstrich an den oberen Bogen angeschlossen</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/5#84d25dca200a6bea3cb39e732bdb959f",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000005.jpx/2985,4199,104,122/full/0/default.jpg",
+      "chars": "<p>r &auml;ndert sich zwischen 1210 und 1225 von Zickzackhaken zu c-Haken =&gt; bei uns hier &Uuml;bergangsform!</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/6#ab44f41ba89766cb8fcf1e8f90367b16",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000006.jpx/531,4528,2992,442/full/0/default.jpg",
+      "chars": "<p>Ex-libris: \"Liber veteris celle Sancte Marie\" (Altzelle bei Halle)</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000002057/canvas/7#396599ffe8158071f4a8ff910b32c553",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000002057/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0020/0000002057/00000007.jpx/428,4598,2552,292/full/0/default.jpg",
+      "chars": "<p>Ex-libris</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004398/canvas/1#a6cf312df07151030a4fb11837373207",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004398/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0043/0000004398/00000001.jpx/620,463,755,222/full/0/default.jpg",
+      "chars": "<p><a href=\"https://docs.google.com/document/d/1PEUO_zp3mCKGn0oJbQuNYpI3dGUrPhKqFu_wp1VNF-4/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Link zur Beschreibung</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004398/canvas/12#f59968b1f2ebac5b44e80de3e6cca194",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004398/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0043/0000004398/00000012.jpx/737,764,224,71/full/0/default.jpg",
+      "chars": "<p><a style=\"color: #ff0000; font-family: -webkit-standard;\" name=\"Erhardi\"></a>Erhardi<span style=\"font-family: -webkit-standard; font-size: medium;\">&nbsp;ep. Ratisb. cf. Januar 8: Augsburg, Bamberg, Basel, Chur, Eichstedt, Erfurt, Freising, *Goslar, Halberstadt, Hamburg, Konstanz, Lausanne, Mainz, Meissen, Passau, *Regensburg, Salzburg, Speyer, Strassburg, Worms, W&uuml;rzburg. || Translatio October 8: Frankfurt a. M. (Mainz), Regensburg || Juli 20: Erfurt.</span></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004398/canvas/14#47f3421ed8073e8b0f16408595fdb642",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004398/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0043/0000004398/00000014.jpx/750,462,173,211/full/0/default.jpg",
+      "chars": "<p>einst&ouml;ckiges a</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004398/canvas/28#dd34584dd56ac2df93137d66050885a5",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004398/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0043/0000004398/00000028.jpx/208,662,363,228/full/0/default.jpg",
+      "chars": "<p>Der ain priester sol der Bruderschafft Caplan sein</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004398/canvas/33#0947601873c3c0ed569309566cccd5c2",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004398/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0043/0000004398/00000033.jpx/1243,853,19,29/full/0/default.jpg",
+      "chars": "<p>noch zu bearbeiten</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004398/canvas/33#50ae3ed16c534ab39f17d68cc709394b",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004398/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0043/0000004398/00000033.jpx/1524,916,19,29/full/0/default.jpg",
+      "chars": "<p>noch zu bearbeiten</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004398/canvas/7#4617dcb0390050e8d5c05b390368c034",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004398/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0043/0000004398/00000007.jpx/420,323,185,78/full/0/default.jpg",
+      "chars": "<p>der wichtigste und aktuellste der Aufgez&auml;hlten</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004402/canvas/10#6b832ee4b59024ec88a8c3fca37076ca",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004402/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004402/00000010.jpx/2696,1362,126,107/full/0/default.jpg",
+      "chars": "<p>A- versch. Ausf&uuml;hrungen</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004409/canvas/1#6475208b563d7693a387d339c0518acd",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004409/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004409/00000001.jpx/1602,1618,1135,439/full/0/default.jpg",
+      "chars": "<p><a href=\"https://docs.google.com/document/d/1PJKkupbLYPpcitPFfwLBZcUTdc7pspBOq6FnzsJtAFk/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Link zur Beschreibung</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004410/canvas/1#6a88f96384148aeb80a4b6b3df25e461",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004410/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004410/00000001.jpx/657,255,690,161/full/0/default.jpg",
+      "chars": "<p><a href=\"https://docs.google.com/document/d/17LE6Kz3lqEhy0eLgfVzrAp1oa24iax_vA6GaKO7KrkI/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Link zur Beschreibung</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004412/canvas/1#a67a7bae19cac5c7e4c3683b42f16c55",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004412/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004412/00000001.jpx/926,152,1508,409/full/0/default.jpg",
+      "chars": "<p><a href=\"https://docs.google.com/document/d/13pYMaOLeIbPcdUa-lR0wY0KGPuBBwLOEB6BEfP9Y71s/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Link zur Beschreibung</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/1#88c7f0687406e7d64617c38747ddadbe",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000001.jpx/1266,3555,1376,306/full/0/default.jpg",
+      "chars": "<p><a href=\"https://docs.google.com/document/d/1_FHtpwFy9XM1jWBHxSA-OEzUdBpKGnOXvqoyUEPNtwk/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Link zur Beschreibung</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/109#49bd9acee860e44595a3eff5eb950e0c",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000109.jpx/1642,717,531,445/full/0/default.jpg",
+      "chars": "<p>Sekund&auml;rinitiale</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/109#7aa4336b4472992e21e723ac4e0201d3",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000109.jpx/349,1244,2,2/full/0/default.jpg",
+      "chars": "<p>prim&auml;re Initiale: Knospenfleuronn&eacute; mit Besatzmotiven in Keilform, gerade Fadenausl&auml;ufer, Knospenf&uuml;llung, kurz gewellte Fibrillen</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/109#af4ffc32addb8d0fe5bebcb44998fe89",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000109.jpx/337,846,390,386/full/0/default.jpg",
+      "chars": "<p>prim&auml;re Initiale: Knospenfleuronn&eacute; mit Besatzmotiven in Keilform, gerade Fadenausl&auml;ufer, Knospenf&uuml;llung, kurz gewellte Fibrillen</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/109#bd70d3eafea1e31b54cf8c17d1f1a3f7",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000109.jpx/549,1126,2,26/full/0/default.jpg",
+      "chars": "<p>prim&auml;re Initiale: Knospenfleuronn&eacute; mit Besatzmotiven in Keilform, gerade Fadenausl&auml;ufer, Knospenf&uuml;llung, kurz gewellte Fibrillen</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/109#d29799e84566817e971cb691fb63bfc6",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000109.jpx/196,858,578,633/full/0/default.jpg",
+      "chars": "<p>prim&auml;re Initiale: Knospenfleuronn&eacute; mit Besatzmotiven in Keilform, gerade Fadenausl&auml;ufer, Knospenf&uuml;llung, kurz gewellte Fibrillen</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/110#0c420e28ff01ea188fd21b4a71ae39be",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000110.jpx/807,3726,343,351/full/0/default.jpg",
+      "chars": "<p>Terti&auml;rinitiale</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/163#2db8470ec1a92e8ce51a1b38cf552b3b",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000163.jpx/2515,4705,115,92/full/0/default.jpg",
+      "chars": "<p>runde gs</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/163#9642b193ca239c2ebd0a6062f70abbd4",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000163.jpx/2529,2503,85,122/full/0/default.jpg",
+      "chars": ""
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/163#a31ae997b60bdf7f26781a891b4fab92",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000163.jpx/2426,1584,76,92/full/0/default.jpg",
+      "chars": "<p>offenes g</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/163#ceed30a68a93db088b40f17351ee354d",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000163.jpx/1745,3244,155,186/full/0/default.jpg",
+      "chars": "<p>d-Initiale nicht ausgef&uuml;hrt</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/17#1de83369d38767632c19de783eb9e614",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000017.jpx/516,2228,625,756/full/0/default.jpg",
+      "chars": "<p>sekund&auml;re Initiale: Vorform der Fleuronn&eacute;initiale mit Konturbegleitstrichen</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/217#d095115bfbbab497de88b9ae4a55cc37",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000217.jpx/219,858,296,186/full/0/default.jpg",
+      "chars": "<p>rubrizierte Initiale</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/28#ae01d82c46fd9e73a067fe1185b96eb7",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000028.jpx/1170,2507,349,583/full/0/default.jpg",
+      "chars": "<p>sekund&auml;re Initiale</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/3#0e6de67befcb0b81445050d01fa18c64",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000003.jpx/133,3169,150,224/full/0/default.jpg",
+      "chars": "<p>Fadenausl&auml;ufer mit eingerolltem Ende</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/3#52d9965d49ece177a1eeb63eea28ce90",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000003.jpx/1683,1478,191,243/full/0/default.jpg",
+      "chars": "<p>terti&auml;re Initialen: Silhouetteninitialen (vgl. 8r f&uuml;r sek&uuml;nd&auml;re Initiale); im Folgenden bis zum Faszikelende (53v) nicht weiter verzeichnet</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/3#9267d75220919754d69d9b311f5bf4fa",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000003.jpx/696,1657,667,114/full/0/default.jpg",
+      "chars": "<p>Rahmenornamente</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/3#ae49d448fa65bbc93afc158dd3d47f0a",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000003.jpx/127,554,1265,2910/full/0/default.jpg",
+      "chars": "<p>gro&szlig;es Knospenfleuronn&eacute; mit keilf&ouml;rmigem Besatz</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/3#b53ecae538cf530f9120cecba9310028",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000003.jpx/391,607,673,1061/full/0/default.jpg",
+      "chars": "<p>Rosettenf&uuml;llung</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/43#84ad0ac3e78399307716df843894044c",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000043.jpx/1383,1704,872,809/full/0/default.jpg",
+      "chars": "<p>sekund&auml;re Initiale</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/60#0880e0979eb26c02af53acc67b0aed77",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000060.jpx/2241,893,754,809/full/0/default.jpg",
+      "chars": "<p>sekund&auml;re Initiale</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/81#122803373257fad7e67c32bcae6bdc68",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000081.jpx/243,1998,825,1444/full/0/default.jpg",
+      "chars": "<p>sekund&auml;re Initiale</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004422/canvas/92#addb788dbd168b200daf61f2b111394e",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004422/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004422/00000092.jpx/2262,1753,750,710/full/0/default.jpg",
+      "chars": "<p>sekund&auml;re Initiale</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004423/canvas/1#ff25107440f76d1b1112c00d676ed9b9",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004423/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004423/00000001.jpx/599,203,776,213/full/0/default.jpg",
+      "chars": "<p><a href=\"https://docs.google.com/document/d/1_rt-mvW9WzCrBK9uqq-nNH8yUy_0EvtHouUmRvyuzDI/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Link zur Beschreibung</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004423/canvas/391#6258dc2d0761dc87a7483eac3d22675d",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004423/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004423/00000391.jpx/1018,556,346,72/full/0/default.jpg",
+      "chars": "<p>Name</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004423/canvas/391#878e5d0f43ae227d684a4efb031b3006",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004423/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004423/00000391.jpx/1207,588,5,5/full/0/default.jpg",
+      "chars": "<p>Name</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004423/canvas/391#af2a512273d9183e5e6e44c34e3a5e22",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004423/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004423/00000391.jpx/1152,488,309,72/full/0/default.jpg",
+      "chars": "<p>Name</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004423/canvas/4#36d7822ec317ef6b73773a601a72af9f",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004423/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004423/00000004.jpx/1795,2007,2,2/full/0/default.jpg",
+      "chars": "<p>Die Handschrift wird 1506 in die \"bibliotheca publica\" des Klosters Altzelle eingegliedert. Zu diesem Zeitpunkt m&uuml;ssen alle Faszikel sp&auml;testens zusammengebunden vorliegen.</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004423/canvas/4#51c4de5e7aff8133dc71d909e234665b",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004423/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004423/00000004.jpx/269,2125,1471,241/full/0/default.jpg",
+      "chars": "<p>Die Handschrift wird 1506 in die \"bibliotheca publica\" des Klosters Altzelle eingegliedert. Zu diesem Zeitpunkt m&uuml;ssen alle Faszikel sp&auml;testens zusammengebunden vorliegen.</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004423/canvas/4#84858f7c762e1a2ba13b7e83bcf7798e",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004423/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004423/00000004.jpx/1438,2411,2,2/full/0/default.jpg",
+      "chars": "<p>Die Handschrift wird 1506 in die \"bibliotheca publica\" des Klosters Altzelle eingegliedert. Zu diesem Zeitpunkt m&uuml;ssen alle Faszikel sp&auml;testens zusammengebunden vorliegen.</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004423/canvas/477#bb5621502aa05a1b2a2cc2a4b09a4529",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004423/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004423/00000477.jpx/1289,699,292,202/full/0/default.jpg",
+      "chars": "<p>deutschsprachige Randnotiz von gleicher Hand</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004424/canvas/1#df249ca32c14fcc723e113745a8e61d4",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004424/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004424/00000001.jpx/1437,2486,1382,325/full/0/default.jpg",
+      "chars": "<p><a href=\"https://docs.google.com/document/d/17f8keCYiH_fft04JxTENaIHcrXWtgtTMM_pAWmKAS3I/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Link zur Beschreibung</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004424/canvas/5#205290a5457eef576b08202adb981d0c",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004424/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004424/00000005.jpx/2987,898,170,88/full/0/default.jpg",
+      "chars": "<p><strong>Schrift:</strong> &Auml;ltere Kursive (2. und 3. Viertel 14. Jahrhundert)</p>\n<p><strong>Text:</strong> Lanfrank von Mailand: <em>Chirurgia maior</em>/<em>Practica</em></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/1#18a063a77ec655844f06288037c3ba74",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000001.jpx/531,868,1131,422/full/0/default.jpg",
+      "chars": "<p><a href=\"https://docs.google.com/document/d/1p8B4PgqD1mRvBbx4NHhhtK3C_zuAEomnRGZ4XUOzo9k/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Link zur Beschreibung</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/4#0869ff99133af1c6ee4b547c4d44f08b",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000004.jpx/1437,2787,49,64/full/0/default.jpg",
+      "chars": "<p>einst&ouml;ckiges \"a\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/4#1a98eeca498185559e6fc90bd93367e0",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000004.jpx/1951,2348,38,61/full/0/default.jpg",
+      "chars": "<p>rundes \"s\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/4#3af8bdb3b541e8df19b731f113eb0427",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000004.jpx/1882,2604,44,82/full/0/default.jpg",
+      "chars": "<p>\"s\" ohne Unterl&auml;nge</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/4#54c0afd3b65f997765910b870d1aa0c0",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000004.jpx/1836,2794,46,62/full/0/default.jpg",
+      "chars": "<p>ungerades \"d\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/4#6a2429f3cdf0dac66f25d68b6471e558",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000004.jpx/1765,2146,60,78/full/0/default.jpg",
+      "chars": "<p>Bogenverbindung \"de\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/4#8a0acac5024c1e63edb1a7ca32e2b963",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000004.jpx/2040,2708,48,90/full/0/default.jpg",
+      "chars": "<p>Bogenanschluss \"g\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/488#38730f5a5236e6fc39fe620c7cd27198",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000488.jpx/2622,3939,68,111/full/0/default.jpg",
+      "chars": "<p>Brezel-\"s\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/488#9a523d66a76d3df996d6f81d1f32c317",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000488.jpx/2126,3698,50,43/full/0/default.jpg",
+      "chars": "<p>\"i\"-Punkt</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/488#aa99689001a83383f2da4f7a4b966d1c",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000488.jpx/2228,3722,66,73/full/0/default.jpg",
+      "chars": "<p>einst&ouml;ckiges \"a\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/488#b8a13db914c0ac8c3463c9aed464d00d",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000488.jpx/2077,3636,60,66/full/0/default.jpg",
+      "chars": "<p>fast zweiteiliges \"r\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/488#bd7e4921b21fc767ad1c6a4eae20ccb0",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000488.jpx/2380,3511,78,168/full/0/default.jpg",
+      "chars": "<p>verdicktes \"s\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#0e4995637e47ec04f9964b325e237716",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/431,3325,36,30/full/0/default.jpg",
+      "chars": "<p>einst&ouml;ckiges \"a\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#0fe5bfa094b44914108f45172bf851a9",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/968,2249,46,74/full/0/default.jpg",
+      "chars": "<p>doppelst&ouml;ckiges \"a\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#10d6bfa3d75e99609730814a88574b29",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/944,2051,83,71/full/0/default.jpg",
+      "chars": "<p>Bogenanschluss \"de\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#41c9a6d686b36c205ffd375801011a50",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/742,3383,23,42/full/0/default.jpg",
+      "chars": "<p>Bogenanschluss \"g\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#523be17280b740b1be5bd5430dc902af",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/1161,1947,48,75/full/0/default.jpg",
+      "chars": "<p>rundes \"s\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#6065f0b5e25bfec7362d0181c61f5014",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/803,3340,26,32/full/0/default.jpg",
+      "chars": "<p>Brezel \"s\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#720089fc39f62e1f2be7091864af3bb8",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/507,3221,25,58/full/0/default.jpg",
+      "chars": "<p>Unterl&auml;nge \"s\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#a16d372dd843fca7861cd5c83673b201",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/1323,2154,53,80/full/0/default.jpg",
+      "chars": "<p>zweiteiliges \"r\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#b5296dec1eb6cbab9c636dd5704d6ae0",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/2066,1968,56,69/full/0/default.jpg",
+      "chars": "<p>einst&ouml;ckiges \"a\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#b92b78b188424b0fa8072bccbda72c5e",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/470,3077,45,49/full/0/default.jpg",
+      "chars": "<p>Schlaufen Oberl&auml;ngen</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#ba288a757bb5c885e44bd8100841781e",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/1566,1954,48,73/full/0/default.jpg",
+      "chars": "<p>\"s\" ohne Unterl&auml;nge</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#bb0cf333ff5a713fd37c36e9056c8cbe",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/2818,2105,36,43/full/0/default.jpg",
+      "chars": "<p>\"r\"?</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#ca58612f17fd8130a7b2962bb6362899",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/2683,892,32,46/full/0/default.jpg",
+      "chars": "<p>\"g\" Bogenanschluss</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#e253d9a6962f81794ff921ba7faca2e1",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/883,3490,30,42/full/0/default.jpg",
+      "chars": "<p>Unterl&auml;nge \"s\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#ea3332093b8305ee69a58afa5d244383",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/845,3339,24,39/full/0/default.jpg",
+      "chars": "<p>zweist&ouml;ckiges \"a\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004430/canvas/53#fbdc6fa250791f6b378367ac1812ebd1",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004430/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004430/00000053.jpx/436,3373,23,46/full/0/default.jpg",
+      "chars": "<p>rundes \"s\"</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004458/canvas/2#28567c64ba65fc1ae387d58c80490ed2",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004458/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004458/00000002.jpx/1467,581,115,166/full/0/default.jpg",
+      "chars": "<p>g ist nicht geschlossen, aber unterer Bogen nach rechts verschoben (ab 10. Jahrhundert eigentlich geschlossene Form des g dominant, mit regionalen Ausnahmen wie Nordfrankreich; Verschiebung des Unterbogens nach rechts weist auf Ende 10. Jahrhundert)</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004458/canvas/2#b8d6cb51cb071b3fc857d41c6320e6c8",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004458/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004458/00000002.jpx/1851,2552,115,138/full/0/default.jpg",
+      "chars": "<p>r unter die Grundlinie verl&auml;ngert</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/1#19eee94b3ab09a1b9293f01dc497276b",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000001.jpx/3187,1067,67,100/full/0/default.jpg",
+      "chars": "<p>Gregor der Grosse Homilien: Buch II; Homilie XXV; Absch. 7</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/1#61de0d2fe02dbef25702e038c1d1cb2c",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000001.jpx/4027,1503,97,198/full/0/default.jpg",
+      "chars": "<p>U am Beginn eines Satzes</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/1#7973d0ecb8acd65bb5a97ed03a3bb012",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000001.jpx/1838,1830,89,123/full/0/default.jpg",
+      "chars": "<p>Q liegt auf der Zunge</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/1#bc278e22f988e2efb6fc8d1a4fef25a6",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000001.jpx/1708,1698,78,139/full/0/default.jpg",
+      "chars": "<p>g ist bei beiden B&ouml;gen geschlossen</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/1#c55ef99801e41c3baae7601b5a394fe9",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000001.jpx/953,1113,67,100/full/0/default.jpg",
+      "chars": "<p>Gregor der Grosse Homilien: Buch II, Homilie XXV, Absch. 6</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/1#c74c7b1c86889e508e079ebde9495605",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000001.jpx/2480,1553,73,89/full/0/default.jpg",
+      "chars": "<p>a Schaft ist schon fast aufrecht</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/2#4e3d9ed3ee16cb51870a296beae457f3",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000002.jpx/1113,1420,67,100/full/0/default.jpg",
+      "chars": "<p>Gregor der Grosse Homilien: Buch II; Homilie XXV; Absch. 4</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/3#20c959348caa74bfddb3810b5b50a693",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000003.jpx/2947,1127,67,100/full/0/default.jpg",
+      "chars": "<p>Abschnitt 8</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/3#220b8af8fb8820345f8615bdc27643ed",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000003.jpx/727,1107,67,100/full/0/default.jpg",
+      "chars": "<p>Gregor der Grosse Homilien: Buch II; Homilie XXV; Absch. &amp; Ende + Beginn Absch. 7</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/3#43d5300337582ea64b5a5b163b2dfed7",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000003.jpx/2893,1977,376,18/full/0/default.jpg",
+      "chars": ""
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/3#46e2d16944c83b8f17deebfe7fcc14b1",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000003.jpx/2894,1891,373,11/full/0/default.jpg",
+      "chars": ""
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/3#53c2631e1ec9dcd37c08643a1942051f",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000003.jpx/4613,1740,70,99/full/0/default.jpg",
+      "chars": "<p>rundes S am Zeilenende</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/3#7d13ee50f576ce4f989b2aaed0ed98c3",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000003.jpx/2761,1798,659,320/full/0/default.jpg",
+      "chars": "<p>Ober- und Unterl&auml;ngen sind verk&uuml;rzt</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/3#95948907a0ba7d2535be3f09642c55ba",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000003.jpx/2889,2013,376,22/full/0/default.jpg",
+      "chars": ""
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/3#a39c7c2bd3e3827e6d0f932afee74d25",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000003.jpx/2894,1920,373,18/full/0/default.jpg",
+      "chars": ""
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/4#48ace63ddf5306ba02d9f4a8d0863fc0",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000004.jpx/2216,1995,87,97/full/0/default.jpg",
+      "chars": "<p>Anstriche / Verdickungen an den Oberl&auml;ngen</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/4#4db3d8fe456badd5f798de86cb0c7bda",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000004.jpx/3327,1373,67,100/full/0/default.jpg",
+      "chars": "<p>Abschnitt 6 (Text geht auf Fragm 1 recto linke Spalte weiter)</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/4#584fd06fa64bac675418275c2f8ed872",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000004.jpx/1361,1851,75,85/full/0/default.jpg",
+      "chars": "<p>r tendiert manchmal leicht dazu unter die Zeile zu reichen (?)</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/4#824e3f0dc8111bc1f31a4b04d29e331e",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000004.jpx/1883,2393,82,119/full/0/default.jpg",
+      "chars": "<p>n zu Beginn eines Satzes ist ein Minuskel und keine Majuskel-N mehr</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004460/canvas/4#956e54866729e12455da9ff1e72c4a9e",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004460/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004460/00000004.jpx/1535,1830,109,129/full/0/default.jpg",
+      "chars": "<p>Majuskel-D im Gegensatz zum unzialen D an Satzanf&auml;ngen</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004461/canvas/2#7481fcb322eed71fb3c34a21002c93ff",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004461/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004461/00000002.jpx/1871,1547,271,151/full/0/default.jpg",
+      "chars": "<p>Feria quinta --&gt; Bibeltext zum liturgischen Gebrauch</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004467/canvas/1#4f19d9274ae3afb5deae1fb0d44ceaa3",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004467/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004467/00000001.jpx/1228,2467,1641,603/full/0/default.jpg",
+      "chars": "<p><a href=\"https://docs.google.com/document/d/1BgrItLWis_Q8kWcwes_gruRLm7r6emeW7vCT2hQhP2c/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Link zur Beschreibung</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004468/canvas/5#d30a17a2084b9a722f61ce139369789e",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004468/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004468/00000005.jpx/1985,2396,148,103/full/0/default.jpg",
+      "chars": "<table style=\"font-family: Times, 'Times New Roman', serif;\" cellspacing=\"5\">\n<tbody>\n<tr>\n<td>\n<p><strong>Text:</strong>&nbsp;Priscianus:&nbsp;<a href=\"http://kaali.linguist.jussieu.fr/CGL/text.jsp?topic=de%20nomine&amp;ref=2,195,11-368,8\" target=\"_blank\" rel=\"noopener\">Prisciniani institutiones&nbsp;</a></p>\n<p><strong>Datierung:</strong>&nbsp;1.H.10.Jh.</p>\n</td>\n<td>&nbsp;<br /><br /></td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004469/canvas/1#2ae239c8db217c1ccb9586416d5425f0",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004469/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004469/00000001.jpx/1336,1093,1287,249/full/0/default.jpg",
+      "chars": "<p><a href=\"https://docs.google.com/document/d/1Gy-mxAt0Kdng4ZH4Oru8bcCTB0AaXEbqOrZcO5K_jXc/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Link zur Beschreibung</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004470/canvas/1#b07b112bdc512c9c29aec66f58393772",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004470/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004470/00000001.jpx/1234,2410,1306,496/full/0/default.jpg",
+      "chars": "<p><a href=\"https://docs.google.com/document/d/1CTNulQV7IEBPmE1fqkLzpUkApGtsk7fV9P48kB_d7YE/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Link zur Beschreibung</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004470/canvas/572#5478e39db924bad94b6ec6abae367d5f",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004470/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004470/00000572.jpx/1443,2000,885,129/full/0/default.jpg",
+      "chars": "<p>De divortiis rubrica (4,19)</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004470/canvas/572#681e40a26676b8184b89ba71df1f53d2",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004470/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004470/00000572.jpx/2505,2356,295,103/full/0/default.jpg",
+      "chars": "<p>spe coniugii (IV, XIX, 1)</p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004470/canvas/579#0a231bacdd6378316dceece4be40cc0c",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004470/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004470/00000579.jpx/537,2165,476,172/full/0/default.jpg",
+      "chars": "<p>IV,20,1 <a href=\"https://www.hs-augsburg.de/~harsch/Chronologia/Lspost13/GregoriusIX/gre_4t20.html\" target=\"_blank\" rel=\"noopener\">Link</a></p>"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004470/canvas/580#fa0ae97c09fde857303d33392b460e06",
+      "isPartOf": "https://iiif.ub.uni-leipzig.de/0000004470/manifest.json",
+      "has_fragment_service": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0044/0000004470/00000580.jpx/2044,2117,347,77/full/0/default.jpg",
+      "chars": "<p>IV, 20, 8 <a href=\"https://www.hs-augsburg.de/%7Eharsch/Chronologia/Lspost13/GregoriusIX/gre_4t20.html\" target=\"_blank\" rel=\"noopener\">Link</a></p>"
+    }
+  ],
+  "@context": {
+    "chars": {
+      "@id": "http://www.w3.org/2011/content#chars"
+    },
+    "has_fragment_service": {
+      "@id": "http://rdfs.org/sioc/services#has_fragment_service",
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@id": "http://purl.org/dc/terms/isPartOf",
+      "@type": "@id"
+    }
+  }
+}
