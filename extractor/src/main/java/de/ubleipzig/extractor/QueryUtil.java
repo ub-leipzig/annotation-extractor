@@ -7,7 +7,9 @@ import java.io.InputStreamReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class QueryUtil {
+import static java.nio.charset.StandardCharsets.UTF_8;
+
+class QueryUtil {
 
     static String getQuery(final String qname, final String replaceNode) throws IOException {
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
@@ -30,7 +32,7 @@ public class QueryUtil {
     private static String readFile(InputStream in) throws IOException {
         StringBuilder inobj = new StringBuilder();
         try (BufferedReader buf = new BufferedReader(
-                new InputStreamReader(in, "UTF-8"))) {
+                new InputStreamReader(in, UTF_8))) {
             String line;
             while ((line = buf.readLine()) != null) {
                 inobj.append(line).append("\n");

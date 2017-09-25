@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 import static org.slf4j.LoggerFactory.getLogger;
@@ -32,8 +33,8 @@ public class HttpClient9 {
         log.info(String.valueOf(statusCode));
     }
 
-    public static String syncPostQuery(final String query, String requestURI, String accept) throws ExecutionException, InterruptedException,
-            URISyntaxException, IOException {
+    public static String syncPostQuery(final String query, String requestURI, String accept) throws
+            ExecutionException, InterruptedException, URISyntaxException, IOException {
         HttpClient testClient;
         testClient = HttpClient.newHttpClient();
         String formdata = "query=" + query;
@@ -49,6 +50,22 @@ public class HttpClient9 {
         int statusCode = response.statusCode();
         log.info(String.valueOf(statusCode));
         return response.body();
+    }
+
+    public static String asyncPostQuery(final String query, String requestURI, String accept) throws
+            ExecutionException, InterruptedException, URISyntaxException, IOException {
+        HttpClient client;
+        client = HttpClient.newHttpClient();
+        String formdata = "query=" + query;
+        HttpRequest request = HttpRequest
+                .newBuilder(new URI(requestURI))
+                .headers("Accept", accept, "Content-Type",
+                        "application/x-www-form-urlencoded; charset=utf-8")
+                .POST(HttpRequest.BodyProcessor.fromString(formdata))
+                .build();
+        CompletableFuture<HttpResponse<String>> response = client.sendAsync(request, HttpResponse.BodyHandler
+                .asString());
+        return response.get().body();
     }
 
     public static String syncUpdate(final String query) throws ExecutionException, InterruptedException,

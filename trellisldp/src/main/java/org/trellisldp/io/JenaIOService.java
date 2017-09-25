@@ -31,6 +31,7 @@ import org.trellisldp.io.impl.HtmlSerializer;
 import org.trellisldp.spi.IOService;
 import org.trellisldp.spi.NamespaceService;
 import org.trellisldp.spi.RuntimeRepositoryException;
+import org.trellisldp.io.impl.IOUtils;
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -52,7 +53,6 @@ import static org.apache.jena.riot.system.StreamRDFWriter.getWriterStream;
 import static org.apache.jena.update.UpdateAction.execute;
 import static org.apache.jena.update.UpdateFactory.create;
 import static org.slf4j.LoggerFactory.getLogger;
-import static org.trellisldp.io.impl.IOUtils.getJsonLdProfile;
 
 /**
  * An IOService implemented using Jena
@@ -94,7 +94,7 @@ public class JenaIOService implements IOService {
     public JenaIOService(final NamespaceService namespaceService, final Map<String, String> properties) {
         this.nsService = namespaceService;
         this.htmlSerializer = new HtmlSerializer(namespaceService,
-                properties.getOrDefault("template", "trellisldp/io/resource.mustache"), properties);
+                properties.getOrDefault("template", "org/trellisldp/io/resource.mustache"), properties);
     }
 
     @Override
@@ -126,7 +126,7 @@ public class JenaIOService implements IOService {
                     ofNullable(nsService).map(NamespaceService::getNamespaces).ifPresent(model::setNsPrefixes);
                     triples.map(rdf::asJenaTriple).map(model::asStatement).forEach(model::add);
                     if (JSONLD.equals(lang)) {
-                        RDFDataMgr.write(output, model.getGraph(), getJsonLdProfile(profiles));
+                        RDFDataMgr.write(output, model.getGraph(), IOUtils.getJsonLdProfile(profiles));
                     } else {
                         RDFDataMgr.write(output, model.getGraph(), lang);
                     }

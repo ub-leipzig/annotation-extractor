@@ -1,13 +1,19 @@
-group 'de.ubleipzig'
-version '1.0-SNAPSHOT'
+buildscript {
+    repositories {
+        mavenCentral()
+    }
 
-apply plugin: 'java-library'
+    dependencies {
+        classpath("org.junit.platform:junit-platform-gradle-plugin:1.0.0-M5")
+    }
+}
 
-sourceCompatibility = 1.9
-targetCompatibility = 1.9
-
-repositories {
-    mavenCentral()
+plugins {
+    id 'com.github.ben-manes.versions' version '0.15.0'
+    id 'com.github.hierynomus.license' version '0.13.1'
+    id 'net.researchgate.release' version '2.6.0'
+    id 'com.github.kt3k.coveralls' version '2.8.1'
+    id 'org.sonarqube' version '2.5'
 }
 
 ext {
@@ -21,44 +27,389 @@ ext {
     slf4jVersion = '1.7.25'
     jenaVersion = '3.4.0'
     mustacheVersion = '0.9.5'
-
+    jerseyVersion = '2.25.1'
     junitVersion = '4.12'
     mockitoVersion = '2.9.0'
     logbackVersion = '1.2.3'
+    fcrepoClientVersion = "0.3.0"
 }
 
-gradle.projectsEvaluated {
-    tasks.withType(JavaCompile) {
-        options.compilerArgs.add("-Xlint:unchecked")
-        options.compilerArgs.add("-Xlint:deprecation")
-        options.compilerArgs.addAll(["--add-modules", "jdk.incubator.httpclient"])
+configure(allprojects) { project ->
+    group 'de.ubleipzig'
+    version '1.0-SNAPSHOT'
+
+    apply plugin: 'maven'
+    apply plugin: 'java'
+    apply plugin: 'java-library'
+
+    sourceCompatibility = 1.9
+    targetCompatibility = 1.9
+
+    repositories {
+        mavenCentral()
     }
 }
 
-compileTestJava {
-    doFirst {
-        options.compilerArgs = [
-                '--add-modules', 'jdk.incubator.httpclient',
-                '-Xlint:deprecation'
-        ]
+subprojects {
+    afterEvaluate {
+        repositories {
+            jcenter()
+        }
+
+        gradle.projectsEvaluated {
+            tasks.withType(JavaCompile) {
+                options.compilerArgs.add("-Xlint:unchecked")
+                options.compilerArgs.add("-Xlint:deprecation")
+                options.compilerArgs.addAll(["--add-modules", "jdk.incubator.httpclient"])
+            }
+        }
+
+        compileTestJava {
+            doFirst {
+                options.compilerArgs = [
+                        '--add-modules', 'jdk.incubator.httpclient',
+                        '-Xlint:deprecation'
+                ]
+            }
+        }
     }
 }
 
-dependencies {
-    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.1'
-    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.1'
-    compile group: 'com.github.jsonld-java', name: 'jsonld-java', version: '0.11.1'
-    compile group: 'org.apache.commons', name: 'commons-text', version: '1.1'
-    compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.20.0'
-    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
-    compile group: 'org.apache.jena', name: 'jena-arq', version: '3.4.0'
-    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
-    api group: 'org.apache.commons', name: 'commons-rdf-api', version: commonsRdfVersion
+project("extractor") {
+    apply plugin: 'org.junit.platform.gradle.plugin'
+    apply plugin: 'jacoco'
 
-    implementation group: 'com.github.spullara.mustache.java', name: 'compiler', version: mustacheVersion
-    implementation group: 'org.apache.commons', name: 'commons-rdf-jena', version: commonsRdfVersion
-    implementation group: 'org.apache.jena', name: 'jena-osgi', version: jenaVersion
-    implementation group: 'org.slf4j', name: 'slf4j-api', version: slf4jVersion
+    jacoco {
+        toolVersion = "0.7.9"
+    }
 
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    configurations {
+        testAgent {
+            transitive = false
+        }
+    }
+
+    dependencies {
+        compile project(":trellisldp")
+        testCompile project(":trellisldp")
+        compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.1'
+        compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.1'
+        compile group: 'com.github.jsonld-java', name: 'jsonld-java', version: '0.11.1'
+        compile group: 'org.apache.commons', name: 'commons-text', version: '1.1'
+        compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.20.0'
+        compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+        compile group: 'org.apache.jena', name: 'jena-arq', version: '3.4.0'
+        compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
+        api group: 'org.apache.commons', name: 'commons-rdf-api', version: commonsRdfVersion
+
+        implementation group: 'com.github.spullara.mustache.java', name: 'compiler', version: mustacheVersion
+        implementation group: 'org.apache.commons', name: 'commons-rdf-jena', version: commonsRdfVersion
+        implementation group: 'org.apache.jena', name: 'jena-osgi', version: jenaVersion
+        implementation group: 'org.slf4j', name: 'slf4j-api', version: slf4jVersion
+        testRuntime("org.junit.vintage:junit-vintage-engine:4.12.0-M5")
+        testCompile("org.junit.jupiter:junit-jupiter-api:5.0.0-M5")
+        testRuntime("org.junit.jupiter:junit-jupiter-engine:5.0.0-M5")
+        testCompile("org.junit.platform:junit-platform-runner:1.0.0-M5")
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        testImplementation group: 'org.glassfish.jersey.test-framework.providers', name: 'jersey-test-framework-provider-inmemory', version: jerseyVersion
+        testImplementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.0'
+        testImplementation group: 'javax.activation', name: 'activation', version: '1.1.1'
+        testImplementation "org.fcrepo.client:fcrepo-java-client:${fcrepoClientVersion}"
+
+    }
+
+    configurations {
+        testAgent {
+            transitive = false
+        }
+    }
+
+    tasks.withType(JavaExec) {
+        if (it.name == 'junitPlatformTest') {
+            doFirst {
+                //jvmArgs "-javaagent:${configurations.testAgent.singleFile}=destfile=${project.buildDir.name}/jacoco/test.exec"
+                jvmArgs "--add-modules=jdk.incubator.httpclient"
+            }
+        }
+    }
+
+    configurations {
+        junitXmlToHtml
+    }
+
+    task generateHtmlTestReports << {
+        def reportsDir = new File(buildDir, 'test-reports')
+        reportsDir.mkdirs()
+
+        ant.taskdef(
+                name: 'junitReport',
+                classname: 'org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator',
+                classpath: configurations.junitXmlToHtml.asPath
+        )
+
+        ant.junitReport(todir: "$buildDir/test-results/junit-platform", tofile: "aggregated-test-results.xml") {
+            fileset(dir: "$buildDir/test-results/junit-platform")
+            report(format: 'frames', todir: reportsDir)
+        }
+    }
+
+    afterEvaluate {
+        def junitPlatformTestTask = tasks.getByName('junitPlatformTest')
+        generateHtmlTestReports.dependsOn(junitPlatformTestTask)
+        check.dependsOn(generateHtmlTestReports)
+    }
+
+    dependencies {
+        junitXmlToHtml 'org.apache.ant:ant-junit:1.9.7'
+    }
 }
+
+project("trellisldp") {
+    apply plugin: 'maven'
+    apply plugin: 'osgi'
+    apply plugin: 'java-library'
+    apply plugin: 'maven-publish'
+    apply plugin: 'signing'
+    apply plugin: 'checkstyle'
+    apply plugin: 'com.github.hierynomus.license'
+    apply plugin: 'jacoco'
+
+    group = 'org.trellisldp'
+    description = 'Trellis IO Service, using Apache Jena'
+
+    ext {
+        moduleName = "org.org.trellisldp.io"
+        vendor = 'Trellis LDP'
+        homepage = 'http://www.trellisldp.org'
+        docURL = 'http://www.trellisldp.org/apidocs'
+        license = 'Apache 2'
+
+        /* Dependencies */
+        trellisSpiVersion = '0.1.0-SNAPSHOT'
+        trellisVocabularyVersion = '0.1.0-SNAPSHOT'
+        commonsRdfVersion = '0.3.0-incubating'
+        slf4jVersion = '1.7.25'
+        jenaVersion = '3.4.0'
+        mustacheVersion = '0.9.5'
+
+        /* Testing */
+        junitVersion = '4.12'
+        mockitoVersion = '2.9.0'
+        logbackVersion = '1.2.3'
+
+        /* OSGi */
+        projectOsgiVersion = project.version.replaceAll("-SNAPSHOT", ".SNAPSHOT")
+    }
+
+    configurations {
+        buildToolsConfig
+    }
+
+    repositories {
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+        // TODO -- remove this after the first release of the API
+        maven {
+            url "https://oss.sonatype.org/content/repositories/snapshots"
+        }
+    }
+
+    jacocoTestReport {
+        reports {
+            xml.enabled = true
+            html.enabled = true
+        }
+    }
+
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+    }
+
+    release {
+        tagTemplate = '$name-$version'
+    }
+
+    dependencies {
+        api group: 'org.apache.commons', name: 'commons-rdf-api', version: commonsRdfVersion
+
+        implementation group: 'com.github.spullara.mustache.java', name: 'compiler', version: mustacheVersion
+        implementation group: 'org.apache.commons', name: 'commons-rdf-jena', version: commonsRdfVersion
+        implementation group: 'org.apache.jena', name: 'jena-osgi', version: jenaVersion
+        implementation group: 'org.slf4j', name: 'slf4j-api', version: slf4jVersion
+
+        testImplementation group: 'ch.qos.logback', name: 'logback-classic', version: logbackVersion
+        testImplementation group: 'junit', name: 'junit', version: junitVersion
+        testImplementation group: 'org.mockito', name: 'mockito-core', version: mockitoVersion
+
+        buildToolsConfig 'org.trellisldp:trellis-build-tools:0.2.0'
+    }
+
+    jar {
+        manifest {
+            description project.description
+            docURL project.docURL
+            vendor project.vendor
+            license project.license
+
+            instruction 'Automatic-Module-Name', moduleName
+            instruction 'Import-Package', '*'
+            instruction 'Export-Package', "${moduleName};version=${projectOsgiVersion}"
+        }
+    }
+
+    task sourceJar(type: Jar) {
+        classifier 'sources'
+        from sourceSets.main.allSource
+    }
+
+    task javadocJar(type: Jar) {
+        classifier 'javadoc'
+        from javadoc
+    }
+
+    artifacts {
+        archives javadocJar
+        archives sourceJar
+        archives (file('build/resources/main/features.xml')) {
+            classifier 'features'
+            type 'xml'
+        }
+    }
+
+    jacoco {
+        toolVersion = "0.7.9"
+    }
+
+    license {
+        include "**/*.java"
+        header rootProject.file('build/license/HEADER.txt')
+        strictCheck true
+        mapping {
+            java = 'SLASHSTAR_STYLE'
+        }
+    }
+
+    publishing {
+        publications {
+            maven(MavenPublication) {
+                from components.java
+            }
+        }
+    }
+
+    processResources {
+        outputs.upToDateWhen { false }
+        expand project.properties
+    }
+
+    signing {
+        required { !version.endsWith("SNAPSHOT") && gradle.taskGraph.hasTask("uploadArchives") }
+        sign configurations.archives
+    }
+
+    uploadArchives {
+        repositories.mavenDeployer {
+            def sonatypeUsername = project.hasProperty('ossrhUsername') ? ossrhUsername : ""
+            def sonatypePassword = project.hasProperty('ossrhPassword') ? ossrhPassword : ""
+            beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+
+            repository(url: "https://oss.sonatype.org/service/local/staging/deploy/maven2/") {
+                authentication(userName: sonatypeUsername, password: sonatypePassword)
+            }
+
+            snapshotRepository(url: "https://oss.sonatype.org/content/repositories/snapshots/") {
+                authentication(userName: sonatypeUsername, password: sonatypePassword)
+            }
+
+            pom.project {
+                packaging 'jar'
+                url = 'http://www.trellisldp.org'
+                inceptionYear '2017'
+                name 'Trellis Repository IO and serialization service'
+                description 'The RDF serialization service for a trellis repository'
+
+                organization {
+                    name project.vendor
+                    url project.homepage
+                }
+
+                developers {
+                    developer {
+                        id 'acoburn'
+                        name 'Aaron Coburn'
+                        email 'acoburn @ (domain of organization url)'
+                        organization 'Amherst College'
+                        organizationUrl 'https://www.amherst.edu'
+                        roles {
+                            role 'developer'
+                        }
+                        timezone '-5'
+                    }
+                }
+
+                scm {
+                    connection 'scm:git:git://github.com/trellis-ldp/trellis-io-jena.git'
+                    developerConnection 'scm:git:git@github.com/trellis-ldp/trellis-io-jena.git'
+                    url 'https://github.com/trellis-ldp/trellis-io-jena'
+                    tag 'HEAD'
+                }
+
+                licenses {
+                    license {
+                        name 'Apache License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0'
+                        comments 'Copyright (c) 2017 Trellis LDP'
+                    }
+                }
+            }
+        }
+    }
+
+    task processBuildTools(type: Copy) {
+        from {
+            configurations.buildToolsConfig.collect {
+                zipTree(it).matching {
+                    include 'checkstyle/*.xml'
+                    include 'license/*.txt'
+                }
+            }
+        }
+        into 'build'
+    }
+
+    checkstyle {
+        configFile = rootProject.file('build/checkstyle/checkstyle.xml')
+        configProperties.checkstyleConfigDir = rootProject.file('build/checkstyle/')
+        toolVersion = "8.1"
+    }
+
+    sonarqube {
+        properties {
+            property "sonar.projectName", "Trellis Repository IO Service"
+            property "sonar.projectKey", "org.trellisldp:trellis-io-jena"
+            property "sonar.links.homepage", "https://github.com/trellis-ldp/trellis"
+            property "sonar.links.issue", "https://github.com/trellis-ldp/trellis-io-jena/issues"
+            property "sonar.links.scm_dev", "scm:git:git@github.com:trellis-ldp/trellis-io-jena.git"
+        }
+    }
+
+    task docs(type: Javadoc) {
+        outputs.upToDateWhen { false }
+        source sourceSets.main.allJava
+        classpath = files(sourceSets.main.compileClasspath)
+        destinationDir = new File(projectDir, "docs/${version}")
+        options {
+            links "http://docs.oracle.com/javase/8/docs/api/"
+            links "https://commons.apache.org/proper/commons-rdf/apidocs/"
+            links "http://www.trellisldp.org/apidocs/"
+        }
+    }
+
+    checkstyleMain.dependsOn processBuildTools
+    afterReleaseBuild.dependsOn docs
+}
+
+
