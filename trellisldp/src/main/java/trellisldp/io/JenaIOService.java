@@ -1,4 +1,4 @@
-package org.trellisldp.io;/*
+package trellisldp.io;/*
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -27,10 +27,11 @@ import org.apache.jena.riot.RiotException;
 import org.apache.jena.riot.system.StreamRDF;
 import org.apache.jena.update.UpdateException;
 import org.slf4j.Logger;
-import org.trellisldp.io.impl.HtmlSerializer;
+import trellisldp.io.impl.HtmlSerializer;
 import org.trellisldp.spi.IOService;
 import org.trellisldp.spi.NamespaceService;
 import org.trellisldp.spi.RuntimeRepositoryException;
+import trellisldp.io.impl.IOUtils;
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -52,7 +53,6 @@ import static org.apache.jena.riot.system.StreamRDFWriter.getWriterStream;
 import static org.apache.jena.update.UpdateAction.execute;
 import static org.apache.jena.update.UpdateFactory.create;
 import static org.slf4j.LoggerFactory.getLogger;
-import static org.trellisldp.io.impl.IOUtils.getJsonLdProfile;
 
 /**
  * An IOService implemented using Jena
@@ -126,7 +126,7 @@ public class JenaIOService implements IOService {
                     ofNullable(nsService).map(NamespaceService::getNamespaces).ifPresent(model::setNsPrefixes);
                     triples.map(rdf::asJenaTriple).map(model::asStatement).forEach(model::add);
                     if (JSONLD.equals(lang)) {
-                        RDFDataMgr.write(output, model.getGraph(), getJsonLdProfile(profiles));
+                        RDFDataMgr.write(output, model.getGraph(), IOUtils.getJsonLdProfile(profiles));
                     } else {
                         RDFDataMgr.write(output, model.getGraph(), lang);
                     }
