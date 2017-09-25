@@ -94,7 +94,7 @@ public class JenaIOService implements IOService {
     public JenaIOService(final NamespaceService namespaceService, final Map<String, String> properties) {
         this.nsService = namespaceService;
         this.htmlSerializer = new HtmlSerializer(namespaceService,
-                properties.getOrDefault("template", "org/trellisldp/io/resource.mustache"), properties);
+                properties.getOrDefault("template", "trellisldp/io/resource.mustache"), properties);
     }
 
     @Override
