@@ -31,6 +31,7 @@ ext {
     junitVersion = '4.12'
     mockitoVersion = '2.9.0'
     logbackVersion = '1.2.3'
+    fcrepoClientVersion = "0.3.0"
 }
 
 configure(allprojects) { project ->
@@ -46,6 +47,9 @@ configure(allprojects) { project ->
 
     repositories {
         mavenCentral()
+        flatDir {
+            dirs "$rootProject.projectDir/lib"
+        }
     }
 }
 
@@ -99,6 +103,7 @@ project("extractor") {
         compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
         compile group: 'org.apache.jena', name: 'jena-arq', version: '3.4.0'
         compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
+
         api group: 'org.apache.commons', name: 'commons-rdf-api', version: commonsRdfVersion
 
         implementation group: 'com.github.spullara.mustache.java', name: 'compiler', version: mustacheVersion
@@ -111,6 +116,10 @@ project("extractor") {
         testCompile("org.junit.platform:junit-platform-runner:1.0.0-M5")
         testCompile group: 'junit', name: 'junit', version: '4.12'
         testImplementation group: 'org.glassfish.jersey.test-framework.providers', name: 'jersey-test-framework-provider-inmemory', version: jerseyVersion
+        testImplementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.0'
+        testImplementation group: 'javax.activation', name: 'activation', version: '1.1.1'
+        testImplementation "org.fcrepo.client:fcrepo-java-client:${fcrepoClientVersion}"
+        testImplementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
     }
 
     configurations {
@@ -132,20 +141,39 @@ project("extractor") {
         junitXmlToHtml
     }
 
-    task generateHtmlTestReports << {
-        def reportsDir = new File(buildDir, 'test-reports')
-        reportsDir.mkdirs()
+    task generateHtmlTestReports {
+        doLast {
+            def reportsDir = new File(rootProject.buildDir, 'test-reports')
+            def summaryDir = new File(rootDir, 'summary-reports')
+            def date = new Date();
+            def formattedDate = date.format('ddMMyy_HHmm')
+            def summaryFileName = "test-summary_" + formattedDate + ".html"
+            reportsDir.mkdirs()
 
-        ant.taskdef(
-                name: 'junitReport',
-                classname: 'org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator',
-                classpath: configurations.junitXmlToHtml.asPath
-        )
+            ant.taskdef(
+                    name: 'junitReport',
+                    classname: 'org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator',
+                    classpath: configurations.junitXmlToHtml.asPath
+            )
 
-        ant.junitReport(todir: "$buildDir/test-results/junit-platform", tofile: "aggregated-test-results.xml") {
-            fileset(dir: "$buildDir/test-results/junit-platform")
-            report(format: 'frames', todir: reportsDir)
+            ant.junitReport(todir: "$buildDir/test-results/junit-platform", tofile: "aggregated-test-results.xml") {
+                fileset(dir: "$buildDir/test-results/junit-platform")
+                report(format: 'frames', todir: reportsDir)
+            }
+
+            ant.xslt(in: "${buildDir}/test-results/junit-platform/aggregated-test-results.xml",
+                    style: "${rootDir}/report-aggregator.xsl",
+                    out: "${summaryDir}/${summaryFileName}",
+                    classpath: configurations.antdeps.asPath)
         }
+    }
+
+    configurations {
+        antdeps
+    }
+
+    dependencies {
+        antdeps group: 'net.sf.saxon', name: 'saxon', version: '9.1.0.2'
     }
 
     afterEvaluate {
@@ -173,7 +201,7 @@ project("trellisldp") {
     description = 'Trellis IO Service, using Apache Jena'
 
     ext {
-        moduleName = "org.trellisldp.io"
+        moduleName = "org.org.trellisldp.io"
         vendor = 'Trellis LDP'
         homepage = 'http://www.trellisldp.org'
         docURL = 'http://www.trellisldp.org/apidocs'
@@ -406,5 +434,3 @@ project("trellisldp") {
     checkstyleMain.dependsOn processBuildTools
     afterReleaseBuild.dependsOn docs
 }
-
-

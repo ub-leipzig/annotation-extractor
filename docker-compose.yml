@@ -1,0 +1,31 @@
+version: "2.1"
+
+services:
+  fuseki:
+    image: pandorasystems/fuseki-https
+    container_name: fuseki
+    environment:
+        CATALINA_OPTS: -Xmx8G -Xss8M
+    ports:
+      - "3030:3030"
+      - "8443:8443"
+    volumes:
+      - fuseki-volume:/shared
+    networks:
+      - apix-ipv6
+
+volumes:
+  fuseki-volume:
+#    driver_opts:
+#          type: none
+#          device: /mnt/pandora-data/fuseki
+#          o: bind
+
+networks:
+  apix-ipv6:
+    enable_ipv6: true
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 2001:db8:2::/64
