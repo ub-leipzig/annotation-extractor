@@ -1,0 +1,3074 @@
+<html>
+    <head>
+      <title></title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+      <link rel="icon" href="//s3.amazonaws.com/www.trellisldp.org/assets/img/trellis.png"/>
+      <link rel="stylesheet" type="text/css" href="//s3.amazonaws.com/www.trellisldp.org/assets/css/trellis.css"/>
+    </head>
+    <body>
+      <header id="banner"><h1></h1></header>
+      <main>
+      <p>
+        _:B011693c083acefd1c9f0e08f9fe780ca <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;968,2249,46,74
+      </p>
+      <p>
+        _:B016fb756cdd99b8b6aa36128b29eabb0 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1836,2794,46,62
+      </p>
+      <p>
+        _:B0176208465e821a5139efa18b2c50d93 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:B0176208465e821a5139efa18b2c50d93 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bd3069dfb4701dc20f3a25a86c0637f1b
+      </p>
+      <p>
+        _:B0176208465e821a5139efa18b2c50d93 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/1">https://iiif.ub.uni-leipzig.de/0000004422/canvas/1</a>
+      </p>
+      <p>
+        _:B01e5aea0168b03dc5032593664415bbe <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B01e5aea0168b03dc5032593664415bbe <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B55c59fea3f22b133cca1a359bab9daa1
+      </p>
+      <p>
+        _:B01e5aea0168b03dc5032593664415bbe <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:B01f05ca010068a505c486b91066ecdeb <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B20580dfa1fdaef5f95201b24ddc64a24
+      </p>
+      <p>
+        _:B01f05ca010068a505c486b91066ecdeb <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B325ae4d8c185addd944d972f6d316e0c
+      </p>
+      <p>
+        _:B01f05ca010068a505c486b91066ecdeb <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B8161807a1038738e1c6715f41491edc2
+      </p>
+      <p>
+        _:B01f31c80db129bc2f609f19f1c996b25 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bed54ecddcfe6cbc9c04dafec4ae7ec0f
+      </p>
+      <p>
+        _:B021a898990abb9a515820a369aa206e6 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bd324e972b44bbce47c89a9b739e4f9e2
+      </p>
+      <p>
+        _:B021a898990abb9a515820a369aa206e6 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B823554fdac59d582906eb8685e044ad2
+      </p>
+      <p>
+        _:B02bc9b1ec2dd50cd2e5189b6f8734253 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bc4df1b851a1537e52568074ec9c15e9e
+      </p>
+      <p>
+        _:B03317928e056b0d50d45ed224f412ae8 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Be8fefdf8d130f7fb26acdd5a69775313
+      </p>
+      <p>
+        _:B03317928e056b0d50d45ed224f412ae8 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bf5ca42640728d2dcb5b6e913ba6123ab
+      </p>
+      <p>
+        _:B034d87e3d306f47f2bffc4cf9b4ba9af <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2893,1977,376,18
+      </p>
+      <p>
+        _:B03f7565a287a8a7f67e1202051be159f <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B03f7565a287a8a7f67e1202051be159f <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B8040e6dbe9a8a4d6294a9e6c7d088994
+      </p>
+      <p>
+        _:B03f7565a287a8a7f67e1202051be159f <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:B0416fda762710cadcc795a740ce13381 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:B0416fda762710cadcc795a740ce13381 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B7173364f6b0626fccb531507682830b7
+      </p>
+      <p>
+        _:B0416fda762710cadcc795a740ce13381 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/4">https://iiif.ub.uni-leipzig.de/0000002057/canvas/4</a>
+      </p>
+      <p>
+        _:B04632451b05c6cf290b66873c6987015 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Q liegt auf der Zunge&lt;/p&gt;
+      </p>
+      <p>
+        _:B04b0fad3f7cd40c6ad69baf8bf63bc32 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bf2a00055234a8189601d63df7682bcdf
+      </p>
+      <p>
+        _:B058b27d8d1ab0124d27200c1280959b3 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B65849090b407e97bb2e17c77d3ac950a
+      </p>
+      <p>
+        _:B058b27d8d1ab0124d27200c1280959b3 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Ba2ebefe9d09843b54b434d7040cd0bcb
+      </p>
+      <p>
+        _:B05901d982f1f44467194125803c479eb <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;r tendiert manchmal leicht dazu unter die Zeile zu reichen (?)&lt;/p&gt;
+      </p>
+      <p>
+        _:B063a8003f0f466b469b3ff221052a9c8 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:B063a8003f0f466b469b3ff221052a9c8 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B45d6b8f73ce642d06f87675902b92efb
+      </p>
+      <p>
+        _:B063a8003f0f466b469b3ff221052a9c8 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/1">https://iiif.ub.uni-leipzig.de/0000004460/canvas/1</a>
+      </p>
+      <p>
+        _:B070f8d590a70dfd2a38b820d91228f76 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;De divortiis rubrica (4,19)&lt;/p&gt;
+      </p>
+      <p>
+        _:B07a35a113c632c21b7de86f5d59d137f <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;offenes g&lt;/p&gt;
+      </p>
+      <p>
+        _:B0823e82d13990b5117a0eb5ae989d545 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B72035fd3ac26517ebe9faca669d1ec95
+      </p>
+      <p>
+        _:B08324bf0b7991fcbb7aa9ebd051cc7eb <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B08324bf0b7991fcbb7aa9ebd051cc7eb <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bfacdff74461c82d08665f79366f69376
+      </p>
+      <p>
+        _:B08324bf0b7991fcbb7aa9ebd051cc7eb <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:B08da37401868801a51de5e2257b7516f <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2044,2117,347,77
+      </p>
+      <p>
+        _:B0988b2cedb92dbbbe15e0a4931e29d90 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B844d300d9b083e16526156a8875f23e2
+      </p>
+      <p>
+        _:B0b880c0c19dd0f51b7c683f0943d3d18 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:B0b880c0c19dd0f51b7c683f0943d3d18 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Be52c151eb5d001735f91539a1c4917d2
+      </p>
+      <p>
+        _:B0b880c0c19dd0f51b7c683f0943d3d18 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/3">https://iiif.ub.uni-leipzig.de/0000004460/canvas/3</a>
+      </p>
+      <p>
+        _:B0bb9266bf13373a69fe12cb0e2264678 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&lt;a style&#61;&quot;color: #ff0000; font-family: -webkit-standard;&quot; name&#61;&quot;Erhardi&quot;&gt;&lt;/a&gt;Erhardi&lt;span style&#61;&quot;font-family: -webkit-standard; font-size: medium;&quot;&gt;&amp;nbsp;ep. Ratisb. cf. Januar 8: Augsburg, Bamberg, Basel, Chur, Eichstedt, Erfurt, Freising, *Goslar, Halberstadt, Hamburg, Konstanz, Lausanne, Mainz, Meissen, Passau, *Regensburg, Salzburg, Speyer, Strassburg, Worms, W&amp;uuml;rzburg. || Translatio October 8: Frankfurt a. M. (Mainz), Regensburg || Juli 20: Erfurt.&lt;/span&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:B0bd22d3cf9bddcae4f2ecbeae78753b1 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B0bd22d3cf9bddcae4f2ecbeae78753b1 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B3e0f30538abf0de4cf6d96ec1e5fdca4
+      </p>
+      <p>
+        _:B0bd22d3cf9bddcae4f2ecbeae78753b1 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/4">https://iiif.ub.uni-leipzig.de/0000004430/canvas/4</a>
+      </p>
+      <p>
+        _:B0bfa24625859e0b1ddb093cb2c57bf4b <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B0bfa24625859e0b1ddb093cb2c57bf4b <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Ba04f35089e30822dc606418838debfe7
+      </p>
+      <p>
+        _:B0bfa24625859e0b1ddb093cb2c57bf4b <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:B0c7885001dddbafdb3d1d00573457771 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B2a56bc103db363733dbb40e929fdc9cd
+      </p>
+      <p>
+        _:B0d12772c61299cb12c07f328ae7cce41 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;223,836,25,38
+      </p>
+      <p>
+        _:B0d1fa6fd42fe10ba32a4b520ca6fa9f2 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B3836f485a87c8e055e403678b96bba69
+      </p>
+      <p>
+        _:B0e03fd467b838a39c882a515c72dcf20 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;953,1113,67,100
+      </p>
+      <p>
+        _:B0e3833f31c5720140c72aaeaa0e6ca4c <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Baa19a4183db797d2e311058b60c3bd47
+      </p>
+      <p>
+        _:B0e3833f31c5720140c72aaeaa0e6ca4c <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B534bd394bcbed7912d42fc02fb892570
+      </p>
+      <p>
+        _:B0ef03ec1db4740cd097590e5ad81d347 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bdb2c3226e96be58c6f46d488592fce4f
+      </p>
+      <p>
+        _:B0f1cb401e90b3eec8c1740129f1b4817 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004402/manifest.json">https://iiif.ub.uni-leipzig.de/0000004402/manifest.json</a>
+      </p>
+      <p>
+        _:B0f1cb401e90b3eec8c1740129f1b4817 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bb9f5ce43539e8c9fbd3f7e6009c029f7
+      </p>
+      <p>
+        _:B0f1cb401e90b3eec8c1740129f1b4817 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004402/canvas/10">https://iiif.ub.uni-leipzig.de/0000004402/canvas/10</a>
+      </p>
+      <p>
+        _:B0f36421e4e93467b6a860e528a2b161e <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:B0f36421e4e93467b6a860e528a2b161e <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Beeafa7e798004a227fd756f998eb4f5f
+      </p>
+      <p>
+        _:B0f36421e4e93467b6a860e528a2b161e <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/4">https://iiif.ub.uni-leipzig.de/0000004460/canvas/4</a>
+      </p>
+      <p>
+        _:B10197307311879a2f321de343e977019 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;U am Beginn eines Satzes&lt;/p&gt;
+      </p>
+      <p>
+        _:B107c1149e89284275fe355ea331f7589 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:B107c1149e89284275fe355ea331f7589 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B5394bc1e4b5ca831798fea748d06b60e
+      </p>
+      <p>
+        _:B107c1149e89284275fe355ea331f7589 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/1">https://iiif.ub.uni-leipzig.de/0000004460/canvas/1</a>
+      </p>
+      <p>
+        _:B122c89d376f58864d6405408add62324 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bc3f8af332d22d9943d2aa1d64bc3bd8c
+      </p>
+      <p>
+        _:B123c25ea4c4263cddd49b452d7cf270c <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004398/manifest.json">https://iiif.ub.uni-leipzig.de/0000004398/manifest.json</a>
+      </p>
+      <p>
+        _:B123c25ea4c4263cddd49b452d7cf270c <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B9cf28312a4c5c2831522f8909b176c40
+      </p>
+      <p>
+        _:B123c25ea4c4263cddd49b452d7cf270c <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004398/canvas/12">https://iiif.ub.uni-leipzig.de/0000004398/canvas/12</a>
+      </p>
+      <p>
+        _:B12c7a71727e9c660be5ab4268089d552 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1383,1704,872,809
+      </p>
+      <p>
+        _:B12e5d8920ab25fc71207eab7ded303e7 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;208,662,363,228
+      </p>
+      <p>
+        _:B12f8a4e54e66c6fdabeff23cda571b45 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Ober- und Unterl&amp;auml;ngen sind verk&amp;uuml;rzt&lt;/p&gt;
+      </p>
+      <p>
+        _:B132ff7cb2758889f21e93145e998c4b9 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2189,658,1202,122
+      </p>
+      <p>
+        _:B144331f243947a9c4eb327434e8cf0ce <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B8c6c575a89f40b376609507e9a461952
+      </p>
+      <p>
+        _:B144331f243947a9c4eb327434e8cf0ce <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bc31efc1099fdb43ba1c2909870ff6c9e
+      </p>
+      <p>
+        _:B15791e83e9ef520ea89fec8e4028b0ef <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Ba50fe9b92eff3510657b442092ea3afb
+      </p>
+      <p>
+        _:B15791e83e9ef520ea89fec8e4028b0ef <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B0416fda762710cadcc795a740ce13381
+      </p>
+      <p>
+        _:B162fe4691e3c2e9d1c662cbee7f022c2 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004458/manifest.json">https://iiif.ub.uni-leipzig.de/0000004458/manifest.json</a>
+      </p>
+      <p>
+        _:B162fe4691e3c2e9d1c662cbee7f022c2 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B46d076150afa41d02bee879054018b77
+      </p>
+      <p>
+        _:B162fe4691e3c2e9d1c662cbee7f022c2 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004458/canvas/2">https://iiif.ub.uni-leipzig.de/0000004458/canvas/2</a>
+      </p>
+      <p>
+        _:B1651c7149eac128a6f40076d8ea3c567 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B86b77fcb864376763db3ad58417bb664
+      </p>
+      <p>
+        _:B1651c7149eac128a6f40076d8ea3c567 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B83bf56b44c20ed3d2fef962011c1707c
+      </p>
+      <p>
+        _:B16fa5866ef93f6ab73e2bc0bb7776019 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1838,1830,89,123
+      </p>
+      <p>
+        _:B176bf6959e560c0eafd75c20ffc0f988 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:B176bf6959e560c0eafd75c20ffc0f988 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B7b86978ec331df03531eb944227f54c3
+      </p>
+      <p>
+        _:B176bf6959e560c0eafd75c20ffc0f988 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/3">https://iiif.ub.uni-leipzig.de/0000004422/canvas/3</a>
+      </p>
+      <p>
+        _:B181b7508bd7d245847b0f7c2eff3fea7 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B6752937340e4419938b77c74f9f15f59
+      </p>
+      <p>
+        _:B181b7508bd7d245847b0f7c2eff3fea7 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B6bf4cf143ba6fa9f3f5fbae8bd287d87
+      </p>
+      <p>
+        _:B18d8c5b0446d783b40df171dffa13eee <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;IV, 20, 8 &lt;a href&#61;&quot;https://www.hs-augsburg.de/%7Eharsch/Chronologia/Lspost13/GregoriusIX/gre_4t20.html&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:B193cb27f6a17d05e03797f8fb5a69e31 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1437,2787,49,64
+      </p>
+      <p>
+        _:B19503bfdb0cc38ec168deaf3f1388751 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1443,2000,885,129
+      </p>
+      <p>
+        _:B1958485bd4af5e544aeda1a6ce09521a <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1754,1440,87,95
+      </p>
+      <p>
+        _:B199a0cf0d5ae77ee032bca14d303cb59 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:B199a0cf0d5ae77ee032bca14d303cb59 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bc4bf8cf07d3f62818f2f418b4963f177
+      </p>
+      <p>
+        _:B199a0cf0d5ae77ee032bca14d303cb59 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/163">https://iiif.ub.uni-leipzig.de/0000004422/canvas/163</a>
+      </p>
+      <p>
+        _:B19f67f97e45d7393cdb575817fda84db <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1535,1830,109,129
+      </p>
+      <p>
+        _:B1bd3622f5cc7d0cb64494c16637d6af8 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B5f1e76a0d5011bd2e256f25c9cc5f6d0
+      </p>
+      <p>
+        _:B1bd3622f5cc7d0cb64494c16637d6af8 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B7978bf2af84ad37dba50cc1430ba147c
+      </p>
+      <p>
+        _:B1ca0c54ee532d022523bd4762671f1bf <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B970c3b9c7e67209bbec08875e3a7eebd
+      </p>
+      <p>
+        _:B1d1e06fec4bc283cdbcd0b9c68c83224 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004468/manifest.json">https://iiif.ub.uni-leipzig.de/0000004468/manifest.json</a>
+      </p>
+      <p>
+        _:B1d1e06fec4bc283cdbcd0b9c68c83224 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B41710d4c74c5eca6edc96e83d34c8ce6
+      </p>
+      <p>
+        _:B1d1e06fec4bc283cdbcd0b9c68c83224 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004468/canvas/5">https://iiif.ub.uni-leipzig.de/0000004468/canvas/5</a>
+      </p>
+      <p>
+        _:B1d41f5385daad49fb72895309d156174 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B10197307311879a2f321de343e977019
+      </p>
+      <p>
+        _:B1d41f5385daad49fb72895309d156174 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bd0659fe2371eb515ded311e8de465a12
+      </p>
+      <p>
+        _:B1d67c1af596d2b2ff976c1aaaf62bd4c <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;terti&amp;auml;re Initialen: Silhouetteninitialen (vgl. 8r f&amp;uuml;r sek&amp;uuml;nd&amp;auml;re Initiale); im Folgenden bis zum Faszikelende (53v) nicht weiter verzeichnet&lt;/p&gt;
+      </p>
+      <p>
+        _:B1daa8c51397c3222ac71990380801465 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B1daa8c51397c3222ac71990380801465 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B6e885c9f800f94359e1e719c80867c01
+      </p>
+      <p>
+        _:B1daa8c51397c3222ac71990380801465 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/488">https://iiif.ub.uni-leipzig.de/0000004430/canvas/488</a>
+      </p>
+      <p>
+        _:B1e2d8ec125fab02715480e9fe5508e4b <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B7a62751224f9be0d0277758fc52b3e2c
+      </p>
+      <p>
+        _:B1eae386dba31f265240fc91f5c026754 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B8a340248ee86d1d71cd22502c84346d7
+      </p>
+      <p>
+        _:B1eae386dba31f265240fc91f5c026754 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B48ab04d6051f5c486e1f38f45e5bcbc4
+      </p>
+      <p>
+        _:B20580dfa1fdaef5f95201b24ddc64a24 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;noch zu bearbeiten&lt;/p&gt;
+      </p>
+      <p>
+        _:B20ea1e44105661c296ab27dd2d3373d6 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B71cdeadcf7444e95675be45fd3dacd5b
+      </p>
+      <p>
+        _:B20ea1e44105661c296ab27dd2d3373d6 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bf7e7072266d129c3ca8a55b2668c323c
+      </p>
+      <p>
+        _:B21bd31c8a77f85127dc2b89bd7a2284b <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+      </p>
+      <p>
+        _:B221343ba653d7b3bfc330d23eb6b92b7 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bb854c8b20583284bbe14f8a696a24231
+      </p>
+      <p>
+        _:B221343ba653d7b3bfc330d23eb6b92b7 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bc878d32e37067a688175b97adb0f2104
+      </p>
+      <p>
+        _:B22147704d510754af3a5f6b7588cf024 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1161,1947,48,75
+      </p>
+      <p>
+        _:B239b0ba20883e94085d3f07c7af34e25 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B034d87e3d306f47f2bffc4cf9b4ba9af
+      </p>
+      <p>
+        _:B23d05a07582aeec6b42be510f5f56399 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B21bd31c8a77f85127dc2b89bd7a2284b
+      </p>
+      <p>
+        _:B23d05a07582aeec6b42be510f5f56399 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B199a0cf0d5ae77ee032bca14d303cb59
+      </p>
+      <p>
+        _:B241c2c6b943bd4a8ccbd96a37ccbc16b <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B07a35a113c632c21b7de86f5d59d137f
+      </p>
+      <p>
+        _:B241c2c6b943bd4a8ccbd96a37ccbc16b <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B643fa3b47a1aaf7bbddbe72204890345
+      </p>
+      <p>
+        _:B24309b31d82b58e17b4e128f91dc248a <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B24309b31d82b58e17b4e128f91dc248a <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B49386c5c71590bc698e21fefb257c278
+      </p>
+      <p>
+        _:B24309b31d82b58e17b4e128f91dc248a <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:B260ef0143fd808864fafe18815e05101 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1300,2299,1559,808
+      </p>
+      <p>
+        _:B264da3555dcdce5269b2c626cb2f4b71 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B8ebc95920bc80bbf31e03765a962292a
+      </p>
+      <p>
+        _:B267b6b0455359bd66772626910a00d30 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B837ef1bfc1018cc6e0a23dd1919ab734
+      </p>
+      <p>
+        _:B267b6b0455359bd66772626910a00d30 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Beb3f5692ba20747db02c28640bb7fc69
+      </p>
+      <p>
+        _:B26a5f8c0f2a5067cca7d264507d18c09 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bc4e3146730c0a08628831d5e611b0150
+      </p>
+      <p>
+        _:B26a5f8c0f2a5067cca7d264507d18c09 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B7815d3a1245222be5c5db16df4ecea3c
+      </p>
+      <p>
+        _:B26eb3ddecb6ca40b592415f60fdfe7e2 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B96b662facf140e4a870dda2e8071a548
+      </p>
+      <p>
+        _:B26eb3ddecb6ca40b592415f60fdfe7e2 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B78eed2f7e50cb44766e4a2a7a97c528b
+      </p>
+      <p>
+        _:B27bccf4c783c4e99bfbd6b7c42893b09 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2947,1127,67,100
+      </p>
+      <p>
+        _:B28bfbbad516d89e5d7dfea20d6efa06c <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B5d3781f0ebe8803e29fb516c1c119c7d
+      </p>
+      <p>
+        _:B29fe388a0992bdde27b4ae6069374f5e <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004398/manifest.json">https://iiif.ub.uni-leipzig.de/0000004398/manifest.json</a>
+      </p>
+      <p>
+        _:B29fe388a0992bdde27b4ae6069374f5e <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bf5531d03a664f65fb86612f22a89afda
+      </p>
+      <p>
+        _:B29fe388a0992bdde27b4ae6069374f5e <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004398/canvas/14">https://iiif.ub.uni-leipzig.de/0000004398/canvas/14</a>
+      </p>
+      <p>
+        _:B2a1670427ac311f504bb58c6628ffef2 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2683,892,32,46
+      </p>
+      <p>
+        _:B2a56bc103db363733dbb40e929fdc9cd <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1642,717,531,445
+      </p>
+      <p>
+        _:B2b6cc4caab769d56ac955b5e34ae55a2 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B12f8a4e54e66c6fdabeff23cda571b45
+      </p>
+      <p>
+        _:B2b6cc4caab769d56ac955b5e34ae55a2 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B5f400718aaf9af6e0ccd2b39253b0813
+      </p>
+      <p>
+        _:B2de0126bfe391afd419bc2e6023a6cc3 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&lt;a href&#61;&quot;https://docs.google.com/document/d/1PJKkupbLYPpcitPFfwLBZcUTdc7pspBOq6FnzsJtAFk/edit?usp&#61;sharing&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link zur Beschreibung&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:B2e0c22e42292b33c65e1c2db84be6374 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2894,1920,373,18
+      </p>
+      <p>
+        _:B2ed2a4c98395a9a946d1368e045d0f11 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Bogenanschluss &quot;de&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:B2f73aa9c78efd5b0b9ebfd5b97b0101d <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Becf67f6d2269443c874784070f6d12ad
+      </p>
+      <p>
+        _:B2f73aa9c78efd5b0b9ebfd5b97b0101d <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bfaaeaaa7e9fdb80c3d7043a6d27830d3
+      </p>
+      <p>
+        _:B30090d351e963787743e9616b0c1f655 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B43d72a390cf851faabdabd7d6f9b8c75
+      </p>
+      <p>
+        _:B307122de27636901a821cda3adfa4abe <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Be7ff84f6bb3f2f58e10e1e12535691d5
+      </p>
+      <p>
+        _:B314a9b01c6308ce80deb712a2342a0ac <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1851,2552,115,138
+      </p>
+      <p>
+        _:B3253c40c374e1b5284c49f7270458925 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Schlaufen Oberl&amp;auml;ngen&lt;/p&gt;
+      </p>
+      <p>
+        _:B325ae4d8c185addd944d972f6d316e0c <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004398/manifest.json">https://iiif.ub.uni-leipzig.de/0000004398/manifest.json</a>
+      </p>
+      <p>
+        _:B325ae4d8c185addd944d972f6d316e0c <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bf5bda1e8fe31e4622da777fa1728d795
+      </p>
+      <p>
+        _:B325ae4d8c185addd944d972f6d316e0c <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004398/canvas/33">https://iiif.ub.uni-leipzig.de/0000004398/canvas/33</a>
+      </p>
+      <p>
+        _:B32bfd6eb48e596ada5ea2cc7c110d456 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1243,853,19,29
+      </p>
+      <p>
+        _:B339d85f4b2b21c39993e15c15ef27acc <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;fast zweiteiliges &quot;r&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:B341dbddc9948c4bcdebeb2c207f1a974 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B341dbddc9948c4bcdebeb2c207f1a974 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B4db9647a22c236cc8cc22f7f29defaa2
+      </p>
+      <p>
+        _:B341dbddc9948c4bcdebeb2c207f1a974 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:B34ab6d7b987133d5c8f64fe989c09bbb <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B3ff8d0d90ac52b14ea11f8a9c835fe13
+      </p>
+      <p>
+        _:B34ab6d7b987133d5c8f64fe989c09bbb <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B1daa8c51397c3222ac71990380801465
+      </p>
+      <p>
+        _:B35c67dd20dae30b3573de79b1620d7be <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Sekund&amp;auml;rinitiale&lt;/p&gt;
+      </p>
+      <p>
+        _:B366b7fa358fef14c29d27451dadaeb56 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;doppelst&amp;ouml;ckiges &quot;a&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:B36c35464c9fa39a8066aac349e7ce9e7 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bf509ad504351713744cba30aef7545b1
+      </p>
+      <p>
+        _:B36fefa90a70541cda19d89b67331f1f5 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:B36fefa90a70541cda19d89b67331f1f5 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B02bc9b1ec2dd50cd2e5189b6f8734253
+      </p>
+      <p>
+        _:B36fefa90a70541cda19d89b67331f1f5 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/3">https://iiif.ub.uni-leipzig.de/0000004422/canvas/3</a>
+      </p>
+      <p>
+        _:B37771dc3cde8307c2748dc6874b8e5a7 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;620,463,755,222
+      </p>
+      <p>
+        _:B37a734406351a5ae6ca9801d4e487ef2 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Be5653dd18c79f19ec3ef7e26677325f4
+      </p>
+      <p>
+        _:B37a734406351a5ae6ca9801d4e487ef2 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bc3e53ea99e83e51bfeacc212cd238a7f
+      </p>
+      <p>
+        _:B37d28b00ebc49274b0698b481b1c95f1 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004467/manifest.json">https://iiif.ub.uni-leipzig.de/0000004467/manifest.json</a>
+      </p>
+      <p>
+        _:B37d28b00ebc49274b0698b481b1c95f1 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B400965c4c705dbf3178895df89a62f07
+      </p>
+      <p>
+        _:B37d28b00ebc49274b0698b481b1c95f1 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004467/canvas/1">https://iiif.ub.uni-leipzig.de/0000004467/canvas/1</a>
+      </p>
+      <p>
+        _:B38070d7fefe7c0b9f1cdb77bbbebe46b <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:B38070d7fefe7c0b9f1cdb77bbbebe46b <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B0823e82d13990b5117a0eb5ae989d545
+      </p>
+      <p>
+        _:B38070d7fefe7c0b9f1cdb77bbbebe46b <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/4">https://iiif.ub.uni-leipzig.de/0000002057/canvas/4</a>
+      </p>
+      <p>
+        _:B3836f485a87c8e055e403678b96bba69 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;803,3340,26,32
+      </p>
+      <p>
+        _:B3838a45fd4e5be88473a5cfcd08ae8ae <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&quot;g&quot; Bogenanschluss&lt;/p&gt;
+      </p>
+      <p>
+        _:B38f9f556895f7480cef8405c62ecc387 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bcf77c4e39e9a25b394e37b3b64be9ba7
+      </p>
+      <p>
+        _:B38f9f556895f7480cef8405c62ecc387 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B1d1e06fec4bc283cdbcd0b9c68c83224
+      </p>
+      <p>
+        _:B3b6797c47ee84d4f52724a6cacc013e5 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1524,916,19,29
+      </p>
+      <p>
+        _:B3e0f30538abf0de4cf6d96ec1e5fdca4 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B61a46441a23e831beea72ccaf91a2d21
+      </p>
+      <p>
+        _:B3e48206186bb1b87ddcf2ea9c5235ebc <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1745,3244,155,186
+      </p>
+      <p>
+        _:B3e64690d5a7545c176042434ff145483 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&lt;a href&#61;&quot;https://docs.google.com/document/d/1BgrItLWis_Q8kWcwes_gruRLm7r6emeW7vCT2hQhP2c/edit?usp&#61;sharing&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link zur Beschreibung&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:B3ee7e35160086d4a06382ad87b060119 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;3327,1373,67,100
+      </p>
+      <p>
+        _:B3ff8d0d90ac52b14ea11f8a9c835fe13 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Brezel-&quot;s&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:B400965c4c705dbf3178895df89a62f07 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B7da3481626f30bbdf2296656213743cb
+      </p>
+      <p>
+        _:B402a185123e80e1ae36f265f93a05a1e <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B5b5a7f36fb2c97bcf6dec21cb751e1cb
+      </p>
+      <p>
+        _:B402a185123e80e1ae36f265f93a05a1e <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B53900e4b26a59c94df1c68b98e5ae5e0
+      </p>
+      <p>
+        _:B408df13e68e33d7aa8b34ef228cafe25 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B9e94318c5aef5144de6c24e240e83342
+      </p>
+      <p>
+        _:B40befcd303dd95fc73b2f5011376b3ee <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+      </p>
+      <p>
+        _:B411dd5cbc4b5496a7a83a2698e18a8d9 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Ba8dc464f3573a09975de136951f4a32d
+      </p>
+      <p>
+        _:B41710d4c74c5eca6edc96e83d34c8ce6 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bd041fddab79e350a37c9e827f7ec5d6d
+      </p>
+      <p>
+        _:B420c42bae045fa3f53e768b78f967e72 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2262,1753,750,710
+      </p>
+      <p>
+        _:B42d1bd83122d3a3b8906ddf01bf5998d <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;g: unterer Bogen wird mit einem Haarstrich an den oberen Bogen angeschlossen&lt;/p&gt;
+      </p>
+      <p>
+        _:B43a5a1cef1f28d1e445387f7bb37947f <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bb7bfe39d6804391e0980b996edefa191
+      </p>
+      <p>
+        _:B43a5a1cef1f28d1e445387f7bb37947f <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B67692911b415277721121561234dd0f0
+      </p>
+      <p>
+        _:B43d72a390cf851faabdabd7d6f9b8c75 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2761,1798,659,320
+      </p>
+      <p>
+        _:B440192ade938868edbda92b8d01a43b9 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:B440192ade938868edbda92b8d01a43b9 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B0988b2cedb92dbbbe15e0a4931e29d90
+      </p>
+      <p>
+        _:B440192ade938868edbda92b8d01a43b9 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/17">https://iiif.ub.uni-leipzig.de/0000004422/canvas/17</a>
+      </p>
+      <p>
+        _:B44c528bb9048a17719b174d808c61fcb <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bd45c7d71c436b5e3e7f772e4348c4ad0
+      </p>
+      <p>
+        _:B44c6be6927be60ea09199153b4486f44 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Be2c726923e1229ca80e184b3d67e68e8
+      </p>
+      <p>
+        _:B44c6be6927be60ea09199153b4486f44 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B440192ade938868edbda92b8d01a43b9
+      </p>
+      <p>
+        _:B45850d34c49c205631aa58f3c13d9697 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B070f8d590a70dfd2a38b820d91228f76
+      </p>
+      <p>
+        _:B45850d34c49c205631aa58f3c13d9697 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bb627d2bb840ee0a2d1159465b0489943
+      </p>
+      <p>
+        _:B45d6b8f73ce642d06f87675902b92efb <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B0e03fd467b838a39c882a515c72dcf20
+      </p>
+      <p>
+        _:B46ca704e918ce5d239ec49045659ef22 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;zweiteiliges &quot;r&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:B46d076150afa41d02bee879054018b77 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B314a9b01c6308ce80deb712a2342a0ac
+      </p>
+      <p>
+        _:B47b0f56a52415d0507b21bd344387bea <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B3e64690d5a7545c176042434ff145483
+      </p>
+      <p>
+        _:B47b0f56a52415d0507b21bd344387bea <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B9100a7dd7ca0eb79f60e62bc89950629
+      </p>
+      <p>
+        _:B48ab04d6051f5c486e1f38f45e5bcbc4 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004423/manifest.json">https://iiif.ub.uni-leipzig.de/0000004423/manifest.json</a>
+      </p>
+      <p>
+        _:B48ab04d6051f5c486e1f38f45e5bcbc4 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B9a434a4e1b6a0e528445fbdfee950906
+      </p>
+      <p>
+        _:B48ab04d6051f5c486e1f38f45e5bcbc4 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004423/canvas/1">https://iiif.ub.uni-leipzig.de/0000004423/canvas/1</a>
+      </p>
+      <p>
+        _:B49386c5c71590bc698e21fefb257c278 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B2a1670427ac311f504bb58c6628ffef2
+      </p>
+      <p>
+        _:B49b9c30cdb6084690784570d86781254 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B49b9c30cdb6084690784570d86781254 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bbc4ce9e40cf774717946b63bd7ebe245
+      </p>
+      <p>
+        _:B49b9c30cdb6084690784570d86781254 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:B4a3e860d1314857b2d050153863b49bf <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B576e571f4a3b1e5c4df00e3a927f5fb2
+      </p>
+      <p>
+        _:B4a3e860d1314857b2d050153863b49bf <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B176bf6959e560c0eafd75c20ffc0f988
+      </p>
+      <p>
+        _:B4a82d2ee7a4f2d5727beeec5d0fc951c <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bde5c4da4cd11731b6283292999d7fbde
+      </p>
+      <p>
+        _:B4ab0b9f60f6321c18e6fed58df0b4735 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;NEUE HAND!!&lt;/p&gt;
+      </p>
+      <p>
+        _:B4b6a9e7742f30032e1c32b0739f351f1 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Ex-libris&lt;/p&gt;
+      </p>
+      <p>
+        _:B4db9647a22c236cc8cc22f7f29defaa2 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bbc962090800671bc02305864d50981de
+      </p>
+      <p>
+        _:B4dcde5139fadff232d85051fb33ba4a8 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B4eb987db3b8389160316d8a81d10ca5e
+      </p>
+      <p>
+        _:B4def6befe0bb41f90940f64f1dd1a71e <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bc027b9a3a233af9bbbd31defcd0cd2ce
+      </p>
+      <p>
+        _:B4def6befe0bb41f90940f64f1dd1a71e <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bf8a86d5e872b4bb0c3de9c86797c151a
+      </p>
+      <p>
+        _:B4df66b4aecca1735850bd8fb688ece65 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Ba7e6d0206759c0380b177dfb059b903d
+      </p>
+      <p>
+        _:B4e1af3b4582634390c64cd603c846119 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:B4e1af3b4582634390c64cd603c846119 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B264da3555dcdce5269b2c626cb2f4b71
+      </p>
+      <p>
+        _:B4e1af3b4582634390c64cd603c846119 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/286">https://iiif.ub.uni-leipzig.de/0000002057/canvas/286</a>
+      </p>
+      <p>
+        _:B4eb987db3b8389160316d8a81d10ca5e <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;531,4528,2992,442
+      </p>
+      <p>
+        _:B4ec3c0af3f66b0f01795b77f620e28fd <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;A- versch. Ausf&amp;uuml;hrungen&lt;/p&gt;
+      </p>
+      <p>
+        _:B51758499ef9abf646541f86f55e0eb4a <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:B51758499ef9abf646541f86f55e0eb4a <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bff70fb720422d88af8af72c40efcb0ae
+      </p>
+      <p>
+        _:B51758499ef9abf646541f86f55e0eb4a <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/7">https://iiif.ub.uni-leipzig.de/0000002057/canvas/7</a>
+      </p>
+      <p>
+        _:B52176f864499306bcdd99d4d035fd3d2 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B58ac0a7adf68282f940c35eaaae049a5
+      </p>
+      <p>
+        _:B525a3f39c6f7b5715b574b79a096438a <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bdf69f3e65d2693abf02e6fdb445b6c86
+      </p>
+      <p>
+        _:B52938cf0cf6c57d20800384e9f749fbf <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bb9bddf962d525f148d07b2cf6b3d0294
+      </p>
+      <p>
+        _:B529b8248dacceb1afcc59ec08d910f6b <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B91ff0b1d699107dc45fed93a955a82d4
+      </p>
+      <p>
+        _:B529b8248dacceb1afcc59ec08d910f6b <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Beba9abc5b9172c8ca6353c951275324f
+      </p>
+      <p>
+        _:B534bd394bcbed7912d42fc02fb892570 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B534bd394bcbed7912d42fc02fb892570 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B122c89d376f58864d6405408add62324
+      </p>
+      <p>
+        _:B534bd394bcbed7912d42fc02fb892570 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:B53900e4b26a59c94df1c68b98e5ae5e0 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:B53900e4b26a59c94df1c68b98e5ae5e0 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B36c35464c9fa39a8066aac349e7ce9e7
+      </p>
+      <p>
+        _:B53900e4b26a59c94df1c68b98e5ae5e0 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/274">https://iiif.ub.uni-leipzig.de/0000002057/canvas/274</a>
+      </p>
+      <p>
+        _:B5394bc1e4b5ca831798fea748d06b60e <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bd7fc9e8255f4d01cd596fc6e374ed079
+      </p>
+      <p>
+        _:B55c59fea3f22b133cca1a359bab9daa1 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bdb1035f84014980d5f7827b4918710e2
+      </p>
+      <p>
+        _:B560d75d01dc2f77b7ae4023936febdfe <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bebf6510dae3bcc11b029b148ec7f4fa8
+      </p>
+      <p>
+        _:B56d57a662b31ec2ef43c9a90c3801eaa <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B952b1ab9041099bbc81930ff7891f22c
+      </p>
+      <p>
+        _:B5754c58825fc14e199885bed4095cf13 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004458/manifest.json">https://iiif.ub.uni-leipzig.de/0000004458/manifest.json</a>
+      </p>
+      <p>
+        _:B5754c58825fc14e199885bed4095cf13 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bbeec716608ba448b46b11bd6e7e704da
+      </p>
+      <p>
+        _:B5754c58825fc14e199885bed4095cf13 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004458/canvas/2">https://iiif.ub.uni-leipzig.de/0000004458/canvas/2</a>
+      </p>
+      <p>
+        _:B576e571f4a3b1e5c4df00e3a927f5fb2 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Rahmenornamente&lt;/p&gt;
+      </p>
+      <p>
+        _:B57e0d97de28b012d7f089246872d76a0 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2622,3939,68,111
+      </p>
+      <p>
+        _:B58ac0a7adf68282f940c35eaaae049a5 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2380,3511,78,168
+      </p>
+      <p>
+        _:B58ad5f5c095b59380e70d561a80a36b4 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2066,1968,56,69
+      </p>
+      <p>
+        _:B592f3d5bc5ce7e26e81ad972edd5efe4 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&lt;a href&#61;&quot;https://docs.google.com/document/d/1p8B4PgqD1mRvBbx4NHhhtK3C_zuAEomnRGZ4XUOzo9k/edit?usp&#61;sharing&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link zur Beschreibung&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:B59eabc811ee5ae3a7523ece4c147299f <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B59eabc811ee5ae3a7523ece4c147299f <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bad1c596397d9e3c8cc3b7bd65b73e25f
+      </p>
+      <p>
+        _:B59eabc811ee5ae3a7523ece4c147299f <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/4">https://iiif.ub.uni-leipzig.de/0000004430/canvas/4</a>
+      </p>
+      <p>
+        _:B5ad1e23210f523cf14baf40c84b54253 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Text beginnt &amp;uuml;ber dem Schriftspiegel -&amp;gt; verschwindet im Laufe des XIII&lt;/p&gt;
+      </p>
+      <p>
+        _:B5ad92502581c67f9644fd4d56e175586 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B12c7a71727e9c660be5ab4268089d552
+      </p>
+      <p>
+        _:B5ae73b5203eef23ad6243c4be1978696 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B845c3b14e0c21bd4b77099f8e648d724
+      </p>
+      <p>
+        _:B5ae73b5203eef23ad6243c4be1978696 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B03f7565a287a8a7f67e1202051be159f
+      </p>
+      <p>
+        _:B5b5a7f36fb2c97bcf6dec21cb751e1cb <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Ex-libris: &quot;Liber veteris celle sancte marie&quot; (Altzelle bei Halle)&lt;/p&gt;
+      </p>
+      <p>
+        _:B5b7cec97ab949f92e03041f473d8255e <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:B5b7cec97ab949f92e03041f473d8255e <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B4a82d2ee7a4f2d5727beeec5d0fc951c
+      </p>
+      <p>
+        _:B5b7cec97ab949f92e03041f473d8255e <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/3">https://iiif.ub.uni-leipzig.de/0000004460/canvas/3</a>
+      </p>
+      <p>
+        _:B5ba2cff4d920d189f6834dfb926c4483 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B260ef0143fd808864fafe18815e05101
+      </p>
+      <p>
+        _:B5c1a33ce0331ce21f6aa1ca9de8ce305 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bec1d2d0eec5a84a0e993e17bbc42e56e
+      </p>
+      <p>
+        _:B5c1a33ce0331ce21f6aa1ca9de8ce305 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B9e922bea18e5ffb218b7307b17bffc9e
+      </p>
+      <p>
+        _:B5c3953300a431e2f886383f70abc2522 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2216,1995,87,97
+      </p>
+      <p>
+        _:B5d3781f0ebe8803e29fb516c1c119c7d <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1170,2507,349,583
+      </p>
+      <p>
+        _:B5db886806053d91f450cd34c75cd3d7e <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:B5db886806053d91f450cd34c75cd3d7e <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B4dcde5139fadff232d85051fb33ba4a8
+      </p>
+      <p>
+        _:B5db886806053d91f450cd34c75cd3d7e <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/6">https://iiif.ub.uni-leipzig.de/0000002057/canvas/6</a>
+      </p>
+      <p>
+        _:B5f1e76a0d5011bd2e256f25c9cc5f6d0 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&quot;i&quot;-Punkt&lt;/p&gt;
+      </p>
+      <p>
+        _:B5f400718aaf9af6e0ccd2b39253b0813 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:B5f400718aaf9af6e0ccd2b39253b0813 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B30090d351e963787743e9616b0c1f655
+      </p>
+      <p>
+        _:B5f400718aaf9af6e0ccd2b39253b0813 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/3">https://iiif.ub.uni-leipzig.de/0000004460/canvas/3</a>
+      </p>
+      <p>
+        _:B5f9a24febd281d333d4ab6fbe908f9e7 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B5c3953300a431e2f886383f70abc2522
+      </p>
+      <p>
+        _:B5fd913263bfcc3872039ffe8e66b3ea3 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:B5fd913263bfcc3872039ffe8e66b3ea3 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B65063399cc8e22ba981550828b1b676e
+      </p>
+      <p>
+        _:B5fd913263bfcc3872039ffe8e66b3ea3 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/92">https://iiif.ub.uni-leipzig.de/0000004422/canvas/92</a>
+      </p>
+      <p>
+        _:B5fefc2eb82a7a3b7c4e7cf819cd2790e <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B6cad7c5974cc501108bea474ca3a0d22
+      </p>
+      <p>
+        _:B5fefc2eb82a7a3b7c4e7cf819cd2790e <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bff7c96d676bf07e7a899702ca11137bb
+      </p>
+      <p>
+        _:B6000e3cdb3ec8eba55b6f20f828d1012 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B12e5d8920ab25fc71207eab7ded303e7
+      </p>
+      <p>
+        _:B60f5a00260d1fb58b7a226db4df2ac85 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B339d85f4b2b21c39993e15c15ef27acc
+      </p>
+      <p>
+        _:B60f5a00260d1fb58b7a226db4df2ac85 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B8b2cfdd83eb30900b7268de4ae59648b
+      </p>
+      <p>
+        _:B6128c4f52bd08f7c7ed5a11cc192d60c <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2040,2708,48,90
+      </p>
+      <p>
+        _:B617c8f2f5620ff4c050b5b081aa81e4e <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:B617c8f2f5620ff4c050b5b081aa81e4e <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B28bfbbad516d89e5d7dfea20d6efa06c
+      </p>
+      <p>
+        _:B617c8f2f5620ff4c050b5b081aa81e4e <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/28">https://iiif.ub.uni-leipzig.de/0000004422/canvas/28</a>
+      </p>
+      <p>
+        _:B61a46441a23e831beea72ccaf91a2d21 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1882,2604,44,82
+      </p>
+      <p>
+        _:B624b389c9546fdab109f5cccceac25e9 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:B624b389c9546fdab109f5cccceac25e9 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bd1551a6a1c1e8e27f693ca8cee5705e0
+      </p>
+      <p>
+        _:B624b389c9546fdab109f5cccceac25e9 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/4">https://iiif.ub.uni-leipzig.de/0000002057/canvas/4</a>
+      </p>
+      <p>
+        _:B63526a057a23f2084e527f42d1cddfd5 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;spe coniugii (IV, XIX, 1)&lt;/p&gt;
+      </p>
+      <p>
+        _:B643aba9177e09596a29e72370c037e63 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004424/manifest.json">https://iiif.ub.uni-leipzig.de/0000004424/manifest.json</a>
+      </p>
+      <p>
+        _:B643aba9177e09596a29e72370c037e63 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B01f31c80db129bc2f609f19f1c996b25
+      </p>
+      <p>
+        _:B643aba9177e09596a29e72370c037e63 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004424/canvas/1">https://iiif.ub.uni-leipzig.de/0000004424/canvas/1</a>
+      </p>
+      <p>
+        _:B643fa3b47a1aaf7bbddbe72204890345 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:B643fa3b47a1aaf7bbddbe72204890345 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bbae610cce68540abf9d9d143b734dfb7
+      </p>
+      <p>
+        _:B643fa3b47a1aaf7bbddbe72204890345 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/163">https://iiif.ub.uni-leipzig.de/0000004422/canvas/163</a>
+      </p>
+      <p>
+        _:B6442240890982ae82b93626c0dc70d37 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B35c67dd20dae30b3573de79b1620d7be
+      </p>
+      <p>
+        _:B6442240890982ae82b93626c0dc70d37 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B8e4170b69fc25af76e615eeae0598730
+      </p>
+      <p>
+        _:B64b10f82856f73824a59efd72ad6924f <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:B64b10f82856f73824a59efd72ad6924f <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B525a3f39c6f7b5715b574b79a096438a
+      </p>
+      <p>
+        _:B64b10f82856f73824a59efd72ad6924f <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/3">https://iiif.ub.uni-leipzig.de/0000004422/canvas/3</a>
+      </p>
+      <p>
+        _:B64db9b7fcef9eb9c4a4fc41872e2ea7a <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B9dc254fd5627d7af7100ebd13a756fb9
+      </p>
+      <p>
+        _:B64db9b7fcef9eb9c4a4fc41872e2ea7a <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B107c1149e89284275fe355ea331f7589
+      </p>
+      <p>
+        _:B65063399cc8e22ba981550828b1b676e <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B420c42bae045fa3f53e768b78f967e72
+      </p>
+      <p>
+        _:B656fc07e19e804ae527bdf02d6ef07ca <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Be3f8831a48cc682a3f43d45d4f9fa324
+      </p>
+      <p>
+        _:B656fc07e19e804ae527bdf02d6ef07ca <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B6f8a1e7175fcc22cebdd3e9be859ccc7
+      </p>
+      <p>
+        _:B65849090b407e97bb2e17c77d3ac950a <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&lt;a href&#61;&quot;https://docs.google.com/document/d/1Gy-mxAt0Kdng4ZH4Oru8bcCTB0AaXEbqOrZcO5K_jXc/edit?usp&#61;sharing&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link zur Beschreibung&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:B65895ac31a33566341806fa2f002a11a <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bd0251a53b4a938dd5d39483578efa7f6
+      </p>
+      <p>
+        _:B65895ac31a33566341806fa2f002a11a <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B063a8003f0f466b469b3ff221052a9c8
+      </p>
+      <p>
+        _:B659abfd137722932cdd7843e31e677c6 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B86fe30b2d12d27be71f37d02f0ffbc6c
+      </p>
+      <p>
+        _:B659abfd137722932cdd7843e31e677c6 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bae8cc0f2f50883e09a77a982951075c8
+      </p>
+      <p>
+        _:B6641656fbff2f0c0e2ab18f7bbb4546b <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B9870faa8138087038f9aac472e78f1d6
+      </p>
+      <p>
+        _:B6641656fbff2f0c0e2ab18f7bbb4546b <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B643aba9177e09596a29e72370c037e63
+      </p>
+      <p>
+        _:B6752937340e4419938b77c74f9f15f59 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;De animalibus Theodorici, Walther, Initia S. 94, Nr. 1838&lt;/p&gt;
+      </p>
+      <p>
+        _:B67692911b415277721121561234dd0f0 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:B67692911b415277721121561234dd0f0 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B1e2d8ec125fab02715480e9fe5508e4b
+      </p>
+      <p>
+        _:B67692911b415277721121561234dd0f0 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/13">https://iiif.ub.uni-leipzig.de/0000002057/canvas/13</a>
+      </p>
+      <p>
+        _:B694a4e80f0247692ea8d992abecc7304 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Ex-libris&lt;/p&gt;
+      </p>
+      <p>
+        _:B6976dea7afb39fb88e78046945cfb3d3 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bd8e2926322e4c66e6fa5c1fdb923cd84
+      </p>
+      <p>
+        _:B6976dea7afb39fb88e78046945cfb3d3 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B5b7cec97ab949f92e03041f473d8255e
+      </p>
+      <p>
+        _:B69daaa5a4dca245530398bdba6ac03eb <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Unterl&amp;auml;nge &quot;s&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:B6a8c3505432daffc13e0fdb833bcc452 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;einst&amp;ouml;ckiges &quot;a&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:B6bf4cf143ba6fa9f3f5fbae8bd287d87 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:B6bf4cf143ba6fa9f3f5fbae8bd287d87 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Be7e47970e93b3a165c43ffa4d4a4fce6
+      </p>
+      <p>
+        _:B6bf4cf143ba6fa9f3f5fbae8bd287d87 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/283">https://iiif.ub.uni-leipzig.de/0000002057/canvas/283</a>
+      </p>
+      <p>
+        _:B6c75be960bb13202e70bdba8dc28818a <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B716e7163811e3eb8d96d4569274647c3
+      </p>
+      <p>
+        _:B6c810a5246dc233e3fb39ae5651eee06 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bf88c2acfe419df3ae08b49bbac6e5118
+      </p>
+      <p>
+        _:B6c810a5246dc233e3fb39ae5651eee06 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B341dbddc9948c4bcdebeb2c207f1a974
+      </p>
+      <p>
+        _:B6cad7c5974cc501108bea474ca3a0d22 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Tendenz des H unter die Linie zu gehen (f&amp;auml;ngt im letzten Viertel des XII Jh. an)&lt;/p&gt;
+      </p>
+      <p>
+        _:B6deb2406ad294a023ab427758e7952e0 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B6deb2406ad294a023ab427758e7952e0 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B307122de27636901a821cda3adfa4abe
+      </p>
+      <p>
+        _:B6deb2406ad294a023ab427758e7952e0 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:B6e885c9f800f94359e1e719c80867c01 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B57e0d97de28b012d7f089246872d76a0
+      </p>
+      <p>
+        _:B6f8a1e7175fcc22cebdd3e9be859ccc7 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:B6f8a1e7175fcc22cebdd3e9be859ccc7 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B5f9a24febd281d333d4ab6fbe908f9e7
+      </p>
+      <p>
+        _:B6f8a1e7175fcc22cebdd3e9be859ccc7 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/4">https://iiif.ub.uni-leipzig.de/0000004460/canvas/4</a>
+      </p>
+      <p>
+        _:B6ff2b255aa656140e7cd12e2a907d7d7 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bed022b87d83235c1e71ab06ccbd2267b
+      </p>
+      <p>
+        _:B705574000e9db98c289a7227b1d280e3 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Be82a7c0ef1e85f1a4802fe79b28f4a06
+      </p>
+      <p>
+        _:B707502ed7b23728c87db67e2166df334 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2505,2356,295,103
+      </p>
+      <p>
+        _:B70c5ba8872221364d5d1de5dee80f65f <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;737,764,224,71
+      </p>
+      <p>
+        _:B716e7163811e3eb8d96d4569274647c3 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1566,1954,48,73
+      </p>
+      <p>
+        _:B7173364f6b0626fccb531507682830b7 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bbe2a01bd6146b0770328d74e62d5f5f5
+      </p>
+      <p>
+        _:B71cdeadcf7444e95675be45fd3dacd5b <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Terti&amp;auml;rinitiale&lt;/p&gt;
+      </p>
+      <p>
+        _:B72035fd3ac26517ebe9faca669d1ec95 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1763,4453,562,407
+      </p>
+      <p>
+        _:B7260d8a9ae886228a8fe74b5f708e47b <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bbd1fc9681c2fd4de3ddc5b4e04b22465
+      </p>
+      <p>
+        _:B7260d8a9ae886228a8fe74b5f708e47b <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bae98d1eb3538c72046d50138143e1e7b
+      </p>
+      <p>
+        _:B72eb08be94890187ab7df2a51467bfe0 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Be370727e80e0a34e14657712cbae5e18
+      </p>
+      <p>
+        _:B73e4919bd68ae52f4e882ecf66d53fb2 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Be659d8a899df88ac52a41db0ec498cd9
+      </p>
+      <p>
+        _:B73e4919bd68ae52f4e882ecf66d53fb2 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B29fe388a0992bdde27b4ae6069374f5e
+      </p>
+      <p>
+        _:B74ce196d06e9ca915e3422211fbef3bd <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B5ad1e23210f523cf14baf40c84b54253
+      </p>
+      <p>
+        _:B74ce196d06e9ca915e3422211fbef3bd <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B624b389c9546fdab109f5cccceac25e9
+      </p>
+      <p>
+        _:B75714a2c4489e2b63953bf01e84c7317 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&lt;a href&#61;&quot;https://docs.google.com/document/d/1_FHtpwFy9XM1jWBHxSA-OEzUdBpKGnOXvqoyUEPNtwk/edit?usp&#61;sharing&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link zur Beschreibung&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:B77cbddca4dcb7a9e76f89223ed283608 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Abschnitt 8&lt;/p&gt;
+      </p>
+      <p>
+        _:B7815437bc0eaf442fe747f8ade004308 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1336,1093,1287,249
+      </p>
+      <p>
+        _:B7815d3a1245222be5c5db16df4ecea3c <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:B7815d3a1245222be5c5db16df4ecea3c <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Ba1a689d687f3f87fe0da6ed81f092b72
+      </p>
+      <p>
+        _:B7815d3a1245222be5c5db16df4ecea3c <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/4">https://iiif.ub.uni-leipzig.de/0000004460/canvas/4</a>
+      </p>
+      <p>
+        _:B78eed2f7e50cb44766e4a2a7a97c528b <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004398/manifest.json">https://iiif.ub.uni-leipzig.de/0000004398/manifest.json</a>
+      </p>
+      <p>
+        _:B78eed2f7e50cb44766e4a2a7a97c528b <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bd86b527a1fbed00eaa0ea3e0f57bf285
+      </p>
+      <p>
+        _:B78eed2f7e50cb44766e4a2a7a97c528b <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004398/canvas/1">https://iiif.ub.uni-leipzig.de/0000004398/canvas/1</a>
+      </p>
+      <p>
+        _:B78f8e3307c0f254e1d672eceef9779b1 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B75714a2c4489e2b63953bf01e84c7317
+      </p>
+      <p>
+        _:B78f8e3307c0f254e1d672eceef9779b1 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B0176208465e821a5139efa18b2c50d93
+      </p>
+      <p>
+        _:B7907cab37c87f4f556279b8fe2741e81 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bb4a8e03e48d7e71c57feb5dee1f663ff
+      </p>
+      <p>
+        _:B7907cab37c87f4f556279b8fe2741e81 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bcbfc1fdd04a0e051357bb4ff49c68ef8
+      </p>
+      <p>
+        _:B7978bf2af84ad37dba50cc1430ba147c <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B7978bf2af84ad37dba50cc1430ba147c <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B6ff2b255aa656140e7cd12e2a907d7d7
+      </p>
+      <p>
+        _:B7978bf2af84ad37dba50cc1430ba147c <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/488">https://iiif.ub.uni-leipzig.de/0000004430/canvas/488</a>
+      </p>
+      <p>
+        _:B798c97ddf7f0746a0f65e261a5506d4f <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;d-Initiale nicht ausgef&amp;uuml;hrt&lt;/p&gt;
+      </p>
+      <p>
+        _:B79c05b6fa53339392b91bf7630b04428 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Brezel &quot;s&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:B7a62751224f9be0d0277758fc52b3e2c <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;268,697,1355,194
+      </p>
+      <p>
+        _:B7b86978ec331df03531eb944227f54c3 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B864613cdeef627b46b77b05128bee692
+      </p>
+      <p>
+        _:B7b8928eae9e17798c506bf3d2bba50c0 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:B7b8928eae9e17798c506bf3d2bba50c0 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B9580d5807a97fc5ae785ca5ec727a215
+      </p>
+      <p>
+        _:B7b8928eae9e17798c506bf3d2bba50c0 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/5">https://iiif.ub.uni-leipzig.de/0000002057/canvas/5</a>
+      </p>
+      <p>
+        _:B7d5727f66d59481bfebf48742c36b857 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Ba34742c5add985f341ae0cfef2ae2a46
+      </p>
+      <p>
+        _:B7d5727f66d59481bfebf48742c36b857 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B0bfa24625859e0b1ddb093cb2c57bf4b
+      </p>
+      <p>
+        _:B7da3481626f30bbdf2296656213743cb <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1228,2467,1641,603
+      </p>
+      <p>
+        _:B7dbe2e3a2018e0cdd43ab3d41b4a080a <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:B7dbe2e3a2018e0cdd43ab3d41b4a080a <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B705574000e9db98c289a7227b1d280e3
+      </p>
+      <p>
+        _:B7dbe2e3a2018e0cdd43ab3d41b4a080a <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/149">https://iiif.ub.uni-leipzig.de/0000002057/canvas/149</a>
+      </p>
+      <p>
+        _:B7f343b8b8c17a0723df7d1f5306c5717 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B1958485bd4af5e544aeda1a6ce09521a
+      </p>
+      <p>
+        _:B8040e6dbe9a8a4d6294a9e6c7d088994 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B22147704d510754af3a5f6b7588cf024
+      </p>
+      <p>
+        _:B80eaea29dab39f130d7de8805d924636 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2529,2503,85,122
+      </p>
+      <p>
+        _:B81411f1a4b21e1b71a0db97bfc346eeb <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B81411f1a4b21e1b71a0db97bfc346eeb <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B0d1fa6fd42fe10ba32a4b520ca6fa9f2
+      </p>
+      <p>
+        _:B81411f1a4b21e1b71a0db97bfc346eeb <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:B8161807a1038738e1c6715f41491edc2 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004398/manifest.json">https://iiif.ub.uni-leipzig.de/0000004398/manifest.json</a>
+      </p>
+      <p>
+        _:B8161807a1038738e1c6715f41491edc2 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Be37874e9d1a2e85f762a98a47b5c30b1
+      </p>
+      <p>
+        _:B8161807a1038738e1c6715f41491edc2 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004398/canvas/33">https://iiif.ub.uni-leipzig.de/0000004398/canvas/33</a>
+      </p>
+      <p>
+        _:B823554fdac59d582906eb8685e044ad2 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004398/manifest.json">https://iiif.ub.uni-leipzig.de/0000004398/manifest.json</a>
+      </p>
+      <p>
+        _:B823554fdac59d582906eb8685e044ad2 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B6000e3cdb3ec8eba55b6f20f828d1012
+      </p>
+      <p>
+        _:B823554fdac59d582906eb8685e044ad2 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004398/canvas/28">https://iiif.ub.uni-leipzig.de/0000004398/canvas/28</a>
+      </p>
+      <p>
+        _:B82b25cca40c67b14faa762cb71e714a9 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bac79280b4692244f3e3de4d6a4012291
+      </p>
+      <p>
+        _:B82b25cca40c67b14faa762cb71e714a9 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bc1c94cd1be1d694b049ececa333d7f6e
+      </p>
+      <p>
+        _:B82bf8001889206310e97babe5accc30b <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bc78649abd2c4e22e43d113c4016b8c30
+      </p>
+      <p>
+        _:B82bf8001889206310e97babe5accc30b <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B38070d7fefe7c0b9f1cdb77bbbebe46b
+      </p>
+      <p>
+        _:B837ef1bfc1018cc6e0a23dd1919ab734 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;einst&amp;ouml;ckiges &quot;a&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:B83bf56b44c20ed3d2fef962011c1707c <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:B83bf56b44c20ed3d2fef962011c1707c <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B5ad92502581c67f9644fd4d56e175586
+      </p>
+      <p>
+        _:B83bf56b44c20ed3d2fef962011c1707c <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/43">https://iiif.ub.uni-leipzig.de/0000004422/canvas/43</a>
+      </p>
+      <p>
+        _:B844d300d9b083e16526156a8875f23e2 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;516,2228,625,756
+      </p>
+      <p>
+        _:B845c3b14e0c21bd4b77099f8e648d724 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;rundes &quot;s&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:B84ca86e205ababc66cc1e756c95e1dd6 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B42d1bd83122d3a3b8906ddf01bf5998d
+      </p>
+      <p>
+        _:B84ca86e205ababc66cc1e756c95e1dd6 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B7b8928eae9e17798c506bf3d2bba50c0
+      </p>
+      <p>
+        _:B864613cdeef627b46b77b05128bee692 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;696,1657,667,114
+      </p>
+      <p>
+        _:B86b77fcb864376763db3ad58417bb664 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;sekund&amp;auml;re Initiale&lt;/p&gt;
+      </p>
+      <p>
+        _:B86fe30b2d12d27be71f37d02f0ffbc6c <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;runde gs&lt;/p&gt;
+      </p>
+      <p>
+        _:B88600a14e15353fabe58d840a4327f72 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;r unter die Grundlinie verl&amp;auml;ngert&lt;/p&gt;
+      </p>
+      <p>
+        _:B89df8c6ca460e51d26f93eb781c65c17 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B6a8c3505432daffc13e0fdb833bcc452
+      </p>
+      <p>
+        _:B89df8c6ca460e51d26f93eb781c65c17 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bf3e20600333c8f800445d9ca03ce9d61
+      </p>
+      <p>
+        _:B8a340248ee86d1d71cd22502c84346d7 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&lt;a href&#61;&quot;https://docs.google.com/document/d/1_rt-mvW9WzCrBK9uqq-nNH8yUy_0EvtHouUmRvyuzDI/edit?usp&#61;sharing&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link zur Beschreibung&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:B8b2cfdd83eb30900b7268de4ae59648b <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B8b2cfdd83eb30900b7268de4ae59648b <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bc79ecaf76421ffeae4b24824493605c3
+      </p>
+      <p>
+        _:B8b2cfdd83eb30900b7268de4ae59648b <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/488">https://iiif.ub.uni-leipzig.de/0000004430/canvas/488</a>
+      </p>
+      <p>
+        _:B8c2c51b9f2303e7255e73c642553e540 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004470/manifest.json">https://iiif.ub.uni-leipzig.de/0000004470/manifest.json</a>
+      </p>
+      <p>
+        _:B8c2c51b9f2303e7255e73c642553e540 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bc0ead5d20f50c80d2bb9aed78556374a
+      </p>
+      <p>
+        _:B8c2c51b9f2303e7255e73c642553e540 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004470/canvas/572">https://iiif.ub.uni-leipzig.de/0000004470/canvas/572</a>
+      </p>
+      <p>
+        _:B8c4bcaae6cc5779210513da29ace0620 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bcaaab7ed06e84500c08a90a9afefac68
+      </p>
+      <p>
+        _:B8c6c575a89f40b376609507e9a461952 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Bogenverbindung &quot;de&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:B8e4170b69fc25af76e615eeae0598730 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:B8e4170b69fc25af76e615eeae0598730 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B0c7885001dddbafdb3d1d00573457771
+      </p>
+      <p>
+        _:B8e4170b69fc25af76e615eeae0598730 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/109">https://iiif.ub.uni-leipzig.de/0000004422/canvas/109</a>
+      </p>
+      <p>
+        _:B8ebc95920bc80bbf31e03765a962292a <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;419,937,858,188
+      </p>
+      <p>
+        _:B8f7cd60dd33d37366b103d124d9fb7ef <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:B8f7cd60dd33d37366b103d124d9fb7ef <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bc3445adaea13f2c0055037f010c8405a
+      </p>
+      <p>
+        _:B8f7cd60dd33d37366b103d124d9fb7ef <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/3">https://iiif.ub.uni-leipzig.de/0000004460/canvas/3</a>
+      </p>
+      <p>
+        _:B90bbf4c14dfdf2743b10cb74e8513e62 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2077,3636,60,66
+      </p>
+      <p>
+        _:B9100a7dd7ca0eb79f60e62bc89950629 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:B9100a7dd7ca0eb79f60e62bc89950629 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B5ba2cff4d920d189f6834dfb926c4483
+      </p>
+      <p>
+        _:B9100a7dd7ca0eb79f60e62bc89950629 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/1">https://iiif.ub.uni-leipzig.de/0000002057/canvas/1</a>
+      </p>
+      <p>
+        _:B91c98e7a70ebb7b348d0db7dd22f1d17 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;750,462,173,211
+      </p>
+      <p>
+        _:B91ff0b1d699107dc45fed93a955a82d4 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;ungerades &quot;d&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:B921cf4e83999464476474d581126d29a <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;g ist nicht geschlossen, aber unterer Bogen nach rechts verschoben (ab 10. Jahrhundert eigentlich geschlossene Form des g dominant, mit regionalen Ausnahmen wie Nordfrankreich; Verschiebung des Unterbogens nach rechts weist auf Ende 10. Jahrhundert)&lt;/p&gt;
+      </p>
+      <p>
+        _:B925dd2897dfb0609c3c271d00a7c790c <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bd27474a373f373ec2553ad5492e18d98
+      </p>
+      <p>
+        _:B925dd2897dfb0609c3c271d00a7c790c <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bab3963a8891101bb044386f9f8f8f5b4
+      </p>
+      <p>
+        _:B9281bebc0360ecd568bd7ab355c10593 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:B9281bebc0360ecd568bd7ab355c10593 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bfc272b09c642576046683cc73c911e90
+      </p>
+      <p>
+        _:B9281bebc0360ecd568bd7ab355c10593 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:B93ec3024cf440bbd3ed4c149cbdf3a71 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bc5fb8d74a8871adef85440e214b2d27c
+      </p>
+      <p>
+        _:B93ec3024cf440bbd3ed4c149cbdf3a71 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Be804c8e8b0a20b8e8090266c4d3f64c5
+      </p>
+      <p>
+        _:B94b292b84ba3d4da4360ef642c1a1822 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:B94b292b84ba3d4da4360ef642c1a1822 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bdca5a309b14562f926aff28b07057767
+      </p>
+      <p>
+        _:B94b292b84ba3d4da4360ef642c1a1822 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/163">https://iiif.ub.uni-leipzig.de/0000004422/canvas/163</a>
+      </p>
+      <p>
+        _:B952b1ab9041099bbc81930ff7891f22c <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1602,1618,1135,439
+      </p>
+      <p>
+        _:B9580d5807a97fc5ae785ca5ec727a215 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bc17b0cb18991bd0953c37ebc04c82e8c
+      </p>
+      <p>
+        _:B96b662facf140e4a870dda2e8071a548 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&lt;a href&#61;&quot;https://docs.google.com/document/d/1PEUO_zp3mCKGn0oJbQuNYpI3dGUrPhKqFu_wp1VNF-4/edit?usp&#61;sharing&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link zur Beschreibung&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:B96dc477636e901aa02a95b32fb7db370 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Badd4baeda469384d8d1abd1084dbb479
+      </p>
+      <p>
+        _:B96dc477636e901aa02a95b32fb7db370 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B59eabc811ee5ae3a7523ece4c147299f
+      </p>
+      <p>
+        _:B96f13fef3792a0ed9b94ccb85085e56a <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Be4b6d10e63500aee8618604a7593ef81
+      </p>
+      <p>
+        _:B96f13fef3792a0ed9b94ccb85085e56a <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B5fd913263bfcc3872039ffe8e66b3ea3
+      </p>
+      <p>
+        _:B96fd5942fb12b6a961fbdf4be1295a3b <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2241,893,754,809
+      </p>
+      <p>
+        _:B970c3b9c7e67209bbec08875e3a7eebd <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;537,2165,476,172
+      </p>
+      <p>
+        _:B974fe5fc43b3047b89429016750d198a <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bf566ecc1e794c90b86ab239cd47423e6
+      </p>
+      <p>
+        _:B974fe5fc43b3047b89429016750d198a <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B617c8f2f5620ff4c050b5b081aa81e4e
+      </p>
+      <p>
+        _:B97cb8c2652cd728377485a5ba5449153 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bda45f17612eeddf6efb8abaddd65e330
+      </p>
+      <p>
+        _:B97cb8c2652cd728377485a5ba5449153 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B4e1af3b4582634390c64cd603c846119
+      </p>
+      <p>
+        _:B9854c3d92279515baff261c08bc3a732 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B96fd5942fb12b6a961fbdf4be1295a3b
+      </p>
+      <p>
+        _:B9870faa8138087038f9aac472e78f1d6 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&lt;a href&#61;&quot;https://docs.google.com/document/d/17f8keCYiH_fft04JxTENaIHcrXWtgtTMM_pAWmKAS3I/edit?usp&#61;sharing&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link zur Beschreibung&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:B988c7b9df1f76d476b4c0421bb130d78 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2894,1891,373,11
+      </p>
+      <p>
+        _:B9a434a4e1b6a0e528445fbdfee950906 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bfce06c489525766ae8b2f3ba20299714
+      </p>
+      <p>
+        _:B9cf28312a4c5c2831522f8909b176c40 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B70c5ba8872221364d5d1de5dee80f65f
+      </p>
+      <p>
+        _:B9dc254fd5627d7af7100ebd13a756fb9 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;g ist bei beiden B&amp;ouml;gen geschlossen&lt;/p&gt;
+      </p>
+      <p>
+        _:B9e922bea18e5ffb218b7307b17bffc9e <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004470/manifest.json">https://iiif.ub.uni-leipzig.de/0000004470/manifest.json</a>
+      </p>
+      <p>
+        _:B9e922bea18e5ffb218b7307b17bffc9e <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B1ca0c54ee532d022523bd4762671f1bf
+      </p>
+      <p>
+        _:B9e922bea18e5ffb218b7307b17bffc9e <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004470/canvas/579">https://iiif.ub.uni-leipzig.de/0000004470/canvas/579</a>
+      </p>
+      <p>
+        _:B9e94318c5aef5144de6c24e240e83342 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;391,607,673,1061
+      </p>
+      <p>
+        _:B9ea99b75e21928b053f06dd0e7f687b0 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&lt;a href&#61;&quot;https://docs.google.com/document/d/1BgrItLWis_Q8kWcwes_gruRLm7r6emeW7vCT2hQhP2c/edit?usp&#61;sharing&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link zur Beschreibung&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:Ba04f35089e30822dc606418838debfe7 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Beaf3d826d9f892b7cad803ff3d1a097f
+      </p>
+      <p>
+        _:Ba0997c23cf7463424a1409a4db04f472 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B694a4e80f0247692ea8d992abecc7304
+      </p>
+      <p>
+        _:Ba0997c23cf7463424a1409a4db04f472 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bb924d6056b03c39e2cb5094b9946aa60
+      </p>
+      <p>
+        _:Ba1a689d687f3f87fe0da6ed81f092b72 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B19f67f97e45d7393cdb575817fda84db
+      </p>
+      <p>
+        _:Ba22489b6e68a4bbaf8436bb351085c6d <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B3253c40c374e1b5284c49f7270458925
+      </p>
+      <p>
+        _:Ba22489b6e68a4bbaf8436bb351085c6d <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B01e5aea0168b03dc5032593664415bbe
+      </p>
+      <p>
+        _:Ba26b7261b8da79ddc84dbb18ecb7c1ee <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B18d8c5b0446d783b40df171dffa13eee
+      </p>
+      <p>
+        _:Ba26b7261b8da79ddc84dbb18ecb7c1ee <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bba65eb9097ede9fcaf9208e5792de48d
+      </p>
+      <p>
+        _:Ba2ebefe9d09843b54b434d7040cd0bcb <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004469/manifest.json">https://iiif.ub.uni-leipzig.de/0000004469/manifest.json</a>
+      </p>
+      <p>
+        _:Ba2ebefe9d09843b54b434d7040cd0bcb <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bf2f804aa84d85aba18d0473a2c55bea7
+      </p>
+      <p>
+        _:Ba2ebefe9d09843b54b434d7040cd0bcb <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004469/canvas/1">https://iiif.ub.uni-leipzig.de/0000004469/canvas/1</a>
+      </p>
+      <p>
+        _:Ba34742c5add985f341ae0cfef2ae2a46 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&quot;r&quot;?&lt;/p&gt;
+      </p>
+      <p>
+        _:Ba47b09b084d91792be64323030657efa <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B46ca704e918ce5d239ec49045659ef22
+      </p>
+      <p>
+        _:Ba47b09b084d91792be64323030657efa <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B6deb2406ad294a023ab427758e7952e0
+      </p>
+      <p>
+        _:Ba4a33e27c0c04b5f47c278aed33c5b70 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&quot;s&quot; ohne Unterl&amp;auml;nge&lt;/p&gt;
+      </p>
+      <p>
+        _:Ba50fe9b92eff3510657b442092ea3afb <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;e caudata -&amp;gt; das verschwindet im Laufe des XIII Jh.&lt;/p&gt;
+      </p>
+      <p>
+        _:Ba7e6d0206759c0380b177dfb059b903d <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;463,4708,2667,232
+      </p>
+      <p>
+        _:Ba8bd345170eabdc0a97791263aebf749 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;507,3221,25,58
+      </p>
+      <p>
+        _:Ba8dc464f3573a09975de136951f4a32d <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1234,2410,1306,496
+      </p>
+      <p>
+        _:Ba90d63fc702d0861eebe95d3fc3a9504 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:Ba90d63fc702d0861eebe95d3fc3a9504 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B6c75be960bb13202e70bdba8dc28818a
+      </p>
+      <p>
+        _:Ba90d63fc702d0861eebe95d3fc3a9504 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:Baa19a4183db797d2e311058b60c3bd47 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Unterl&amp;auml;nge &quot;s&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:Bab3963a8891101bb044386f9f8f8f5b4 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004470/manifest.json">https://iiif.ub.uni-leipzig.de/0000004470/manifest.json</a>
+      </p>
+      <p>
+        _:Bab3963a8891101bb044386f9f8f8f5b4 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B411dd5cbc4b5496a7a83a2698e18a8d9
+      </p>
+      <p>
+        _:Bab3963a8891101bb044386f9f8f8f5b4 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004470/canvas/1">https://iiif.ub.uni-leipzig.de/0000004470/canvas/1</a>
+      </p>
+      <p>
+        _:Bab5631436a56ba4ebb550d1b1399880e <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;gro&amp;szlig;es Knospenfleuronn&amp;eacute; mit keilf&amp;ouml;rmigem Besatz&lt;/p&gt;
+      </p>
+      <p>
+        _:Babe27171592144ab9cae37c8244c7e24 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:Babe27171592144ab9cae37c8244c7e24 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B7f343b8b8c17a0723df7d1f5306c5717
+      </p>
+      <p>
+        _:Babe27171592144ab9cae37c8244c7e24 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/4">https://iiif.ub.uni-leipzig.de/0000002057/canvas/4</a>
+      </p>
+      <p>
+        _:Bac79280b4692244f3e3de4d6a4012291 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&lt;a href&#61;&quot;https://docs.google.com/document/d/13pYMaOLeIbPcdUa-lR0wY0KGPuBBwLOEB6BEfP9Y71s/edit?usp&#61;sharing&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link zur Beschreibung&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:Bacbc9bbb288cb18892ca09cb8793d231 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bede3004bedf3c885d8d82db10b839a65
+      </p>
+      <p>
+        _:Bacc335178cf3dd777b82998ec1ad9a2c <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bc038131249b9a061888883ff6bddca34
+      </p>
+      <p>
+        _:Bad1c596397d9e3c8cc3b7bd65b73e25f <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B6128c4f52bd08f7c7ed5a11cc192d60c
+      </p>
+      <p>
+        _:Badd4baeda469384d8d1abd1084dbb479 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Bogenanschluss &quot;g&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:Bae5d22b0b25b6c59681372f49a7cc431 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B988c7b9df1f76d476b4c0421bb130d78
+      </p>
+      <p>
+        _:Bae87e24c63a4611b9823531408d89298 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1467,581,115,166
+      </p>
+      <p>
+        _:Bae8cc0f2f50883e09a77a982951075c8 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:Bae8cc0f2f50883e09a77a982951075c8 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bbd3134a4f71302a9bff7e1e82d25d6e4
+      </p>
+      <p>
+        _:Bae8cc0f2f50883e09a77a982951075c8 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/163">https://iiif.ub.uni-leipzig.de/0000004422/canvas/163</a>
+      </p>
+      <p>
+        _:Bae98d1eb3538c72046d50138143e1e7b <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:Bae98d1eb3538c72046d50138143e1e7b <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B44c528bb9048a17719b174d808c61fcb
+      </p>
+      <p>
+        _:Bae98d1eb3538c72046d50138143e1e7b <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:Bb15d00161ffc23cc80a17de926d5dc15 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bab5631436a56ba4ebb550d1b1399880e
+      </p>
+      <p>
+        _:Bb15d00161ffc23cc80a17de926d5dc15 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B36fefa90a70541cda19d89b67331f1f5
+      </p>
+      <p>
+        _:Bb383d95a7b4980c1bd9a65c754db9b67 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Abschnitt 6 (Text geht auf Fragm 1 recto linke Spalte weiter)&lt;/p&gt;
+      </p>
+      <p>
+        _:Bb3e61e59e7147ebccf02d1b584ec8212 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B77cbddca4dcb7a9e76f89223ed283608
+      </p>
+      <p>
+        _:Bb3e61e59e7147ebccf02d1b584ec8212 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B0b880c0c19dd0f51b7c683f0943d3d18
+      </p>
+      <p>
+        _:Bb4a8e03e48d7e71c57feb5dee1f663ff <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Fadenausl&amp;auml;ufer mit eingerolltem Ende&lt;/p&gt;
+      </p>
+      <p>
+        _:Bb4ce715e3bbeb55beb84d26816be5b5b <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B19503bfdb0cc38ec168deaf3f1388751
+      </p>
+      <p>
+        _:Bb594ded578d9a697e65b52e0fd8281da <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B0bb9266bf13373a69fe12cb0e2264678
+      </p>
+      <p>
+        _:Bb594ded578d9a697e65b52e0fd8281da <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B123c25ea4c4263cddd49b452d7cf270c
+      </p>
+      <p>
+        _:Bb627d2bb840ee0a2d1159465b0489943 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004470/manifest.json">https://iiif.ub.uni-leipzig.de/0000004470/manifest.json</a>
+      </p>
+      <p>
+        _:Bb627d2bb840ee0a2d1159465b0489943 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bb4ce715e3bbeb55beb84d26816be5b5b
+      </p>
+      <p>
+        _:Bb627d2bb840ee0a2d1159465b0489943 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004470/canvas/572">https://iiif.ub.uni-leipzig.de/0000004470/canvas/572</a>
+      </p>
+      <p>
+        _:Bb657df9546ff2394645cf58d64055af8 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B05901d982f1f44467194125803c479eb
+      </p>
+      <p>
+        _:Bb657df9546ff2394645cf58d64055af8 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bca97f99c59f10bffc6a8178529b11db3
+      </p>
+      <p>
+        _:Bb698e612289e857ba6e01139e5b62bd8 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B9ea99b75e21928b053f06dd0e7f687b0
+      </p>
+      <p>
+        _:Bb698e612289e857ba6e01139e5b62bd8 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B37d28b00ebc49274b0698b481b1c95f1
+      </p>
+      <p>
+        _:Bb74fd77136632fc7ef6446f374c4e4b7 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B592f3d5bc5ce7e26e81ad972edd5efe4
+      </p>
+      <p>
+        _:Bb74fd77136632fc7ef6446f374c4e4b7 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bca754e68cbfdefbd67b5674712e3c9e6
+      </p>
+      <p>
+        _:Bb75a9f38fb6385ff83f9610e3a0f29ae <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:Bb75a9f38fb6385ff83f9610e3a0f29ae <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bcabda0cb9944de2aac15c60dd266fdfb
+      </p>
+      <p>
+        _:Bb75a9f38fb6385ff83f9610e3a0f29ae <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:Bb7bfe39d6804391e0980b996edefa191 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;aerads&lt;/p&gt;
+      </p>
+      <p>
+        _:Bb854c8b20583284bbe14f8a696a24231 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;zweist&amp;ouml;ckiges &quot;a&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:Bb87a42ceb4afb9fedeabb02c69f6443f <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B04632451b05c6cf290b66873c6987015
+      </p>
+      <p>
+        _:Bb87a42ceb4afb9fedeabb02c69f6443f <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bb992945230a5d1729b46ea61b8b420b2
+      </p>
+      <p>
+        _:Bb8b0c06cdcaf812f5484a8ff59d84434 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bfd644d95bc7f822ccbc140ba1c093b5c
+      </p>
+      <p>
+        _:Bb8b0c06cdcaf812f5484a8ff59d84434 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B5db886806053d91f450cd34c75cd3d7e
+      </p>
+      <p>
+        _:Bb924d6056b03c39e2cb5094b9946aa60 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:Bb924d6056b03c39e2cb5094b9946aa60 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B4df66b4aecca1735850bd8fb688ece65
+      </p>
+      <p>
+        _:Bb924d6056b03c39e2cb5094b9946aa60 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/275">https://iiif.ub.uni-leipzig.de/0000002057/canvas/275</a>
+      </p>
+      <p>
+        _:Bb992945230a5d1729b46ea61b8b420b2 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:Bb992945230a5d1729b46ea61b8b420b2 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bd67d073db7d1427da27dc3587982e9fd
+      </p>
+      <p>
+        _:Bb992945230a5d1729b46ea61b8b420b2 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/1">https://iiif.ub.uni-leipzig.de/0000004460/canvas/1</a>
+      </p>
+      <p>
+        _:Bb9bddf962d525f148d07b2cf6b3d0294 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2480,1553,73,89
+      </p>
+      <p>
+        _:Bb9e5332a834a086433f109a3408bc4c1 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2426,1584,76,92
+      </p>
+      <p>
+        _:Bb9f5ce43539e8c9fbd3f7e6009c029f7 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Beee42eabd2732de6fe94d8fe344a5073
+      </p>
+      <p>
+        _:Bba16bb359d4c269e469b57bb6ae42555 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bd2739c12f4b36ef8458f4863366c0b89
+      </p>
+      <p>
+        _:Bba16bb359d4c269e469b57bb6ae42555 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bd956c567c4bf1afb17b076a91c965648
+      </p>
+      <p>
+        _:Bba65eb9097ede9fcaf9208e5792de48d <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004470/manifest.json">https://iiif.ub.uni-leipzig.de/0000004470/manifest.json</a>
+      </p>
+      <p>
+        _:Bba65eb9097ede9fcaf9208e5792de48d <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Be626d6d602130497396e0552759ed3f2
+      </p>
+      <p>
+        _:Bba65eb9097ede9fcaf9208e5792de48d <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004470/canvas/580">https://iiif.ub.uni-leipzig.de/0000004470/canvas/580</a>
+      </p>
+      <p>
+        _:Bbacb2ba01672177d89183a5da1573aed <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Be7ba4ff629daeb737a047bfa413b93bc
+      </p>
+      <p>
+        _:Bbacb2ba01672177d89183a5da1573aed <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Babe27171592144ab9cae37c8244c7e24
+      </p>
+      <p>
+        _:Bbae610cce68540abf9d9d143b734dfb7 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bb9e5332a834a086433f109a3408bc4c1
+      </p>
+      <p>
+        _:Bbb6819ed07fa9dcc017df3f13000cf22 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B4b6a9e7742f30032e1c32b0739f351f1
+      </p>
+      <p>
+        _:Bbb6819ed07fa9dcc017df3f13000cf22 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B51758499ef9abf646541f86f55e0eb4a
+      </p>
+      <p>
+        _:Bbbb49b4623701b516cf60b997b824981 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B016fb756cdd99b8b6aa36128b29eabb0
+      </p>
+      <p>
+        _:Bbc4ce9e40cf774717946b63bd7ebe245 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Ba8bd345170eabdc0a97791263aebf749
+      </p>
+      <p>
+        _:Bbc4dbcfcc6ae0c98bc40487a25f94a34 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:Bbc4dbcfcc6ae0c98bc40487a25f94a34 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B239b0ba20883e94085d3f07c7af34e25
+      </p>
+      <p>
+        _:Bbc4dbcfcc6ae0c98bc40487a25f94a34 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/3">https://iiif.ub.uni-leipzig.de/0000004460/canvas/3</a>
+      </p>
+      <p>
+        _:Bbc962090800671bc02305864d50981de <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;742,3383,23,42
+      </p>
+      <p>
+        _:Bbcf15c961f43bb799ec87c09cf733306 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Rosettenf&amp;uuml;llung&lt;/p&gt;
+      </p>
+      <p>
+        _:Bbd1fc9681c2fd4de3ddc5b4e04b22465 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;rundes &quot;s&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:Bbd3134a4f71302a9bff7e1e82d25d6e4 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bc7455682146e011acbe508aab3f688fa
+      </p>
+      <p>
+        _:Bbd514859fdce090d1985f945081f98db <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B3838a45fd4e5be88473a5cfcd08ae8ae
+      </p>
+      <p>
+        _:Bbd514859fdce090d1985f945081f98db <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B24309b31d82b58e17b4e128f91dc248a
+      </p>
+      <p>
+        _:Bbe2a01bd6146b0770328d74e62d5f5f5 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1422,1773,72,110
+      </p>
+      <p>
+        _:Bbea3c6058019815fea231ee7e4a7498d <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B63526a057a23f2084e527f42d1cddfd5
+      </p>
+      <p>
+        _:Bbea3c6058019815fea231ee7e4a7498d <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B8c2c51b9f2303e7255e73c642553e540
+      </p>
+      <p>
+        _:Bbeec716608ba448b46b11bd6e7e704da <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bae87e24c63a4611b9823531408d89298
+      </p>
+      <p>
+        _:Bbf23152b752b69c14cba05f87696d2d7 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B2de0126bfe391afd419bc2e6023a6cc3
+      </p>
+      <p>
+        _:Bbf23152b752b69c14cba05f87696d2d7 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bda2446ef6f0e253f29e8aedda24bcaa0
+      </p>
+      <p>
+        _:Bc027b9a3a233af9bbbd31defcd0cd2ce <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;a Schaft ist schon fast aufrecht&lt;/p&gt;
+      </p>
+      <p>
+        _:Bc038131249b9a061888883ff6bddca34 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;431,3325,36,30
+      </p>
+      <p>
+        _:Bc0ead5d20f50c80d2bb9aed78556374a <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B707502ed7b23728c87db67e2166df334
+      </p>
+      <p>
+        _:Bc12183434fb685a1921b8b9abc1b07c4 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bd3cc487188dfcdb3e3a70081574f6642
+      </p>
+      <p>
+        _:Bc122df8f9847fdc1942c20f3e0c6524e <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B79c05b6fa53339392b91bf7630b04428
+      </p>
+      <p>
+        _:Bc122df8f9847fdc1942c20f3e0c6524e <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B81411f1a4b21e1b71a0db97bfc346eeb
+      </p>
+      <p>
+        _:Bc17b0cb18991bd0953c37ebc04c82e8c <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1843,3985,85,130
+      </p>
+      <p>
+        _:Bc1c94cd1be1d694b049ececa333d7f6e <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004412/manifest.json">https://iiif.ub.uni-leipzig.de/0000004412/manifest.json</a>
+      </p>
+      <p>
+        _:Bc1c94cd1be1d694b049ececa333d7f6e <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B560d75d01dc2f77b7ae4023936febdfe
+      </p>
+      <p>
+        _:Bc1c94cd1be1d694b049ececa333d7f6e <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004412/canvas/1">https://iiif.ub.uni-leipzig.de/0000004412/canvas/1</a>
+      </p>
+      <p>
+        _:Bc31efc1099fdb43ba1c2909870ff6c9e <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:Bc31efc1099fdb43ba1c2909870ff6c9e <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bd9ae9b95ace8886925eb7685eb65bdf0
+      </p>
+      <p>
+        _:Bc31efc1099fdb43ba1c2909870ff6c9e <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/4">https://iiif.ub.uni-leipzig.de/0000004430/canvas/4</a>
+      </p>
+      <p>
+        _:Bc3445adaea13f2c0055037f010c8405a <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B2e0c22e42292b33c65e1c2db84be6374
+      </p>
+      <p>
+        _:Bc3e53ea99e83e51bfeacc212cd238a7f <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:Bc3e53ea99e83e51bfeacc212cd238a7f <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bacbc9bbb288cb18892ca09cb8793d231
+      </p>
+      <p>
+        _:Bc3e53ea99e83e51bfeacc212cd238a7f <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/2">https://iiif.ub.uni-leipzig.de/0000004460/canvas/2</a>
+      </p>
+      <p>
+        _:Bc3f8af332d22d9943d2aa1d64bc3bd8c <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;883,3490,30,42
+      </p>
+      <p>
+        _:Bc4251230156a39d6165faec7137a1ca6 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:Bc4251230156a39d6165faec7137a1ca6 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B408df13e68e33d7aa8b34ef228cafe25
+      </p>
+      <p>
+        _:Bc4251230156a39d6165faec7137a1ca6 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/3">https://iiif.ub.uni-leipzig.de/0000004422/canvas/3</a>
+      </p>
+      <p>
+        _:Bc4bf8cf07d3f62818f2f418b4963f177 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B80eaea29dab39f130d7de8805d924636
+      </p>
+      <p>
+        _:Bc4df1b851a1537e52568074ec9c15e9e <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;127,554,1265,2910
+      </p>
+      <p>
+        _:Bc4e3146730c0a08628831d5e611b0150 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Majuskel-D im Gegensatz zum unzialen D an Satzanf&amp;auml;ngen&lt;/p&gt;
+      </p>
+      <p>
+        _:Bc5fb8d74a8871adef85440e214b2d27c <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;sekund&amp;auml;re Initiale&lt;/p&gt;
+      </p>
+      <p>
+        _:Bc7455682146e011acbe508aab3f688fa <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2515,4705,115,92
+      </p>
+      <p>
+        _:Bc78649abd2c4e22e43d113c4016b8c30 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Bibliotheksstempel&lt;/p&gt;
+      </p>
+      <p>
+        _:Bc79ecaf76421ffeae4b24824493605c3 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B90bbf4c14dfdf2743b10cb74e8513e62
+      </p>
+      <p>
+        _:Bc878d32e37067a688175b97adb0f2104 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:Bc878d32e37067a688175b97adb0f2104 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B8c4bcaae6cc5779210513da29ace0620
+      </p>
+      <p>
+        _:Bc878d32e37067a688175b97adb0f2104 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:Bca754e68cbfdefbd67b5674712e3c9e6 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:Bca754e68cbfdefbd67b5674712e3c9e6 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Beb05ef799a6f0153d7953d73eb9c7190
+      </p>
+      <p>
+        _:Bca754e68cbfdefbd67b5674712e3c9e6 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/1">https://iiif.ub.uni-leipzig.de/0000004430/canvas/1</a>
+      </p>
+      <p>
+        _:Bca97f99c59f10bffc6a8178529b11db3 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:Bca97f99c59f10bffc6a8178529b11db3 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B72eb08be94890187ab7df2a51467bfe0
+      </p>
+      <p>
+        _:Bca97f99c59f10bffc6a8178529b11db3 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/4">https://iiif.ub.uni-leipzig.de/0000004460/canvas/4</a>
+      </p>
+      <p>
+        _:Bcaaab7ed06e84500c08a90a9afefac68 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;845,3339,24,39
+      </p>
+      <p>
+        _:Bcabda0cb9944de2aac15c60dd266fdfb <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B011693c083acefd1c9f0e08f9fe780ca
+      </p>
+      <p>
+        _:Bcbfc1fdd04a0e051357bb4ff49c68ef8 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:Bcbfc1fdd04a0e051357bb4ff49c68ef8 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B04b0fad3f7cd40c6ad69baf8bf63bc32
+      </p>
+      <p>
+        _:Bcbfc1fdd04a0e051357bb4ff49c68ef8 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/3">https://iiif.ub.uni-leipzig.de/0000004422/canvas/3</a>
+      </p>
+      <p>
+        _:Bcc1e849bf91c5b699612c0864c6c3dab <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1649,985,72,122
+      </p>
+      <p>
+        _:Bcc70e76578712caa40a15516a678708d <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;einst&amp;ouml;ckiges &quot;a&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:Bccb980467f3290e90d4bab85d6df0dbb <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+      </p>
+      <p>
+        _:Bccd7ef2dedc1446e5a3f09bd98ca4885 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bb383d95a7b4980c1bd9a65c754db9b67
+      </p>
+      <p>
+        _:Bccd7ef2dedc1446e5a3f09bd98ca4885 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B0f36421e4e93467b6a860e528a2b161e
+      </p>
+      <p>
+        _:Bcd1fff9ee0b6b4ab19b06d959cc692db <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B366b7fa358fef14c29d27451dadaeb56
+      </p>
+      <p>
+        _:Bcd1fff9ee0b6b4ab19b06d959cc692db <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bb75a9f38fb6385ff83f9610e3a0f29ae
+      </p>
+      <p>
+        _:Bcd368f59df47a4267f94911120a96478 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bcc70e76578712caa40a15516a678708d
+      </p>
+      <p>
+        _:Bcd368f59df47a4267f94911120a96478 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B08324bf0b7991fcbb7aa9ebd051cc7eb
+      </p>
+      <p>
+        _:Bcda785ddfa31abeafb3f92110d2394c5 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bccb980467f3290e90d4bab85d6df0dbb
+      </p>
+      <p>
+        _:Bcda785ddfa31abeafb3f92110d2394c5 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bbc4dbcfcc6ae0c98bc40487a25f94a34
+      </p>
+      <p>
+        _:Bce3e850529eaa5b6980e924ce6603646 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Bbcf15c961f43bb799ec87c09cf733306
+      </p>
+      <p>
+        _:Bce3e850529eaa5b6980e924ce6603646 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Bc4251230156a39d6165faec7137a1ca6
+      </p>
+      <p>
+        _:Bce7e52ce94ed64702506edfb038564de <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;807,3726,343,351
+      </p>
+      <p>
+        _:Bcf77c4e39e9a25b394e37b3b64be9ba7 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;table style&#61;&quot;font-family: Times, &#39;Times New Roman&#39;, serif;&quot; cellspacing&#61;&quot;5&quot;&gt;&#10;&lt;tbody&gt;&#10;&lt;tr&gt;&#10;&lt;td&gt;&#10;&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&amp;nbsp;Priscianus:&amp;nbsp;&lt;a href&#61;&quot;http://kaali.linguist.jussieu.fr/CGL/text.jsp?topic&#61;de%20nomine&amp;amp;ref&#61;2,195,11-368,8&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Prisciniani institutiones&amp;nbsp;&lt;/a&gt;&lt;/p&gt;&#10;&lt;p&gt;&lt;strong&gt;Datierung:&lt;/strong&gt;&amp;nbsp;1.H.10.Jh.&lt;/p&gt;&#10;&lt;/td&gt;&#10;&lt;td&gt;&amp;nbsp;&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&#10;&lt;/tr&gt;&#10;&lt;/tbody&gt;&#10;&lt;/table&gt;
+      </p>
+      <p>
+        _:Bd0251a53b4a938dd5d39483578efa7f6 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Gregor der Grosse Homilien: Buch II, Homilie XXV, Absch. 6&lt;/p&gt;
+      </p>
+      <p>
+        _:Bd041fddab79e350a37c9e827f7ec5d6d <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1985,2396,148,103
+      </p>
+      <p>
+        _:Bd0659fe2371eb515ded311e8de465a12 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:Bd0659fe2371eb515ded311e8de465a12 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bc12183434fb685a1921b8b9abc1b07c4
+      </p>
+      <p>
+        _:Bd0659fe2371eb515ded311e8de465a12 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/1">https://iiif.ub.uni-leipzig.de/0000004460/canvas/1</a>
+      </p>
+      <p>
+        _:Bd1461e940af1b90c3e4c79b7653a55eb <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B2ed2a4c98395a9a946d1368e045d0f11
+      </p>
+      <p>
+        _:Bd1461e940af1b90c3e4c79b7653a55eb <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B9281bebc0360ecd568bd7ab355c10593
+      </p>
+      <p>
+        _:Bd1551a6a1c1e8e27f693ca8cee5705e0 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B132ff7cb2758889f21e93145e998c4b9
+      </p>
+      <p>
+        _:Bd2739c12f4b36ef8458f4863366c0b89 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;verdicktes &quot;s&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:Bd27474a373f373ec2553ad5492e18d98 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&lt;a href&#61;&quot;https://docs.google.com/document/d/1CTNulQV7IEBPmE1fqkLzpUkApGtsk7fV9P48kB_d7YE/edit?usp&#61;sharing&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link zur Beschreibung&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:Bd3069dfb4701dc20f3a25a86c0637f1b <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bd53721da2e1719a4cdeaa9694b2cfed3
+      </p>
+      <p>
+        _:Bd324e972b44bbce47c89a9b739e4f9e2 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Der ain priester sol der Bruderschafft Caplan sein&lt;/p&gt;
+      </p>
+      <p>
+        _:Bd3cc487188dfcdb3e3a70081574f6642 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;4027,1503,97,198
+      </p>
+      <p>
+        _:Bd45c7d71c436b5e3e7f772e4348c4ad0 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;436,3373,23,46
+      </p>
+      <p>
+        _:Bd53721da2e1719a4cdeaa9694b2cfed3 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1266,3555,1376,306
+      </p>
+      <p>
+        _:Bd6072eff5cd85f1ab6e71d01631491a6 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B4ab0b9f60f6321c18e6fed58df0b4735
+      </p>
+      <p>
+        _:Bd6072eff5cd85f1ab6e71d01631491a6 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B7dbe2e3a2018e0cdd43ab3d41b4a080a
+      </p>
+      <p>
+        _:Bd67d073db7d1427da27dc3587982e9fd <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B16fa5866ef93f6ab73e2bc0bb7776019
+      </p>
+      <p>
+        _:Bd7fc9e8255f4d01cd596fc6e374ed079 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1708,1698,78,139
+      </p>
+      <p>
+        _:Bd86b527a1fbed00eaa0ea3e0f57bf285 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B37771dc3cde8307c2748dc6874b8e5a7
+      </p>
+      <p>
+        _:Bd8e2926322e4c66e6fa5c1fdb923cd84 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;rundes S am Zeilenende&lt;/p&gt;
+      </p>
+      <p>
+        _:Bd956c567c4bf1afb17b076a91c965648 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:Bd956c567c4bf1afb17b076a91c965648 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B52176f864499306bcdd99d4d035fd3d2
+      </p>
+      <p>
+        _:Bd956c567c4bf1afb17b076a91c965648 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/488">https://iiif.ub.uni-leipzig.de/0000004430/canvas/488</a>
+      </p>
+      <p>
+        _:Bd9ae9b95ace8886925eb7685eb65bdf0 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bf626af37677d957a36496dc34a0e1211
+      </p>
+      <p>
+        _:Bda2446ef6f0e253f29e8aedda24bcaa0 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004409/manifest.json">https://iiif.ub.uni-leipzig.de/0000004409/manifest.json</a>
+      </p>
+      <p>
+        _:Bda2446ef6f0e253f29e8aedda24bcaa0 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B56d57a662b31ec2ef43c9a90c3801eaa
+      </p>
+      <p>
+        _:Bda2446ef6f0e253f29e8aedda24bcaa0 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004409/canvas/1">https://iiif.ub.uni-leipzig.de/0000004409/canvas/1</a>
+      </p>
+      <p>
+        _:Bda45f17612eeddf6efb8abaddd65e330 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Vgl. &amp;auml;hnlich Colophons de manuscrits Bd. 6, S. 252, Nr. 21159, 21161, 21163, 21164&lt;/p&gt;
+      </p>
+      <p>
+        _:Bdb1035f84014980d5f7827b4918710e2 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;470,3077,45,49
+      </p>
+      <p>
+        _:Bdb2c3226e96be58c6f46d488592fce4f <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2228,3722,66,73
+      </p>
+      <p>
+        _:Bdc579c7674c7701eca4813ab7425b7bf <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B1d67c1af596d2b2ff976c1aaaf62bd4c
+      </p>
+      <p>
+        _:Bdc579c7674c7701eca4813ab7425b7bf <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B64b10f82856f73824a59efd72ad6924f
+      </p>
+      <p>
+        _:Bdca5a309b14562f926aff28b07057767 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B3e48206186bb1b87ddcf2ea9c5235ebc
+      </p>
+      <p>
+        _:Bde5c4da4cd11731b6283292999d7fbde <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;4613,1740,70,99
+      </p>
+      <p>
+        _:Bdf69f3e65d2693abf02e6fdb445b6c86 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1683,1478,191,243
+      </p>
+      <p>
+        _:Be2c726923e1229ca80e184b3d67e68e8 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;sekund&amp;auml;re Initiale: Vorform der Fleuronn&amp;eacute;initiale mit Konturbegleitstrichen&lt;/p&gt;
+      </p>
+      <p>
+        _:Be370727e80e0a34e14657712cbae5e18 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1361,1851,75,85
+      </p>
+      <p>
+        _:Be37874e9d1a2e85f762a98a47b5c30b1 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B32bfd6eb48e596ada5ea2cc7c110d456
+      </p>
+      <p>
+        _:Be3f8831a48cc682a3f43d45d4f9fa324 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Anstriche / Verdickungen an den Oberl&amp;auml;ngen&lt;/p&gt;
+      </p>
+      <p>
+        _:Be3fb8c538cbf3b22f1719ad199452480 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;944,2051,83,71
+      </p>
+      <p>
+        _:Be414729d4f316bea64d88bdd04378415 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;&quot;s&quot; ohne Unterl&amp;auml;nge&lt;/p&gt;
+      </p>
+      <p>
+        _:Be4b6d10e63500aee8618604a7593ef81 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;sekund&amp;auml;re Initiale&lt;/p&gt;
+      </p>
+      <p>
+        _:Be52c151eb5d001735f91539a1c4917d2 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B27bccf4c783c4e99bfbd6b7c42893b09
+      </p>
+      <p>
+        _:Be5653dd18c79f19ec3ef7e26677325f4 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Gregor der Grosse Homilien: Buch II; Homilie XXV; Absch. 4&lt;/p&gt;
+      </p>
+      <p>
+        _:Be626d6d602130497396e0552759ed3f2 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B08da37401868801a51de5e2257b7516f
+      </p>
+      <p>
+        _:Be659d8a899df88ac52a41db0ec498cd9 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;einst&amp;ouml;ckiges a&lt;/p&gt;
+      </p>
+      <p>
+        _:Be6ffedbd3c4cfa16b6adce32429743db <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B40befcd303dd95fc73b2f5011376b3ee
+      </p>
+      <p>
+        _:Be6ffedbd3c4cfa16b6adce32429743db <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B8f7cd60dd33d37366b103d124d9fb7ef
+      </p>
+      <p>
+        _:Be7ba4ff629daeb737a047bfa413b93bc <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;ET-Ligatur &#61; &amp;amp; -&amp;gt; bei diesem Schreiber noch kein tironisches ET&lt;/p&gt;&#10;&lt;p&gt;&#61;&amp;gt; fr&amp;uuml;hes XIII&lt;/p&gt;
+      </p>
+      <p>
+        _:Be7e47970e93b3a165c43ffa4d4a4fce6 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B0d12772c61299cb12c07f328ae7cce41
+      </p>
+      <p>
+        _:Be7ff84f6bb3f2f58e10e1e12535691d5 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1323,2154,53,80
+      </p>
+      <p>
+        _:Be804c8e8b0a20b8e8090266c4d3f64c5 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:Be804c8e8b0a20b8e8090266c4d3f64c5 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B9854c3d92279515baff261c08bc3a732
+      </p>
+      <p>
+        _:Be804c8e8b0a20b8e8090266c4d3f64c5 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/60">https://iiif.ub.uni-leipzig.de/0000004422/canvas/60</a>
+      </p>
+      <p>
+        _:Be82a7c0ef1e85f1a4802fe79b28f4a06 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;220,340,67,100
+      </p>
+      <p>
+        _:Be8fefdf8d130f7fb26acdd5a69775313 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+      </p>
+      <p>
+        _:Be9f73ab35fb5924da45be104b8a1ea34 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;531,868,1131,422
+      </p>
+      <p>
+        _:Bea0e270b501671074fdaa5a15f2ded02 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B921cf4e83999464476474d581126d29a
+      </p>
+      <p>
+        _:Bea0e270b501671074fdaa5a15f2ded02 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B5754c58825fc14e199885bed4095cf13
+      </p>
+      <p>
+        _:Beaf3d826d9f892b7cad803ff3d1a097f <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2818,2105,36,43
+      </p>
+      <p>
+        _:Beb05ef799a6f0153d7953d73eb9c7190 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Be9f73ab35fb5924da45be104b8a1ea34
+      </p>
+      <p>
+        _:Beb3f5692ba20747db02c28640bb7fc69 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:Beb3f5692ba20747db02c28640bb7fc69 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B0ef03ec1db4740cd097590e5ad81d347
+      </p>
+      <p>
+        _:Beb3f5692ba20747db02c28640bb7fc69 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/488">https://iiif.ub.uni-leipzig.de/0000004430/canvas/488</a>
+      </p>
+      <p>
+        _:Beba9abc5b9172c8ca6353c951275324f <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:Beba9abc5b9172c8ca6353c951275324f <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bbbb49b4623701b516cf60b997b824981
+      </p>
+      <p>
+        _:Beba9abc5b9172c8ca6353c951275324f <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/4">https://iiif.ub.uni-leipzig.de/0000004430/canvas/4</a>
+      </p>
+      <p>
+        _:Bebf6510dae3bcc11b029b148ec7f4fa8 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;926,152,1508,409
+      </p>
+      <p>
+        _:Bec04f952b00a7d7890d9e1e7093a835f <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;428,4598,2552,292
+      </p>
+      <p>
+        _:Bec1d2d0eec5a84a0e993e17bbc42e56e <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;IV,20,1 &lt;a href&#61;&quot;https://www.hs-augsburg.de/~harsch/Chronologia/Lspost13/GregoriusIX/gre_4t20.html&quot; target&#61;&quot;_blank&quot; rel&#61;&quot;noopener&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+      </p>
+      <p>
+        _:Becf67f6d2269443c874784070f6d12ad <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;einst&amp;ouml;ckiges &quot;a&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:Bed022b87d83235c1e71ab06ccbd2267b <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2126,3698,50,43
+      </p>
+      <p>
+        _:Bed54ecddcfe6cbc9c04dafec4ae7ec0f <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1437,2486,1382,325
+      </p>
+      <p>
+        _:Bede3004bedf3c885d8d82db10b839a65 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1113,1420,67,100
+      </p>
+      <p>
+        _:Beeafa7e798004a227fd756f998eb4f5f <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B3ee7e35160086d4a06382ad87b060119
+      </p>
+      <p>
+        _:Beee42eabd2732de6fe94d8fe344a5073 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;2696,1362,126,107
+      </p>
+      <p>
+        _:Beee7032677cfd3a8816c723674961a0a <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B798c97ddf7f0746a0f65e261a5506d4f
+      </p>
+      <p>
+        _:Beee7032677cfd3a8816c723674961a0a <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B94b292b84ba3d4da4360ef642c1a1822
+      </p>
+      <p>
+        _:Bf00bba3f248c3fcff0788222ac396cd0 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Be414729d4f316bea64d88bdd04378415
+      </p>
+      <p>
+        _:Bf00bba3f248c3fcff0788222ac396cd0 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B0bd22d3cf9bddcae4f2ecbeae78753b1
+      </p>
+      <p>
+        _:Bf14e03deaaa7e96490de1373c18999f0 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bce7e52ce94ed64702506edfb038564de
+      </p>
+      <p>
+        _:Bf2a00055234a8189601d63df7682bcdf <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;133,3169,150,224
+      </p>
+      <p>
+        _:Bf2f804aa84d85aba18d0473a2c55bea7 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B7815437bc0eaf442fe747f8ade004308
+      </p>
+      <p>
+        _:Bf3e20600333c8f800445d9ca03ce9d61 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:Bf3e20600333c8f800445d9ca03ce9d61 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bacc335178cf3dd777b82998ec1ad9a2c
+      </p>
+      <p>
+        _:Bf3e20600333c8f800445d9ca03ce9d61 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/53">https://iiif.ub.uni-leipzig.de/0000004430/canvas/53</a>
+      </p>
+      <p>
+        _:Bf4ade70896f3d676bae6431da0d0d265 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B4ec3c0af3f66b0f01795b77f620e28fd
+      </p>
+      <p>
+        _:Bf4ade70896f3d676bae6431da0d0d265 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B0f1cb401e90b3eec8c1740129f1b4817
+      </p>
+      <p>
+        _:Bf509ad504351713744cba30aef7545b1 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;731,4665,2860,297
+      </p>
+      <p>
+        _:Bf5531d03a664f65fb86612f22a89afda <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B91c98e7a70ebb7b348d0db7dd22f1d17
+      </p>
+      <p>
+        _:Bf566ecc1e794c90b86ab239cd47423e6 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;sekund&amp;auml;re Initiale&lt;/p&gt;
+      </p>
+      <p>
+        _:Bf5bda1e8fe31e4622da777fa1728d795 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B3b6797c47ee84d4f52724a6cacc013e5
+      </p>
+      <p>
+        _:Bf5ca42640728d2dcb5b6e913ba6123ab <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:Bf5ca42640728d2dcb5b6e913ba6123ab <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bae5d22b0b25b6c59681372f49a7cc431
+      </p>
+      <p>
+        _:Bf5ca42640728d2dcb5b6e913ba6123ab <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/3">https://iiif.ub.uni-leipzig.de/0000004460/canvas/3</a>
+      </p>
+      <p>
+        _:Bf626af37677d957a36496dc34a0e1211 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;1765,2146,60,78
+      </p>
+      <p>
+        _:Bf7e7072266d129c3ca8a55b2668c323c <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/manifest.json">https://iiif.ub.uni-leipzig.de/0000004422/manifest.json</a>
+      </p>
+      <p>
+        _:Bf7e7072266d129c3ca8a55b2668c323c <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bf14e03deaaa7e96490de1373c18999f0
+      </p>
+      <p>
+        _:Bf7e7072266d129c3ca8a55b2668c323c <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004422/canvas/110">https://iiif.ub.uni-leipzig.de/0000004422/canvas/110</a>
+      </p>
+      <p>
+        _:Bf88c2acfe419df3ae08b49bbac6e5118 <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Bogenanschluss &quot;g&quot;&lt;/p&gt;
+      </p>
+      <p>
+        _:Bf8a86d5e872b4bb0c3de9c86797c151a <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/manifest.json">https://iiif.ub.uni-leipzig.de/0000004460/manifest.json</a>
+      </p>
+      <p>
+        _:Bf8a86d5e872b4bb0c3de9c86797c151a <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:B52938cf0cf6c57d20800384e9f749fbf
+      </p>
+      <p>
+        _:Bf8a86d5e872b4bb0c3de9c86797c151a <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004460/canvas/1">https://iiif.ub.uni-leipzig.de/0000004460/canvas/1</a>
+      </p>
+      <p>
+        _:Bf922051c0c75b4e2aff12840077eb92e <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B69daaa5a4dca245530398bdba6ac03eb
+      </p>
+      <p>
+        _:Bf922051c0c75b4e2aff12840077eb92e <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B49b9c30cdb6084690784570d86781254
+      </p>
+      <p>
+        _:Bfa6c54dded63fd86c6080e2b115353d3 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B193cb27f6a17d05e03797f8fb5a69e31
+      </p>
+      <p>
+        _:Bfaaeaaa7e9fdb80c3d7043a6d27830d3 <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/manifest.json">https://iiif.ub.uni-leipzig.de/0000004430/manifest.json</a>
+      </p>
+      <p>
+        _:Bfaaeaaa7e9fdb80c3d7043a6d27830d3 <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bfa6c54dded63fd86c6080e2b115353d3
+      </p>
+      <p>
+        _:Bfaaeaaa7e9fdb80c3d7043a6d27830d3 <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000004430/canvas/4">https://iiif.ub.uni-leipzig.de/0000004430/canvas/4</a>
+      </p>
+      <p>
+        _:Bfacdff74461c82d08665f79366f69376 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:B58ad5f5c095b59380e70d561a80a36b4
+      </p>
+      <p>
+        _:Bfad7a416694113173a24a1a70690a983 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:B88600a14e15353fabe58d840a4327f72
+      </p>
+      <p>
+        _:Bfad7a416694113173a24a1a70690a983 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:B162fe4691e3c2e9d1c662cbee7f022c2
+      </p>
+      <p>
+        _:Bfb2628a21c24698a05b63ea09894bc44 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bcc1e849bf91c5b699612c0864c6c3dab
+      </p>
+      <p>
+        _:Bfc272b09c642576046683cc73c911e90 <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Be3fb8c538cbf3b22f1719ad199452480
+      </p>
+      <p>
+        _:Bfce06c489525766ae8b2f3ba20299714 <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</a>
+          xywh&#61;599,203,776,213
+      </p>
+      <p>
+        _:Bfd4c6f4d053dfa13da3df75b756edbc3 <a href="http://www.w3.org/ns/oa#hasBody">http://www.w3.org/ns/oa#hasBody</a>
+          _:Ba4a33e27c0c04b5f47c278aed33c5b70
+      </p>
+      <p>
+        _:Bfd4c6f4d053dfa13da3df75b756edbc3 <a href="http://www.w3.org/ns/oa#hasTarget">http://www.w3.org/ns/oa#hasTarget</a>
+          _:Ba90d63fc702d0861eebe95d3fc3a9504
+      </p>
+      <p>
+        _:Bfd644d95bc7f822ccbc140ba1c093b5c <a href="http://www.w3.org/2011/content#chars">http://www.w3.org/2011/content#chars</a>
+          &lt;p&gt;Ex-libris: &quot;Liber veteris celle Sancte Marie&quot; (Altzelle bei Halle)&lt;/p&gt;
+      </p>
+      <p>
+        _:Bff70fb720422d88af8af72c40efcb0ae <a href="http://www.w3.org/ns/oa#default">http://www.w3.org/ns/oa#default</a>
+          _:Bec04f952b00a7d7890d9e1e7093a835f
+      </p>
+      <p>
+        _:Bff7c96d676bf07e7a899702ca11137bb <a href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/manifest.json">https://iiif.ub.uni-leipzig.de/0000002057/manifest.json</a>
+      </p>
+      <p>
+        _:Bff7c96d676bf07e7a899702ca11137bb <a href="http://www.w3.org/ns/oa#hasSelector">http://www.w3.org/ns/oa#hasSelector</a>
+          _:Bfb2628a21c24698a05b63ea09894bc44
+      </p>
+      <p>
+        _:Bff7c96d676bf07e7a899702ca11137bb <a href="http://www.w3.org/ns/oa#hasSource">http://www.w3.org/ns/oa#hasSource</a>
+          <a href="https://iiif.ub.uni-leipzig.de/0000002057/canvas/4">https://iiif.ub.uni-leipzig.de/0000002057/canvas/4</a>
+      </p>
+      </main>
+      <footer><a href="http://www.trellisldp.org">Trellis Repository</a></footer>
+    </body>
+</html>

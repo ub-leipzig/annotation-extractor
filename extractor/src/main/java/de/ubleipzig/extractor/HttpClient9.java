@@ -11,6 +11,9 @@ import java.net.URISyntaxException;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
+import static org.apache.jena.riot.WebContent.contentTypeNTriples;
+import static org.apache.jena.riot.WebContent.contentTypeSPARQLQuery;
+
 import static org.slf4j.LoggerFactory.getLogger;
 
 public class HttpClient9 {
@@ -33,38 +36,84 @@ public class HttpClient9 {
         log.info(String.valueOf(statusCode));
     }
 
-    public static String syncPostQuery(final String query, String requestURI, String accept) throws
+    public static void asyncPut(final String is, String toURI) throws ExecutionException, InterruptedException,
+            URISyntaxException, IOException {
+        HttpClient client;
+        client = HttpClient.newHttpClient();
+        HttpRequest request = HttpRequest
+                .newBuilder(new URI(toURI))
+                .headers("Content-Type", contentTypeNTriples)
+                .PUT(HttpRequest.BodyProcessor.fromString(is))
+                .build();
+        CompletableFuture<HttpResponse<String>> response = client.sendAsync(request, HttpResponse.BodyHandler.discard
+                (null));
+    }
+
+    public static byte[] syncGetQuery(final String query, String accept, boolean optimized) throws
             ExecutionException, InterruptedException, URISyntaxException, IOException {
         HttpClient testClient;
         testClient = HttpClient.newHttpClient();
-        String formdata = "query=" + query;
-        HttpResponse<String> response = testClient.send(
+        HttpResponse<byte[]> response = testClient.send(
                 HttpRequest
-                        .newBuilder(new URI(requestURI))
-                        .headers("Accept", accept, "Content-Type",
-                                "application/x-www-form-urlencoded; charset=utf-8")
-                        .POST(HttpRequest.BodyProcessor.fromString(formdata))
+                        .newBuilder(new URI(query))
+                        .headers("Content-Type", contentTypeSPARQLQuery, "Accept", accept)
+                        .GET()
                         .build(),
-                HttpResponse.BodyHandler.asString()
+                HttpResponse.BodyHandler.asByteArray()
         );
-        int statusCode = response.statusCode();
-        log.info(String.valueOf(statusCode));
+
+        log.info(String.valueOf(response.version()));
+        log.info(String.valueOf(response.statusCode()));
         return response.body();
     }
 
-    public static String asyncPostQuery(final String query, String requestURI, String accept) throws
+    public static String syncGetQuery(String query, String accept) throws
+            ExecutionException, InterruptedException, URISyntaxException, IOException {
+        HttpClient testClient;
+        testClient = HttpClient.newHttpClient();
+        HttpResponse<String> response = testClient.send(
+                HttpRequest
+                        .newBuilder(new URI(query))
+                        .headers("Content-Type", contentTypeSPARQLQuery, "Accept", accept)
+                        .GET()
+                        .build(),
+                HttpResponse.BodyHandler.asString()
+        );
+
+        log.info(String.valueOf(response.version()));
+        log.info(String.valueOf(response.statusCode()));
+        return response.body();
+    }
+
+    public static byte[] asyncGetQuery(final String query, String accept, boolean optimized) throws
             ExecutionException, InterruptedException, URISyntaxException, IOException {
         HttpClient client;
         client = HttpClient.newHttpClient();
-        String formdata = "query=" + query;
-        HttpRequest request = HttpRequest
-                .newBuilder(new URI(requestURI))
-                .headers("Accept", accept, "Content-Type",
-                        "application/x-www-form-urlencoded; charset=utf-8")
-                .POST(HttpRequest.BodyProcessor.fromString(formdata))
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(new URI(query))
+                .headers("Content-Type", contentTypeSPARQLQuery, "Accept", accept)
+                .GET()
+                .build();
+        CompletableFuture<HttpResponse<byte[]>> response = client.sendAsync(request, HttpResponse.BodyHandler
+                .asByteArray());
+        log.info(String.valueOf(response.get().version()));
+        log.info(String.valueOf(response.get().statusCode()));
+        return response.get().body();
+    }
+
+    public static String asyncGetQuery(final String query, String accept) throws
+            ExecutionException, InterruptedException, URISyntaxException, IOException {
+        HttpClient client;
+        client = HttpClient.newHttpClient();
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(new URI(query))
+                .headers("Content-Type", contentTypeSPARQLQuery, "Accept", accept)
+                .GET()
                 .build();
         CompletableFuture<HttpResponse<String>> response = client.sendAsync(request, HttpResponse.BodyHandler
                 .asString());
+        log.info(String.valueOf(response.get().version()));
+        log.info(String.valueOf(response.get().statusCode()));
         return response.get().body();
     }
 
@@ -76,13 +125,13 @@ public class HttpClient9 {
         HttpResponse<String> response = testClient.send(
                 HttpRequest
                         .newBuilder(new URI("http://localhost:3030/fuseki/annotations"))
-                        .headers("Content-Type", "application/x-www-form-urlencoded; charset=utf-8")
+                        .headers("Content-Type", contentTypeSPARQLQuery)
                         .POST(HttpRequest.BodyProcessor.fromString(formdata))
                         .build(),
                 HttpResponse.BodyHandler.asString()
         );
-        int statusCode = response.statusCode();
-        log.info(String.valueOf(statusCode));
+        log.info(String.valueOf(response.version()));
+        log.info(String.valueOf(response.statusCode()));
         return response.body();
     }
 }

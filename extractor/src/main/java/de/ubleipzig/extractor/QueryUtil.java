@@ -7,6 +7,9 @@ import java.io.InputStreamReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static java.nio.charset.StandardCharsets.UTF_8;
+import static java.net.URLEncoder.encode;
+
 public class QueryUtil {
 
     static String getQuery(final String qname, final String replaceNode) throws IOException {
@@ -14,6 +17,13 @@ public class QueryUtil {
         InputStream is = classloader.getResourceAsStream(qname);
         String out = readFile(is);
         return replaceNode(out, replaceNode);
+    }
+
+    static String getQuery(final String qname, final String replaceNode, final boolean encode) throws IOException {
+        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+        InputStream is = classloader.getResourceAsStream(qname);
+        String out = readFile(is);
+        return encode(replaceNode(out, replaceNode), String.valueOf(UTF_8));
     }
 
     private static String replaceNode(String query, String node) {
@@ -30,7 +40,7 @@ public class QueryUtil {
     private static String readFile(InputStream in) throws IOException {
         StringBuilder inobj = new StringBuilder();
         try (BufferedReader buf = new BufferedReader(
-                new InputStreamReader(in, "UTF-8"))) {
+                new InputStreamReader(in, UTF_8))) {
             String line;
             while ((line = buf.readLine()) != null) {
                 inobj.append(line).append("\n");

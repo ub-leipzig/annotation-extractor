@@ -1,21 +1,6 @@
 package de.ubleipzig.extractor;
 
-import static org.slf4j.LoggerFactory.getLogger;
-
 import com.github.jsonldjava.core.JsonLdError;
-
-import java.io.*;
-import java.net.URISyntaxException;
-import java.nio.charset.StandardCharsets;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.ExecutionException;
-
 import org.apache.commons.text.StringEscapeUtils;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -23,12 +8,23 @@ import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
 import org.slf4j.Logger;
 
+import java.io.*;
+import java.net.URISyntaxException;
+import java.nio.charset.StandardCharsets;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ExecutionException;
+
+import static org.slf4j.LoggerFactory.getLogger;
+
 public class Extractor {
     private static final Logger log = getLogger(Extractor.class);
     private static final String BASE = "http://ub.uni-leipzig.de";
     private static final String destinationGraph = "http://localhost:3030/fuseki/annotations";
 
-    public static void main(String[] args) throws IOException, JsonLdError, InterruptedException, ExecutionException, URISyntaxException {
+    public static void main(String[] args)
+            throws IOException, JsonLdError, InterruptedException, ExecutionException, URISyntaxException {
         Extractor app = new Extractor();
         List<String> graphs = app.selectAnnotations();
         String data = null;

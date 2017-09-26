@@ -4,19 +4,20 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.jena.query.*;
+import org.apache.jena.rdf.model.*;
+import org.apache.jena.riot.Lang;
+import org.apache.jena.riot.RDFDataMgr;
+import org.apache.jena.query.DatasetAccessor;
+import org.slf4j.Logger;
 
 import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.concurrent.ExecutionException;
 
-import org.apache.jena.query.*;
-import org.apache.jena.rdf.model.*;
-import org.apache.jena.riot.Lang;
-import org.apache.jena.riot.RDFDataMgr;
-import org.slf4j.Logger;
-
 import static org.apache.http.HttpHeaders.USER_AGENT;
+import static org.apache.jena.riot.WebContent.contentTypeNTriples;
 import static org.slf4j.LoggerFactory.getLogger;
 
 public class ImageFragmentResolver {
@@ -24,7 +25,7 @@ public class ImageFragmentResolver {
 
     private static final String BASE = "http://ub.uni-leipzig.de";
     private static final String FILTER = "iiif.ub.uni-leipzig.de";
-    private static final String REQUEST_URI = "http://localhost:3030/fuseki/annotations";
+    private static final String REQUEST_URI = "https://localhost:8443/fuseki/annotations?query=";
     private static final String CONSTRUCT = "de/ubleipzig/extractor/annotation.g.construct.rq";
     private static final String SELECT = "de/ubleipzig/extractor/annotation.select.rq";
     private static final String SERVICE = "http://localhost:3000/resolve?id=";
@@ -34,18 +35,16 @@ public class ImageFragmentResolver {
     private static final String PROFILE = "http://iiif.io/api/image/2/level1.json";
     private static final String CHARS = "http://www.w3.org/2011/content#chars";
     private static final String WITHIN = "http://purl.org/dc/terms/isPartOf";
-    private static final String TO_URI = "http://localhost:3030/fuseki/fragments";
-    private static final String N3 = "application/n-triples";
+    private static final String TO_URI = "http://localhost:3030/fuseki/fragments/data";
 
     public static void main(String[] args) throws Exception {
         ImageFragmentResolver app = new ImageFragmentResolver();
-
         app.buildImageFragmentModel();
     }
 
-    private void buildImageFragmentModel() throws IOException, ClassNotFoundException, InterruptedException,
-            ExecutionException,URISyntaxException {
-        String constructQuery = QueryUtil.getQuery(CONSTRUCT, FILTER);
+    private void buildImageFragmentModel()
+            throws IOException, ClassNotFoundException, InterruptedException, ExecutionException, URISyntaxException {
+        String constructQuery = QueryUtil.getQuery(CONSTRUCT, FILTER, true);
         String selectQuery = QueryUtil.getQuery(SELECT, FILTER);
 
         Property p1 = ResourceFactory.createProperty(FRAGMENT_SVC);
@@ -57,7 +56,7 @@ public class ImageFragmentResolver {
         Model m = ModelFactory.createDefaultModel();
         Model m2 = ModelFactory.createDefaultModel();
 
-        String graph = HttpClient9.syncPostQuery(constructQuery, REQUEST_URI, N3);
+        String graph = HttpClient9.syncGetQuery(REQUEST_URI + constructQuery, contentTypeNTriples);
         log.info("constructing graph from triplestore as N3");
 
         m.read(new ByteArrayInputStream(graph.getBytes()), BASE, "N3");
@@ -79,8 +78,8 @@ public class ImageFragmentResolver {
                 Statement s1 = ResourceFactory.createStatement(annoid, p1, o);
                 Statement s2 = ResourceFactory.createStatement(o, p2, o2);
                 Statement s3 = ResourceFactory.createStatement(annoid, p3, chars);
-                Statement s4 = ResourceFactory.createStatement(source, p4,annoid);
-                Statement s5 = ResourceFactory.createStatement(annoid, p5,manifest);
+                Statement s4 = ResourceFactory.createStatement(source, p4, annoid);
+                Statement s5 = ResourceFactory.createStatement(annoid, p5, manifest);
                 m2.add(s1);
                 m2.add(s2);
                 m2.add(s3);
@@ -105,13 +104,13 @@ public class ImageFragmentResolver {
         return resolveServiceUri(req);
     }
 
-    private void writeToDataset(Model m2) throws InterruptedException, ExecutionException, IOException,
-            URISyntaxException {
+    private void writeToDataset(Model m2)
+            throws InterruptedException, ExecutionException, IOException, URISyntaxException {
         final ByteArrayOutputStream rdfOut;
         rdfOut = new ByteArrayOutputStream();
         RDFDataMgr.write(rdfOut, m2, Lang.NTRIPLES);
         //String updateQuery = buildUpdateQuery(rdfOut.toString());
-        HttpClient9.syncPut(rdfOut.toString(), TO_URI);
+        HttpClient9.asyncPut(rdfOut.toString(), TO_URI);
         log.info("writing to triplestore");
     }
 
@@ -124,10 +123,8 @@ public class ImageFragmentResolver {
         HttpGet request = new HttpGet(req);
         request.addHeader("User-Agent", USER_AGENT);
         HttpResponse response = client.execute(request);
-        System.out.println("Response Code : "
-                + response.getStatusLine().getStatusCode());
-        BufferedReader rd = new BufferedReader(
-                new InputStreamReader(response.getEntity().getContent()));
+        System.out.println("Response Code : " + response.getStatusLine().getStatusCode());
+        BufferedReader rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
         StringBuilder result = new StringBuilder();
         String line;
         while ((line = rd.readLine()) != null) {
