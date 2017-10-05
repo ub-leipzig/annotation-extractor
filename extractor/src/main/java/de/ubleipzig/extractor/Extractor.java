@@ -1,6 +1,39 @@
+/*
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package de.ubleipzig.extractor;
 
+import static org.slf4j.LoggerFactory.getLogger;
+
 import com.github.jsonldjava.core.JsonLdError;
+
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.net.URISyntaxException;
+import java.nio.charset.StandardCharsets;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ExecutionException;
+
 import org.apache.commons.text.StringEscapeUtils;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -8,23 +41,19 @@ import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
 import org.slf4j.Logger;
 
-import java.io.*;
-import java.net.URISyntaxException;
-import java.nio.charset.StandardCharsets;
-import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.ExecutionException;
-
-import static org.slf4j.LoggerFactory.getLogger;
-
+/**
+ * Extractor.
+ *
+ * @author christopher-johnson
+ */
 public class Extractor {
     private static final Logger log = getLogger(Extractor.class);
     private static final String BASE = "http://ub.uni-leipzig.de";
-    private static final String destinationGraph = "http://localhost:3030/fuseki/annotations";
+    private static final String destinationGraph = "https://localhost:8443/fuseki/annotations";
 
     public static void main(String[] args)
-            throws IOException, JsonLdError, InterruptedException, ExecutionException, URISyntaxException {
+            throws IOException, JsonLdError, InterruptedException, ExecutionException,
+            URISyntaxException {
         Extractor app = new Extractor();
         List<String> graphs = app.selectAnnotations();
         String data = null;
@@ -52,7 +81,8 @@ public class Extractor {
         List<String> graphs = new ArrayList<>();
         Model m = ModelFactory.createDefaultModel();
         StringWriter writer = new StringWriter();
-        try (Connection conn = this.connect(); Statement stmt = conn.createStatement();
+        try (Connection conn = this.connect();
+             Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery(sql)) {
             while (rs.next()) {
                 String json = StringEscapeUtils.unescapeJson(rs.getString("data"));
@@ -60,7 +90,8 @@ public class Extractor {
                 json = json.substring(1, json.length() - 1);
                 rowset.add(json);
             }
-            InputStream is = new ByteArrayInputStream(rowset.toString().getBytes(StandardCharsets.UTF_8.name()));
+            InputStream is = new ByteArrayInputStream(
+                    rowset.toString().getBytes(StandardCharsets.UTF_8.name()));
             log.info("reading annotations from model");
             m.read(is, BASE, "JSON-LD");
             RDFDataMgr.write(writer, m, Lang.NQUADS);

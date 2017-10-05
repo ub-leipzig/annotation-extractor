@@ -1,21 +1,23 @@
+/*
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package de.ubleipzig.extractor;
 
-import org.glassfish.jersey.server.ResourceConfig;
-import org.glassfish.jersey.test.JerseyTest;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.RepeatedTest;
-import org.junit.platform.runner.JUnitPlatform;
-import org.junit.platform.suite.api.IncludeEngines;
-import org.junit.platform.suite.api.SelectPackages;
-import org.junit.runner.RunWith;
+import static de.ubleipzig.extractor.impl.HtmlIOService.getHtmlSerialization;
+import static org.apache.jena.riot.WebContent.contentTypeNTriples;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import javax.ws.rs.client.*;
-import javax.ws.rs.core.Application;
-import javax.ws.rs.core.Form;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URISyntaxException;
@@ -23,12 +25,28 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.Invocation;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.Application;
+import javax.ws.rs.core.Response;
 
-import static de.ubleipzig.extractor.impl.HtmlIOService.getHtmlSerialization;
-import static org.apache.jena.riot.WebContent.contentTypeNTriples;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import org.glassfish.jersey.server.ResourceConfig;
+import org.glassfish.jersey.test.JerseyTest;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.RepeatedTest;
+import org.junit.platform.runner.JUnitPlatform;
+import org.junit.platform.suite.api.IncludeEngines;
+import org.junit.platform.suite.api.SelectPackages;
+import org.junit.runner.RunWith;
 
+/**
+ * JerseyClientTest.
+ *
+ * @author christopher-johnson
+ */
 @RunWith(JUnitPlatform.class)
 @IncludeEngines("junit-jupiter")
 @SelectPackages("de.ubleipzig.extractor")
@@ -85,11 +103,8 @@ public class JerseyClientTest extends JerseyTest {
             throws IOException, InterruptedException, ExecutionException, URISyntaxException {
         Client client = ClientBuilder.newClient();
         WebTarget webTarget = client.target(REQUEST_URI + testQuery);
-        Invocation.Builder invocationBuilder = webTarget
-                .request();
-        Response response = invocationBuilder
-                .accept(contentTypeNTriples)
-                .get();
+        Invocation.Builder invocationBuilder = webTarget.request();
+        Response response = invocationBuilder.accept(contentTypeNTriples).get();
         return response.readEntity(String.class);
     }
 
@@ -97,11 +112,8 @@ public class JerseyClientTest extends JerseyTest {
             throws IOException, InterruptedException, ExecutionException, URISyntaxException {
         Client client = ClientBuilder.newClient();
         WebTarget webTarget = client.target(REQUEST_URI + testQuery);
-        Invocation.Builder invocationBuilder = webTarget
-                .request();
-        Response response = invocationBuilder
-                .accept(contentTypeNTriples)
-                .get();
+        Invocation.Builder invocationBuilder = webTarget.request();
+        Response response = invocationBuilder.accept(contentTypeNTriples).get();
         return response.readEntity(InputStream.class);
     }
 }

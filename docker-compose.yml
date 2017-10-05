@@ -1,6 +1,14 @@
 version: "2.1"
 
 services:
+  nghttpx:
+    image: pandorasystems/nghttp2
+    container_name: nghttpx
+    ports:
+      - "8443:8443"
+    networks:
+      - apix-ipv6
+
   fuseki:
     image: pandorasystems/fuseki-https
     container_name: fuseki
@@ -8,7 +16,6 @@ services:
         CATALINA_OPTS: -Xmx8G -Xss8M
     ports:
       - "3030:3030"
-      - "8443:8443"
     volumes:
       - fuseki-volume:/shared
     networks:
@@ -16,10 +23,10 @@ services:
 
 volumes:
   fuseki-volume:
-#    driver_opts:
-#          type: none
-#          device: /mnt/pandora-data/fuseki
-#          o: bind
+    driver_opts:
+      type: none
+      device: /mnt/pandora-data/fuseki
+      o: bind
 
 networks:
   apix-ipv6:

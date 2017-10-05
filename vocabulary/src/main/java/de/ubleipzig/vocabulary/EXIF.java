@@ -12,8 +12,23 @@
  * limitations under the License.
  */
 
-package de.ubleipzig.extractor;
+package de.ubleipzig.vocabulary;
 
-public class ExtractorConstants {
+import org.apache.commons.rdf.api.IRI;
 
+/**
+ * EXIF.
+ *
+ * @author christopher-johnson
+ */
+public class EXIF extends BaseVocabulary {
+
+    /* Namespace */
+    public static final String URI = "http://www.w3.org/2003/12/exif/ns#";
+
+    public static final IRI base = createIRI(URI);
+
+    /* Classes */
+    public static final IRI width = createIRI(URI + "width");
+    public static final IRI height = createIRI(URI + "height");
 }

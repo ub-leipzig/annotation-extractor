@@ -12,8 +12,22 @@
  * limitations under the License.
  */
 
-package de.ubleipzig.extractor;
+package de.ubleipzig.vocabulary;
 
-public class ExtractorConstants {
+/**
+ * Test the SC Vocabulary Class
+ *
+ * @author christopher-johnson
+ */
+public class SCTest extends AbstractVocabularyTest {
 
+    @Override
+    public String namespace() {
+        return "http://iiif.io/api/presentation/2#";
+    }
+
+    @Override
+    public Class vocabulary() {
+        return SC.class;
+    }
 }

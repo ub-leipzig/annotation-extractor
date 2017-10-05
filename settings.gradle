@@ -1,3 +1,4 @@
-rootProject.name = 'annotation-extractor'
+rootProject.name = 'web-annotator'
 include 'extractor'
-include 'trellisldp'
+include 'compliance'
+include 'vocabulary'

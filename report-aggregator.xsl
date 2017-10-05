@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
+                xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
     <xsl:template match="node() | @*">
         <xsl:copy copy-namespaces="no">
             <xsl:apply-templates select="node() | @*"/>
@@ -11,13 +11,19 @@
             <tr>
                 <table>
                     <tr>
-                        <td>Test Suite Date: <xsl:value-of select="testsuites/testsuite[@name='JUnit Jupiter']/@timestamp"/></td>
+                        <td>Test Suite Date:
+                            <xsl:value-of select="testsuites/testsuite[@name='JUnit Jupiter']/@timestamp"/>
+                        </td>
                     </tr>
                     <tr>
-                        <td>Test Suite Duration: <xsl:value-of select="testsuites/testsuite[@name='JUnit Jupiter']/@time"/></td>
+                        <td>Test Suite Duration:
+                            <xsl:value-of select="testsuites/testsuite[@name='JUnit Jupiter']/@time"/>
+                        </td>
                     </tr>
                     <tr>
-                        <td>Test Suite Total Tests: <xsl:value-of select="testsuites/testsuite[@name='JUnit Jupiter']/@tests"/></td>
+                        <td>Test Suite Total Tests:
+                            <xsl:value-of select="testsuites/testsuite[@name='JUnit Jupiter']/@tests"/>
+                        </td>
                     </tr>
                 </table>
             </tr>
@@ -38,7 +44,7 @@
                             </td>
                             <td>
                                 <xsl:value-of
-                                    select="sum(current-group()/@time) div count(current-group()/@time)"
+                                        select="sum(current-group()/@time) div count(current-group()/@time)"
                                 />
                             </td>
                         </tr>

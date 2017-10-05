@@ -12,8 +12,26 @@
  * limitations under the License.
  */
 
-package de.ubleipzig.extractor;
+package de.ubleipzig.vocabulary;
 
-public class ExtractorConstants {
+import org.apache.commons.rdf.api.IRI;
 
+/**
+ * RDF Terms from the Dublin Core Vocabulary
+ *
+ * @author acoburn
+ * @see <a href="http://dublincore.org/documents/dcmi-terms/">DCMI Metadata Terms</a>
+ */
+public final class DCTypes extends de.ubleipzig.vocabulary.BaseVocabulary {
+
+    /* Namespace */
+    public static final String URI = "http://purl.org/dc/dcmitype/";
+
+    /* Properties */
+    public static final IRI Image = createIRI(URI + "Image");
+
+
+    private DCTypes() {
+        super();
+    }
 }

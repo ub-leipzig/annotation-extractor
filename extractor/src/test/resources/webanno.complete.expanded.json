@@ -1,0 +1,236 @@
+[
+  {
+    "@id": "http://example.org/anno38",
+    "http://www.w3.org/ns/oa#hasBody": [
+      {
+        "http://www.w3.org/ns/oa#hasPurpose": [
+          {
+            "@id": "http://www.w3.org/ns/oa#tagging"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/ns/oa#TextualBody"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+          {
+            "@value": "love"
+          }
+        ]
+      },
+      {
+        "http://www.w3.org/ns/activitystreams#items": [
+          {
+            "@list": [
+              {
+                "http://purl.org/dc/terms/creator": [
+                  {
+                    "@id": "http://example.org/user1"
+                  }
+                ],
+                "http://purl.org/dc/elements/1.1/format": [
+                  {
+                    "@value": "text/plain"
+                  }
+                ],
+                "http://purl.org/dc/elements/1.1/language": [
+                  {
+                    "@value": "en"
+                  }
+                ],
+                "http://www.w3.org/ns/oa#hasPurpose": [
+                  {
+                    "@id": "http://www.w3.org/ns/oa#describing"
+                  }
+                ],
+                "@type": [
+                  "http://www.w3.org/ns/oa#TextualBody"
+                ],
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+                  {
+                    "@value": "I really love this particular bit of text in this XML. No really."
+                  }
+                ]
+              },
+              {
+                "http://www.w3.org/ns/oa#hasPurpose": [
+                  {
+                    "@id": "http://www.w3.org/ns/oa#describing"
+                  }
+                ],
+                "http://www.w3.org/ns/oa#hasSource": [
+                  {
+                    "http://purl.org/dc/terms/creator": [
+                      {
+                        "@id": "http://example.org/user2",
+                        "@type": [
+                          "http://xmlns.com/foaf/0.1/Person"
+                        ]
+                      }
+                    ],
+                    "http://purl.org/dc/elements/1.1/format": [
+                      {
+                        "@value": "audio/mpeg"
+                      }
+                    ],
+                    "@id": "http://example.org/comment1",
+                    "http://purl.org/dc/elements/1.1/language": [
+                      {
+                        "@value": "de"
+                      }
+                    ],
+                    "@type": [
+                      "http://purl.org/dc/dcmitype/Sound"
+                    ]
+                  }
+                ],
+                "@type": [
+                  "http://www.w3.org/ns/oa#SpecificResource"
+                ]
+              }
+            ]
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/ns/oa#Choice"
+        ]
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2015-10-13T13:00:00Z"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://example.org/user1",
+        "http://xmlns.com/foaf/0.1/name": [
+          {
+            "@value": "A. Person"
+          }
+        ],
+        "http://xmlns.com/foaf/0.1/nick": [
+          {
+            "@value": "user1"
+          }
+        ],
+        "@type": [
+          "http://xmlns.com/foaf/0.1/Person"
+        ]
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2015-10-14T15:13:28Z"
+      }
+    ],
+    "http://www.w3.org/ns/activitystreams#generator": [
+      {
+        "http://xmlns.com/foaf/0.1/homepage": [
+          {
+            "@id": "http://example.org/homepage1"
+          }
+        ],
+        "@id": "http://example.org/client1",
+        "http://xmlns.com/foaf/0.1/name": [
+          {
+            "@value": "Code v2.1"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/ns/activitystreams#Application"
+        ]
+      }
+    ],
+    "http://www.w3.org/ns/oa#motivatedBy": [
+      {
+        "@id": "http://www.w3.org/ns/oa#commenting"
+      }
+    ],
+    "http://www.w3.org/ns/oa#styledBy": [
+      {
+        "@id": "http://example.org/stylesheet1",
+        "@type": [
+          "http://www.w3.org/ns/oa#CssStyle"
+        ]
+      }
+    ],
+    "http://www.w3.org/ns/oa#hasTarget": [
+      {
+        "http://www.w3.org/ns/oa#hasSelector": [
+          {
+            "http://www.w3.org/ns/oa#refinedBy": [
+              {
+                "http://www.w3.org/ns/oa#end": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+                    "@value": 27
+                  }
+                ],
+                "http://www.w3.org/ns/oa#start": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+                    "@value": 6
+                  }
+                ],
+                "@type": [
+                  "http://www.w3.org/ns/oa#TextPositionSelector"
+                ]
+              }
+            ],
+            "@type": [
+              "http://www.w3.org/ns/oa#FragmentSelector"
+            ],
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+              {
+                "@value": "xpointer(/doc/body/section[2]/para[1])"
+              }
+            ]
+          }
+        ],
+        "http://www.w3.org/ns/oa#hasSource": [
+          {
+            "@id": "http://example.com/document1"
+          }
+        ],
+        "http://www.w3.org/ns/oa#hasState": [
+          {
+            "http://www.w3.org/ns/oa#refinedBy": [
+              {
+                "http://www.w3.org/ns/oa#sourceDate": [
+                  {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2015-09-25T12:00:00Z"
+                  }
+                ],
+                "@type": [
+                  "http://www.w3.org/ns/oa#TimeState"
+                ]
+              }
+            ],
+            "@type": [
+              "http://www.w3.org/ns/oa#HttpRequestState"
+            ],
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+              {
+                "@value": "Accept: application/xml"
+              }
+            ]
+          }
+        ],
+        "http://www.w3.org/ns/oa#styleClass": [
+          {
+            "@value": "mystyle"
+          }
+        ],
+        "@type": [
+          "http://www.w3.org/ns/oa#SpecificResource"
+        ]
+      }
+    ],
+    "@type": [
+      "http://www.w3.org/ns/oa#Annotation"
+    ]
+  }
+]

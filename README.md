@@ -1,9 +1,9 @@
-Annotation-Extractor
+Web-Annotator
 =======
 
-A tool to extract JSON-LD OA annotations stored in a SQLite database produced by [Mirador-SUL](https://github.com/ub-leipzig/mirador_sul).
+A tool to publish and validate JSON-LD [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) annotations.
 
-The tool also converts these annotations into N3 so that the graphs can put into a triplestore for SPARQL queries.
+The tool can converts these annotations into N3 so that the graphs can put into a triplestore for SPARQL queries.
 
 This depends on two remote services:
 * `pandorasystems/fuseki`
