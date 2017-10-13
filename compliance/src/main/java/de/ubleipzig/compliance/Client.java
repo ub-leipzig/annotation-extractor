@@ -15,7 +15,6 @@
 package de.ubleipzig.compliance;
 
 import java.io.IOException;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpHead;
@@ -31,14 +30,16 @@ import org.apache.http.impl.client.cache.CachingHttpClientBuilder;
  */
 public class Client {
 
-    public static HttpResponse getApacheClientResponse(String requestUri, String accept) throws IOException {
+    public static HttpResponse getApacheClientResponse(String requestUri, String accept)
+            throws IOException {
         CloseableHttpClient client = HttpClients.createDefault();
         HttpGet get = new HttpGet(requestUri);
         get.setHeader("Accept", accept);
         return client.execute(get);
     }
 
-    public static HttpResponse headApacheClientResponse(String requestUri, String accept) throws IOException {
+    public static HttpResponse headApacheClientResponse(String requestUri, String accept)
+            throws IOException {
         CloseableHttpClient client = HttpClients.createDefault();
         HttpHead head = new HttpHead(requestUri);
         head.setHeader("Accept", accept);
@@ -46,11 +47,8 @@ public class Client {
     }
 
     public static CloseableHttpClient getCachingClient() {
-        CacheConfig cacheConfig = CacheConfig.custom().setMaxCacheEntries(1000)
-                .setMaxObjectSize(1024 * 128).build();
-        return CachingHttpClientBuilder
-                .create()
-                .setCacheConfig(cacheConfig)
-                .build();
+        CacheConfig cacheConfig =
+                CacheConfig.custom().setMaxCacheEntries(1000).setMaxObjectSize(1024 * 128).build();
+        return CachingHttpClientBuilder.create().setCacheConfig(cacheConfig).build();
     }
 }

@@ -15,7 +15,6 @@
 package de.ubleipzig.compliance;
 
 import de.ubleipzig.vocabulary.JSONReader;
-
 import java.io.InputStream;
 import java.net.URL;
 import java.util.Map;

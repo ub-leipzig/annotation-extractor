@@ -51,7 +51,7 @@ public interface JSONReaderService {
     /**
      * Set the namespace for a given prefix.
      *
-     * @param prefix the prefix
+     * @param prefix    the prefix
      * @param namespace the namespace
      * @return whether the new prefix was set
      */

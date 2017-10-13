@@ -12,27 +12,7 @@
  * limitations under the License.
  */
 
-package de.ubleipzig.vocabulary;
+package de.ubleipzig.constructor;
 
-import java.util.ServiceLoader;
-import org.apache.commons.rdf.api.IRI;
-import org.apache.commons.rdf.api.RDF;
-
-/**
- * BaseVocabulary.
- *
- * @author acoburn
- */
-class BaseVocabulary {
-
-    private static RDF rdf = ServiceLoader.load(RDF.class).iterator().next();
-
-    protected static IRI createIRI(final String uri) {
-
-        return rdf.createIRI(uri);
-    }
-
-    protected BaseVocabulary() {
-        // prevent direct instantiation
-    }
+public interface GraphBuilder {
 }

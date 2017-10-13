@@ -1,4 +1,5 @@
 rootProject.name = 'web-annotator'
 include 'extractor'
 include 'compliance'
+include 'constructor'
 include 'vocabulary'

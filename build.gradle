@@ -22,6 +22,7 @@ ext {
     license = 'Apache 2'
 
     trellisApiVersion = '0.3.0'
+    curatorVersion = '4.0.0'
     trellisVocabularyVersion = '0.1.0'
     trellisJenaIoVersion = '0.2.0'
     jacksonVersion = '2.9.1'
@@ -139,6 +140,30 @@ project("compliance") {
         api group: 'org.trellisldp', name: 'trellis-api', version: trellisApiVersion
         api group: 'org.apache.jena', name: 'jena-osgi', version: jenaVersion
         testImplementation group: 'junit', name: 'junit', version: junitVersion
+        testImplementation group: 'org.apache.commons', name: 'commons-rdf-jena', version: commonsRdfVersion
+        testImplementation group: 'org.apache.jena', name: 'jena-osgi', version: jenaVersion
+        testImplementation group: 'org.mockito', name: 'mockito-core', version: mockitoVersion
+        testImplementation group: 'xerces', name: 'xercesImpl', version: xercesVersion
+        testRuntimeClasspath group: 'ch.qos.logback', name: 'logback-classic', version: logbackVersion
+    }
+}
+
+project("constructor") {
+    dependencies {
+        api project(":vocabulary")
+        testImplementation project(":extractor")
+        testImplementation project(":vocabulary")
+        api group: 'org.apache.commons', name: 'commons-rdf-api', version: commonsRdfVersion
+        api group: 'org.trellisldp', name: 'trellis-api', version: trellisApiVersion
+        api group: 'org.trellisldp', name: 'trellis-kafka', version: '0.2.0'
+        api group: 'org.apache.jena', name: 'jena-osgi', version: jenaVersion
+        api group: 'org.trellisldp', name: 'trellis-io-jena', version: trellisJenaIoVersion
+        api group: 'junit', name: 'junit', version: junitVersion
+        api group: 'org.apache.curator', name: 'curator-test', version: curatorVersion
+        api group: 'org.apache.curator', name: 'curator-framework', version: curatorVersion
+        testImplementation("org.junit.jupiter:junit-jupiter-api:5.0.0-M5")
+        testImplementation("org.junit.jupiter:junit-jupiter-engine:5.0.0-M5")
+        testImplementation("org.junit.platform:junit-platform-runner:1.0.0-M5")
         testImplementation group: 'org.apache.commons', name: 'commons-rdf-jena', version: commonsRdfVersion
         testImplementation group: 'org.apache.jena', name: 'jena-osgi', version: jenaVersion
         testImplementation group: 'org.mockito', name: 'mockito-core', version: mockitoVersion

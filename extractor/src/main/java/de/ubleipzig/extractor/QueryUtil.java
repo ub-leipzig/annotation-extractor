@@ -31,15 +31,15 @@ import java.util.regex.Pattern;
  */
 public class QueryUtil {
 
-    static String getQuery(final String qname, final String replaceNode) throws IOException {
+    public static String getQuery(final String qname, final String replaceNode) throws IOException {
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
         InputStream is = classloader.getResourceAsStream(qname);
         String out = readFile(is);
         return replaceNode(out, replaceNode);
     }
 
-    static String getQuery(final String qname, final String replaceNode, final boolean encode)
-            throws IOException {
+    public static String getQuery(final String qname, final String replaceNode,
+                                  final boolean encode) throws IOException {
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
         InputStream is = classloader.getResourceAsStream(qname);
         String out = readFile(is);

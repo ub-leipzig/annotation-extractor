@@ -15,7 +15,6 @@
 package de.ubleipzig.extractor;
 
 import com.github.jsonldjava.core.JsonLdError;
-
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;

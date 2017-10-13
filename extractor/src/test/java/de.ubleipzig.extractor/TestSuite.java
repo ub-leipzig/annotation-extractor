@@ -17,7 +17,6 @@ package de.ubleipzig.extractor;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.platform.suite.api.IncludeEngines;
 import org.junit.platform.suite.api.SelectPackages;

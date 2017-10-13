@@ -17,7 +17,6 @@ package de.ubleipzig.extractor;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import com.github.jsonldjava.core.JsonLdError;
-
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -33,7 +32,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
-
 import org.apache.commons.text.StringEscapeUtils;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -81,8 +79,7 @@ public class Extractor {
         List<String> graphs = new ArrayList<>();
         Model m = ModelFactory.createDefaultModel();
         StringWriter writer = new StringWriter();
-        try (Connection conn = this.connect();
-             Statement stmt = conn.createStatement();
+        try (Connection conn = this.connect(); Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery(sql)) {
             while (rs.next()) {
                 String json = StringEscapeUtils.unescapeJson(rs.getString("data"));

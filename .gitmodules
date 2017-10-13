@@ -1,0 +1,6 @@
+[submodule "api-constraint-validator"]
+	path = api-constraint-validator
+	url = https://github.com/ub-leipzig/api-constraint-validator.git
+[submodule "trellis-rosid-file"]
+	path = trellis-rosid-file
+	url = https://github.com/trellis-ldp/trellis-rosid-file.git

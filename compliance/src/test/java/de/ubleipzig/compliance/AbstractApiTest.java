@@ -17,7 +17,6 @@ package de.ubleipzig.compliance;
 import static org.apache.jena.riot.WebContent.contentTypeJSONLD;
 
 import com.github.jsonldjava.utils.JsonUtils;
-
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -25,7 +24,6 @@ import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.Map;
-
 import org.apache.http.Header;
 import org.apache.jena.graph.Factory;
 import org.apache.jena.graph.Graph;
