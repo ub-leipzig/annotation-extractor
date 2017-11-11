@@ -1,0 +1,262 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.ub.uni-leipzig.de/0000004057/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Ein Hundert und fünff- und zwantzig Jähriges Verzeichnüß/ Derer Personen/ welche von dem 1555sten/ biß auff das 1680ste Jahr Christi/ von Jahr zu Jahr/ unter der Kaiserl. und Königlichen Stadt Breßlau .... selig entschlaffen/ und verstorben; Geboren und getaufft; Wie auch .... curiret, geheilet/ und gesund worden sind",
+  "attribution": "Provided by Leipzig University",
+  "logo": "https://iiif.ub.uni-leipzig.de/ubl-logo.png",
+  "related": [
+    "https://digital.ub.uni-leipzig.de/object/viewid/0000004057",
+    "https://iiif.ub.uni-leipzig.de/0000004057/manifest.json"
+  ],
+  "metadata": [
+    {
+      "label": "Kitodo",
+      "value": "4325"
+    },
+    {
+      "label": "URN",
+      "value": "urn:nbn:de:bsz:15-0008-139215"
+    },
+    {
+      "label": "Source PPN (SWB)",
+      "value": "047268719"
+    },
+    {
+      "label": "VD17",
+      "value": "VD17 15:741566B"
+    },
+    {
+      "label": "Collection",
+      "value": "VD17"
+    },
+    {
+      "label": "Call number",
+      "value": "01A-2017-5265"
+    },
+    {
+      "label": "Owner",
+      "value": "Leipzig University Library"
+    },
+    {
+      "label": "Author",
+      "value": "Hoffmann, Caspar [GNDNR:1135422303]"
+    },
+    {
+      "label": "Place of publication",
+      "value": "Breßlau"
+    },
+    {
+      "label": "Date of publication",
+      "value": "1679"
+    },
+    {
+      "label": "Publisher",
+      "value": "Gründer"
+    },
+    {
+      "label": "Physical description",
+      "value": "8 ungezählte Seiten"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004057/sequence/1",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.ub.uni-leipzig.de/0000004057/canvas/1",
+          "@type": "sc:Canvas",
+          "label": " - ",
+          "width": "1705",
+          "height": "2130",
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.ub.uni-leipzig.de/0000004057/00000001.jpx",
+                "@type": "dctypes:Image",
+                "label": " - ",
+                "format": "image/jpx",
+                "width": "1705",
+                "height": "2130",
+                "service": {
+                  "@id": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0040/0000004057/00000001.jpx",
+                  "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.ub.uni-leipzig.de/0000004057/canvas/2",
+          "@type": "sc:Canvas",
+          "label": " - ",
+          "width": "1705",
+          "height": "2130",
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.ub.uni-leipzig.de/0000004057/00000002.jpx",
+                "@type": "dctypes:Image",
+                "label": " - ",
+                "format": "image/jpx",
+                "width": "1705",
+                "height": "2130",
+                "service": {
+                  "@id": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0040/0000004057/00000002.jpx",
+                  "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.ub.uni-leipzig.de/0000004057/canvas/3",
+          "@type": "sc:Canvas",
+          "label": " - ",
+          "width": "1705",
+          "height": "2130",
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.ub.uni-leipzig.de/0000004057/00000003.jpx",
+                "@type": "dctypes:Image",
+                "label": " - ",
+                "format": "image/jpx",
+                "width": "1705",
+                "height": "2130",
+                "service": {
+                  "@id": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0040/0000004057/00000003.jpx",
+                  "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.ub.uni-leipzig.de/0000004057/canvas/4",
+          "@type": "sc:Canvas",
+          "label": " - ",
+          "width": "1705",
+          "height": "2130",
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.ub.uni-leipzig.de/0000004057/00000004.jpx",
+                "@type": "dctypes:Image",
+                "label": " - ",
+                "format": "image/jpx",
+                "width": "1705",
+                "height": "2130",
+                "service": {
+                  "@id": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0040/0000004057/00000004.jpx",
+                  "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.ub.uni-leipzig.de/0000004057/canvas/5",
+          "@type": "sc:Canvas",
+          "label": " - ",
+          "width": "1705",
+          "height": "2130",
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.ub.uni-leipzig.de/0000004057/00000005.jpx",
+                "@type": "dctypes:Image",
+                "label": " - ",
+                "format": "image/jpx",
+                "width": "1705",
+                "height": "2130",
+                "service": {
+                  "@id": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0040/0000004057/00000005.jpx",
+                  "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.ub.uni-leipzig.de/0000004057/canvas/6",
+          "@type": "sc:Canvas",
+          "label": " - ",
+          "width": "1705",
+          "height": "2130",
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.ub.uni-leipzig.de/0000004057/00000006.jpx",
+                "@type": "dctypes:Image",
+                "label": " - ",
+                "format": "image/jpx",
+                "width": "1705",
+                "height": "2130",
+                "service": {
+                  "@id": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0040/0000004057/00000006.jpx",
+                  "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.ub.uni-leipzig.de/0000004057/canvas/7",
+          "@type": "sc:Canvas",
+          "label": " - ",
+          "width": "1705",
+          "height": "2130",
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.ub.uni-leipzig.de/0000004057/00000007.jpx",
+                "@type": "dctypes:Image",
+                "label": " - ",
+                "format": "image/jpx",
+                "width": "1705",
+                "height": "2130",
+                "service": {
+                  "@id": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0040/0000004057/00000007.jpx",
+                  "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.ub.uni-leipzig.de/0000004057/canvas/8",
+          "@type": "sc:Canvas",
+          "label": " - ",
+          "width": "1705",
+          "height": "2130",
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.ub.uni-leipzig.de/0000004057/00000008.jpx",
+                "@type": "dctypes:Image",
+                "label": " - ",
+                "format": "image/jpx",
+                "width": "1705",
+                "height": "2130",
+                "service": {
+                  "@id": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0040/0000004057/00000008.jpx",
+                  "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level1"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

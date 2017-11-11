@@ -11,7 +11,7 @@ PREFIX doap: <http://usefulinc.com/ns/doap#>
 CONSTRUCT {?manifest oa:hasBody ?image .
 ?manifest rdf:type sc:Manifest .
 }
-WHERE {values ?manifest {<?node>} .
+WHERE {
 ?manifest sc:hasSequences ?seqid .
 OPTIONAL {?manifest rdfs:label ?label } .
 ?seqid rdf:first ?sequence .

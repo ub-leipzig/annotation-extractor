@@ -1,0 +1,98 @@
+{
+  "@graph": [
+    {
+      "@id": "_:b1",
+      "value": "8 Seiten",
+      "label": "Physical description"
+    },
+    {
+      "@id": "_:b10",
+      "value": "urn:nbn:de:bsz:15-0008-142205",
+      "label": "URN"
+    },
+    {
+      "@id": "_:b12",
+      "value": "043235298",
+      "label": "Source PPN (SWB)"
+    },
+    {
+      "@id": "_:b13",
+      "value": "VD17",
+      "label": "Collection"
+    },
+    {
+      "@id": "_:b15",
+      "value": "Baln.349-m/1",
+      "label": "Call number"
+    },
+    {
+      "@id": "_:b19",
+      "value": "VD17 15:741831L",
+      "label": "VD17"
+    },
+    {
+      "@id": "_:b2",
+      "value": "Halberstadt",
+      "label": "Place of publication"
+    },
+    {
+      "@id": "_:b20",
+      "value": "4591",
+      "label": "Kitodo"
+    },
+    {
+      "@id": "_:b4",
+      "value": "Kolwald",
+      "label": "Publisher"
+    },
+    {
+      "@id": "_:b5",
+      "value": "1646",
+      "label": "Date of publication"
+    },
+    {
+      "@id": "_:b7",
+      "value": "Leipzig University Library",
+      "label": "Owner"
+    },
+    {
+      "@id": "https://iiif.ub.uni-leipzig.de/0000004060/manifest.json",
+      "@type": "http://iiif.io/api/presentation/2#Manifest",
+      "metadataLabels": {
+        "@list": [
+          "_:b20",
+          "_:b10",
+          "_:b12",
+          "_:b19",
+          "_:b13",
+          "_:b15",
+          "_:b7",
+          "_:b2",
+          "_:b5",
+          "_:b4",
+          "_:b1"
+        ]
+      }
+    }
+  ],
+  "@context": {
+    "first": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+      "@type": "@id"
+    },
+    "rest": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@type": "@id"
+    },
+    "label": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "value": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+    },
+    "metadataLabels": {
+      "@id": "http://iiif.io/api/presentation/2#metadataLabels",
+      "@type": "@id"
+    }
+  }
+}

@@ -126,7 +126,7 @@ public abstract class IIIFTestSuite {
         JsonLdOptions options = new JsonLdOptions();
         options.format = JsonLdConsts.APPLICATION_NQUADS;
         Object expanded = JsonLdProcessor
-                .toRDF(JsonUtils.fromInputStream(getApacheClientResponse(testUri.toString())),
+                .toRDF(JsonUtils.fromInputStream(getApacheClientResponse(testUri.toString(), "application/ld+json")),
                         options);
         final ByteArrayOutputStream out = new ByteArrayOutputStream();
         final Writer writer = new OutputStreamWriter(out, UTF_8);
@@ -141,9 +141,10 @@ public abstract class IIIFTestSuite {
         }
     }
 
-    private static InputStream getApacheClientResponse(String uri) throws IOException {
+    private static InputStream getApacheClientResponse(String uri, String accept) throws IOException {
         CloseableHttpClient client = HttpClients.createDefault();
         HttpGet get = new HttpGet(uri);
+        get.setHeader("Accept", accept);
         HttpResponse response = client.execute(get);
         HttpEntity out = response.getEntity();
         return out.getContent();

@@ -3,3 +3,5 @@ include 'extractor'
 include 'compliance'
 include 'constructor'
 include 'vocabulary'
+include 'harvester'
+

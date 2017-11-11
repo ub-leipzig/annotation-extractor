@@ -165,7 +165,6 @@ project("constructor") {
         testImplementation("org.junit.jupiter:junit-jupiter-engine:5.0.0-M5")
         testImplementation("org.junit.platform:junit-platform-runner:1.0.0-M5")
         testImplementation group: 'org.apache.commons', name: 'commons-rdf-jena', version: commonsRdfVersion
-        testImplementation group: 'org.apache.jena', name: 'jena-osgi', version: jenaVersion
         testImplementation group: 'org.mockito', name: 'mockito-core', version: mockitoVersion
         testImplementation group: 'xerces', name: 'xercesImpl', version: xercesVersion
         testRuntimeClasspath group: 'ch.qos.logback', name: 'logback-classic', version: logbackVersion
@@ -187,22 +186,20 @@ project("extractor") {
     }
 
     dependencies {
-        api group: 'org.trellisldp', name: 'trellis-vocabulary', version: trellisVocabularyVersion
-        api group: 'org.trellisldp', name: 'trellis-io-jena', version: trellisJenaIoVersion
-        api group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: jacksonVersion
-        api group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: jacksonVersion
-        api group: 'com.github.jsonld-java', name: 'jsonld-java', version: '0.11.1'
-        api group: 'org.apache.commons', name: 'commons-text', version: '1.1'
-        api group: 'org.xerial', name: 'sqlite-jdbc', version: '3.20.0'
-        api group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
-        api group: 'org.apache.jena', name: 'jena-arq', version: '3.4.0'
-        api group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
-        api group: 'org.apache.commons', name: 'commons-rdf-api', version: commonsRdfVersion
-
-        implementation group: 'com.github.spullara.mustache.java', name: 'compiler', version: mustacheVersion
-        implementation group: 'org.apache.commons', name: 'commons-rdf-jena', version: commonsRdfVersion
-        implementation group: 'org.apache.jena', name: 'jena-osgi', version: jenaVersion
-        implementation group: 'org.slf4j', name: 'slf4j-api', version: slf4jVersion
+        compile group: 'org.trellisldp', name: 'trellis-vocabulary', version: trellisVocabularyVersion
+        compile group: 'org.trellisldp', name: 'trellis-io-jena', version: trellisJenaIoVersion
+        compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: jacksonVersion
+        compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: jacksonVersion
+        compile group: 'com.github.jsonld-java', name: 'jsonld-java', version: '0.11.1'
+        compile group: 'org.apache.commons', name: 'commons-text', version: '1.1'
+        compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.20.0'
+        compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+        compile group: 'org.apache.jena', name: 'jena-arq', version: '3.4.0'
+        compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
+        compile group: 'org.apache.commons', name: 'commons-rdf-api', version: commonsRdfVersion
+        compile group: 'com.github.spullara.mustache.java', name: 'compiler', version: mustacheVersion
+        compile group: 'org.apache.commons', name: 'commons-rdf-jena', version: commonsRdfVersion
+        compile group: 'org.slf4j', name: 'slf4j-api', version: slf4jVersion
         testImplementation("org.junit.vintage:junit-vintage-engine:4.12.0-M5")
         testImplementation("org.junit.jupiter:junit-jupiter-api:5.0.0-M5")
         testImplementation("org.junit.jupiter:junit-jupiter-engine:5.0.0-M5")
@@ -282,6 +279,16 @@ project("extractor") {
     }
 }
 
+project ("harvester") {
+    dependencies {
+        implementation group: 'org.apache.jena', name: 'jena-arq', version: '3.5.0'
+        implementation group: 'org.apache.commons', name: 'commons-rdf-api', version: commonsRdfVersion
+        implementation group: 'org.trellisldp', name: 'trellis-api', version: trellisApiVersion
+        implementation group: 'org.apache.commons', name: 'commons-rdf-jena', version: commonsRdfVersion
+        testCompile project(":compliance")
+        testImplementation group: 'junit', name: 'junit', version: junitVersion
+    }
+}
 
 project("vocabulary") {
     dependencies {

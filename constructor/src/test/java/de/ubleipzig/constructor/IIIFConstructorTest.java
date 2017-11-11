@@ -14,9 +14,12 @@
 
 package de.ubleipzig.constructor;
 
+import static org.apache.commons.rdf.api.RDFSyntax.JSONLD;
 import static org.apache.jena.riot.RDFFormat.JSONLD_FRAME_PRETTY;
+import static org.trellisldp.vocabulary.JSONLD.compacted;
 
 import de.ubleipzig.extractor.QueryUtil;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import org.apache.commons.rdf.api.Graph;
 import org.apache.jena.query.Query;
@@ -31,7 +34,7 @@ public class IIIFConstructorTest extends IIIFTestSuite {
 
     @Test
     public void testStreamingConstruct() throws IOException {
-        final String testQuery = "query/manifest.rq";
+        final String testQuery = "query/all.rq";
         String q = QueryUtil.getQuery(testQuery, testResource);
         Query query = QueryFactory.create(q);
         QueryExecution qexec = QueryExecutionFactory.create(query, model);
@@ -59,7 +62,6 @@ public class IIIFConstructorTest extends IIIFTestSuite {
         jenaCtx.setFrame(testFrame);
         String s = toString(results, JSONLD_FRAME_PRETTY, jenaCtx);
         LOG.info(s);
-        LOG.info(s);
     }
 
     @Test
@@ -75,5 +77,19 @@ public class IIIFConstructorTest extends IIIFTestSuite {
         jenaCtx.setFrame(testFrame);
         String s = toString(results, JSONLD_FRAME_PRETTY, jenaCtx);
         LOG.info(s);
+    }
+
+    @Test
+    public void testGetCompactedMetadata() throws IOException {
+        final String testQuery = "query/metadata.rq";
+        String q = QueryUtil.getQuery(testQuery, testResource);
+        Query query = QueryFactory.create(q);
+        QueryExecution qexec = QueryExecutionFactory.create(query, model);
+        Model results = qexec.execConstruct();
+        final ByteArrayOutputStream out = new ByteArrayOutputStream();
+        LOG.info("input model has " + model.size() + " triples");
+        LOG.info("result set has " + results.size() + " triples");
+        service.write(rdf.asGraph(results).stream(), out, JSONLD, compacted);
+        LOG.info(out.toString());
     }
 }

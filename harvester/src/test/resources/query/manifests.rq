@@ -8,18 +8,6 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX doap: <http://usefulinc.com/ns/doap#>
-CONSTRUCT {?manifest sc:metadataLabels ?llist .
-?manifest rdf:type sc:Manifest .
-?lmid rdf:first ?label .
-?label rdfs:label ?k .
-?label rdf:value ?v .
-?lmid rdf:rest ?llast .
-}
-WHERE {?manifest sc:hasSequences ?seqid .
-?manifest sc:metadataLabels ?llist .
-?llist rdf:rest* ?lmid .
-?lmid rdf:first ?label .
-?label rdfs:label ?k .
-?label rdf:value ?v .
-?lmid rdf:rest ?llast .
-}
+
+SELECT ?manifest
+WHERE {?manifest rdf:type sc:Manifest}
