@@ -1,4 +1,5 @@
 {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
   "@id": "90e58c10-6a4f-4c54-bd63-01685885e5ec",
   "@type": "oa:Annotation",
   "resource": {

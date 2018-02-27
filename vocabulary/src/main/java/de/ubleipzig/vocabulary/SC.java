@@ -25,6 +25,7 @@ public class SC extends BaseVocabulary {
 
     /* Namespace */
     public static final String URI = "http://iiif.io/api/presentation/2#";
+    public static final String NAMESPACE = "sc:";
 
     /* Context */
     //public static final String CONTEXT = "http://iiif.io/api/presentation/2/context.json";
@@ -40,6 +41,16 @@ public class SC extends BaseVocabulary {
     public static final IRI Range = createIRI(URI + "Range");
     public static final IRI Sequence = createIRI(URI + "Sequence");
     public static final IRI Zone = createIRI(URI + "Zone");
+
+    /* Namespace Classes */
+    public static final String _AnnotationList = NAMESPACE + "AnnotationList";
+    public static final String _Canvas = NAMESPACE + "Canvas";
+    public static final String _Collection = NAMESPACE + "Collection";
+    public static final String _Layer = NAMESPACE + "Layer";
+    public static final String _Manifest = NAMESPACE + "Manifest";
+    public static final String _Range = NAMESPACE + "Range";
+    public static final String _Sequence = NAMESPACE + "Sequence";
+    public static final String _Zone = NAMESPACE + "Zone";
 
     /* Properties */
     public static final IRI attributionLabel = createIRI(URI + "attributionLabel");

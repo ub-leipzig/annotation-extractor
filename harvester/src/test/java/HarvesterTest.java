@@ -41,7 +41,9 @@ public class HarvesterTest {
     private static String trellisBase = "http://localhost:8080/repository";
     static Graph graph;
     static Model model;
-    static String testResource = "https://graph.global/static/data/universes/iiif/stanford.json";
+    static String testResource = "https://graph.global/static/data/universes/iiif/e-codices.json";
+
+    static String useragent = "LDP Bot/0.1.0 (christopher_hanna.johnson@uni-leipzig.de)";
 
     @BeforeClass
     public static void setUp() throws IOException, JsonLdError {
@@ -83,6 +85,7 @@ public class HarvesterTest {
         CloseableHttpClient client = HttpClients.createDefault();
         HttpGet get = new HttpGet(uri);
         get.setHeader("Accept", accept);
+        get.setHeader("User-Agent", useragent);
         HttpResponse response = client.execute(get);
         HttpEntity out = response.getEntity();
         return out.getContent();

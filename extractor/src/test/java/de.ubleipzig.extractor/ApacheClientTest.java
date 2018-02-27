@@ -67,7 +67,7 @@ class ApacheClientTest extends TestSuite {
         assertNotNull(actual);
     }
 
-    private String getApacheClientResponse() throws IOException {
+    private String  getApacheClientResponse() throws IOException {
         CloseableHttpClient client = HttpClients.createDefault();
         HttpGet get = new HttpGet(REQUEST_URI + testQuery);
         get.setHeader("Accept", contentTypeNTriples);

@@ -13,5 +13,10 @@
     "Content-Location": "http://www.shared-canvas.org/ns/context.json",
     "X-Classpath": "cache/sharedCanvas.json",
     "Content-Type": "application/ld+json"
+  },
+  {
+    "Content-Location": "http://wellcomelibrary.org/ld/iiif-ext/0/context.json",
+    "X-Classpath": "cache/welcome.json",
+    "Content-Type": "application/ld+json"
   }
 ]
